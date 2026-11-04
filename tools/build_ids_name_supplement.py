@@ -28,7 +28,7 @@ if __name__ == '__main__':
         raise ValueError('Adopted PUA population differs')
     data = dict(snapshot_sha256=summary['snapshot_sha256'], records=rows, bundles=bundles,
                 provenance=dict(ids_pua_sha256=summary['source_sha256'], inventory_sha256=summary['inventory_sha256'],
-                                lead_rows_sha256=summary['output_sha256']))
+                                lead_rows_canonical_sha256=hashlib.sha256(gzip.decompress(raw)).hexdigest()))
     canonical = json.dumps(data,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
     payload = gzip.compress(canonical,mtime=0)
     output.mkdir(parents=True,exist_ok=True)

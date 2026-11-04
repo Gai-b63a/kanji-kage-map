@@ -33,7 +33,7 @@ jobs:
           python - <<'PY'
           import json
           m=json.load(open('supplement-dist/pua-ids-name-supplement.manifest.json'))
-          assert m['canonical_sha256']=='5a8db587b74f50388ec40eb45d8c63421cd98a7d93d5d3f7440796d79ed70dad'
+          assert m['canonical_sha256']=='6e926aaee42e1383074e66efc73cf99f4f42fcb04d6c7e8c8489de25cc1a5e29'
           PY
           python tools/package_ids_name_supplement.py --directory supplement-dist
       - name: Verify isolated offline package
