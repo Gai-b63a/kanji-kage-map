@@ -1,0 +1,20 @@
+{
+  "format": "review-release-offline-verification-v1",
+  "release": "v0.1.0-review.1",
+  "code_imported_from_extracted_package": true,
+  "one": {
+    "root": "u4e00@46",
+    "decisions": [
+      "equivalent"
+    ]
+  },
+  "sea": {
+    "root": "u6d77@19",
+    "decisions": [
+      "different",
+      "inconclusive"
+    ]
+  },
+  "pua_source_lead": "u32580@3",
+  "selected_glyphs_remain_null": true
+}

@@ -1,0 +1,32 @@
+{
+  "format": "review-supplement-release-v1",
+  "release": "v0.1.0-review.1",
+  "base_release": "v0.1.0-preview.1",
+  "build": {
+    "format": "reviewed-portable-build-v1",
+    "parent_dataset_sha256": "99d876fce6118a3b80924fd05b3b9c8580ac0496a5db403daba0ac6ff64b3ab6",
+    "dataset_sha256": "cb3ed19a8cf351e562a84ec92f6e5fab29c09b39dfe0d1b7d414a7b9f12a17cf",
+    "ledger_sha256": "3d16ef0af168cec418d1b9b46848c2a81286b077438a158d24718fbbe27484d3",
+    "history_records": 3,
+    "active_records": 3,
+    "active_decisions": {
+      "different": 1,
+      "equivalent": 1,
+      "inconclusive": 1
+    },
+    "mapping_records_unchanged": true,
+    "limitation": "Scoped review ledger embedded; global mapping selection and coverage are not rewritten."
+  },
+  "original_rows_verified": {
+    "inventory": 109556,
+    "mappings": 109556,
+    "glyphs": 1201970,
+    "dependencies": 1810938,
+    "issues": 4
+  },
+  "gzip_sha256": "c265a8b40424c2a2595f415dbd273280176f3e9529b9f30e001fa030b3e402ab",
+  "gzip_bytes": 87186221,
+  "code_commit": "1e9cc743169a4f606d5c8db4a4d99d2b9dbddf2b",
+  "mapping_selection_policy": "unchanged; reviews scoped by source and criterion",
+  "known_correction": "U+EADD source-ID correction is documented in the included audit; original mapping rows retain preview.1 values."
+}

@@ -14,12 +14,12 @@
 | PUAの提供元・版分離、例外の根拠と次の調査事項 | pua.py、PUA-REVIEW-QUEUE.md、NUMBERED-COMPONENTS.md | 全6,151件に調査事項あり。番号部品の参照先PUA版、孤立／変形部品の対応は未確定 |
 | 符号化移行先と典拠の調査 | PUA-UNIHAN-SOURCES.md、SOURCE-LEAD-LOOKUP.md | 1,297件にUnicode典拠ID一致。103件から107の新しい候補bundleを取得検証。これをPUA字形一致には昇格しない |
 | 目視比較、地域差・複数候補・近似のレビュー | UNICODE-SEA-REVIEW.md、FONT-REVIEW.md、diagnostic-review.json | [「一」](UNICODE-ONE-REVIEW.md)の一候補版・日本典拠について構造一致判断1件を独立記録。その他は限定的な特徴比較と診断。全件レビューは未完了で、初回配布DBの確認済み件数は0件のまま |
-| 根拠・差・判断者・日時を持つ確定判断の契約 | feature_reviews.py、unicode-sea-review.json、schemas/mappings.schema.json | 独立した[判断記録](REVIEW-DECISIONS.md)の契約・検証・訂正／撤回履歴・検索添付を実装。既存mappingスキーマはunreviewedのみで、[別DBへの履歴同梱](REVIEWED-PORTABLE.md)も実装・全レコード比較済み。集計、共有スキーマ化、新版Releaseへの添付は未完了 |
+| 根拠・差・判断者・日時を持つ確定判断の契約 | feature_reviews.py、unicode-sea-review.json、schemas/mappings.schema.json | 独立した[判断記録](REVIEW-DECISIONS.md)の契約・検証・訂正／撤回履歴・検索添付を実装。既存mappingスキーマはunreviewedのみで、[別DBへの履歴同梱](REVIEWED-PORTABLE.md)も実装・全レコード比較済み。[レビュー補足版の公開・実取得検証](REVIEW-PUBLICATION.md)も完了。集計と共有スキーマ化は未完了 |
 | 手動対応を根拠付きで保存 | PLAN.mdのoverrides.jsonl要件 | 手動確定対応はまだない。overrides.jsonlの生成・検証・適用経路は未実装。空ファイルを置くだけで達成とはしない |
 | 分母別候補率・確認済み率・依存率 | coverage.json、coverage.py、test_coverage.py | 初回公開版の母集団ごとに算出済み。後続の出典照合を既存候補率に無条件加算しない |
 | 原本・フォント・エンジン・コードの権利区分 | NOTICE.md、LICENSE、licenses/、配布ZIPの内容 | 配布範囲を識別子・典拠事実・KAGE等に限定。原PUA表本文・フォント・画像の再配布許諾を推定しない |
 | JSONL正本、独立SQLite、オフライン検索 | release.py、package_release.py、PUBLICATION.md | 初回版は別環境で再生成し、全レコード一致と公開9添付の取得・ハッシュを検証済み |
-| 最新の修正・追加レビューを一つの固定配布版へ統合 | PUA-DISCOVERY-CORRECTION.md、最新main、初回Release | 未完了。最新コード・補助記録はGitHub公開済みだが、初回ZIPに追加コマンドや訂正は未反映。初回版は不変のまま |
+| 最新の修正・追加レビューを一つの固定配布版へ統合 | PUA-DISCOVERY-CORRECTION.md、最新main、初回Release | 一部完了。レビュー補足版には最新検索・補助資料・判断を同梱し公開検証済み。基礎mapping行を変更する訂正再生成版は未完了。初回版は不変 |
 
 ## 残る実作業の優先順位
 
