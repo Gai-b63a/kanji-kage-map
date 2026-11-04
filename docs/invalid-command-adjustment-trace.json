@@ -1,0 +1,131 @@
+{
+  "format": "invalid-command-adjustment-trace-v1",
+  "engine": "@kurgm/kage-engine@0.7.0",
+  "input_sha256": "6431579a1dda27a4e37646a624aa5784a08e7a08392fab143e13b68b3fa0f10d",
+  "sources": {
+    "kage.js": "af910dd2e1e9c4a1363c2d0b4ee199703cde4c8b4342b4a2f150bf878f140e2f",
+    "stroke.js": "e0bac2af2a442b8e000ca2d23824d1a908ef56dce08bb7e9bd1b74823e22f481",
+    "2d.js": "eeae4077ce28e566971c90efbe949a97a82d0a5c0331e981214cb6ad0592d16e",
+    "font/mincho/index.js": "b7f7f73fc83d5043b06795fb016def44868c877d7116cee510dce2c5d2eabcab"
+  },
+  "candidate": "hkcs_m28eb6@1",
+  "actual": {
+    "original": {
+      "strokes": 38,
+      "polygon_count": 69,
+      "svg_sha256": "eb6b243f6de05fe455829a988282f3e3f5b15cb5f89a1fe9d719e066f2619d9a",
+      "last_command_is_nan": true,
+      "last_control_segments": [
+        [
+          "NaN",
+          "NaN",
+          "NaN",
+          "NaN"
+        ]
+      ],
+      "last_crosses_distant_segment": true
+    },
+    "omitted": {
+      "strokes": 37,
+      "polygon_count": 69,
+      "svg_sha256": "5cf469be2271e7b61f3da739b4c203d33ac599eb5a77beff340a444724907609",
+      "last_command_is_nan": false,
+      "last_control_segments": [
+        [
+          156.89896,
+          162.35,
+          163.582,
+          179.85
+        ],
+        [
+          163.582,
+          179.85,
+          182.60296,
+          181.95
+        ]
+      ],
+      "last_crosses_distant_segment": false
+    },
+    "differences": [
+      {
+        "stage": "adjustUroko",
+        "expanded_stroke_index": 6,
+        "field": "urokoAdjustment",
+        "with_invalid": 3,
+        "without_invalid": 2
+      },
+      {
+        "stage": "adjustUroko2",
+        "expanded_stroke_index": 6,
+        "field": "urokoAdjustment",
+        "with_invalid": 3,
+        "without_invalid": 2
+      },
+      {
+        "stage": "adjustKirikuchi",
+        "expanded_stroke_index": 6,
+        "field": "urokoAdjustment",
+        "with_invalid": 3,
+        "without_invalid": 2
+      }
+    ],
+    "same_svg": false
+  },
+  "minimal": {
+    "original": {
+      "strokes": 2,
+      "polygon_count": 2,
+      "svg_sha256": "7060c42d1542659f4dbebc236fefb8a2c7cb64eb608bceea5f57e0d1efb74d14",
+      "last_command_is_nan": true,
+      "last_control_segments": [
+        [
+          "NaN",
+          "NaN",
+          "NaN",
+          "NaN"
+        ]
+      ],
+      "last_crosses_distant_segment": true
+    },
+    "omitted": {
+      "strokes": 1,
+      "polygon_count": 2,
+      "svg_sha256": "e3b49d332c6f26bd97970db76c4aeb301202f936c82c9e4636503c12846a5821",
+      "last_command_is_nan": false,
+      "last_control_segments": [
+        [
+          20,
+          100,
+          180,
+          100
+        ]
+      ],
+      "last_crosses_distant_segment": false
+    },
+    "differences": [
+      {
+        "stage": "adjustUroko",
+        "expanded_stroke_index": 0,
+        "field": "urokoAdjustment",
+        "with_invalid": 3,
+        "without_invalid": 0
+      },
+      {
+        "stage": "adjustUroko2",
+        "expanded_stroke_index": 0,
+        "field": "urokoAdjustment",
+        "with_invalid": 3,
+        "without_invalid": 0
+      },
+      {
+        "stage": "adjustKirikuchi",
+        "expanded_stroke_index": 0,
+        "field": "urokoAdjustment",
+        "with_invalid": 3,
+        "without_invalid": 0
+      }
+    ],
+    "same_svg": false
+  },
+  "policy": "Diagnostic counterfactual only. No KAGE repair or glyph-equivalence determination."
+}
