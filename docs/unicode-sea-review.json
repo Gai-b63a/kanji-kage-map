@@ -1,0 +1,114 @@
+{
+  "format": "visual-feature-review-v1",
+  "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+  "reviewer": "Codex (AI visual inspection)",
+  "review_date": "2026-11-04",
+  "scope": "One character, eight pinned KAGE candidates, one structural feature; not a whole-glyph match decision.",
+  "source": {
+    "provider": "Unicode",
+    "version": "18.0.0",
+    "url": "https://www.unicode.org/Public/18.0.0/charts/PDF/U4E00.pdf",
+    "sha256": "9c2527a34623870413a348778a7804475c15e92960017dd3693ba18fd121aaf9",
+    "pdf_page": 206,
+    "printed_page": 762,
+    "codepoint": "U+6D77"
+  },
+  "render_engine": "@kurgm/kage-engine@0.7.0",
+  "render_options": {
+    "kUseCurve": false
+  },
+  "full_glyph_match_status": "not_determined",
+  "selected_glyph": null,
+  "observations": [
+    {
+      "entity_id": "unicode:U+6D77",
+      "glyph_reference": "u6d77@19",
+      "source_id": "J0-3324",
+      "chart_feature": "continuous_inner_vertical",
+      "kage_feature": "continuous_inner_vertical",
+      "result": "feature_agreement",
+      "observation": "The lower right component has the same inspected inner-stroke feature. Outline equivalence and other features are not determined.",
+      "svg_sha256": "e44c39024506538937a72207f96fc9f856455904c80f0e60072b3ede7ff0c17b"
+    },
+    {
+      "entity_id": "unicode:U+6D77",
+      "glyph_reference": "u6d77-g@9",
+      "source_id": "G0-3A23",
+      "chart_feature": "two_inner_dots",
+      "kage_feature": "two_inner_dots",
+      "result": "feature_agreement",
+      "observation": "The lower right component has the same inspected inner-stroke feature. Outline equivalence and other features are not determined.",
+      "svg_sha256": "94d1716aa947dca919e3dd1836c84c9e82a2476a5db8aea6b470f42855d55f39"
+    },
+    {
+      "entity_id": "unicode:U+6D77",
+      "glyph_reference": "u6d77-h@6",
+      "source_id": "HB1-AEFC",
+      "chart_feature": "two_inner_dots",
+      "kage_feature": "two_inner_dots",
+      "result": "feature_agreement",
+      "observation": "The lower right component has the same inspected inner-stroke feature. Outline equivalence and other features are not determined.",
+      "svg_sha256": "4019410ef80cc30030cdacf8fe37ac3c4a1293244bd03bf3fa3a75935146f28c"
+    },
+    {
+      "entity_id": "unicode:U+6D77",
+      "glyph_reference": "u6d77-t@4",
+      "source_id": "T1-5640",
+      "chart_feature": "two_inner_dots",
+      "kage_feature": "two_inner_dots",
+      "result": "feature_agreement",
+      "observation": "The lower right component has the same inspected inner-stroke feature. Outline equivalence and other features are not determined.",
+      "svg_sha256": "4019410ef80cc30030cdacf8fe37ac3c4a1293244bd03bf3fa3a75935146f28c"
+    },
+    {
+      "entity_id": "unicode:U+6D77",
+      "glyph_reference": "u6d77-j@10",
+      "source_id": "J0-3324",
+      "chart_feature": "continuous_inner_vertical",
+      "kage_feature": "continuous_inner_vertical",
+      "result": "feature_agreement",
+      "observation": "The lower right component has the same inspected inner-stroke feature. Outline equivalence and other features are not determined.",
+      "svg_sha256": "e44c39024506538937a72207f96fc9f856455904c80f0e60072b3ede7ff0c17b"
+    },
+    {
+      "entity_id": "unicode:U+6D77",
+      "glyph_reference": "u6d77-k@14",
+      "source_id": "K0-7A2D",
+      "chart_feature": "two_inner_dots",
+      "kage_feature": "two_inner_dots",
+      "result": "feature_agreement",
+      "observation": "The lower right component has the same inspected inner-stroke feature. Outline equivalence and other features are not determined.",
+      "svg_sha256": "bacd27994534b9448408329fcb41167cdd44ec261fbcf5fc1b8dbdd8dd6e02e4"
+    },
+    {
+      "entity_id": "unicode:U+6D77",
+      "glyph_reference": "u6d77-kp@4",
+      "source_id": "KP0-F5C3",
+      "chart_feature": "two_inner_dots",
+      "kage_feature": "two_inner_dots",
+      "result": "feature_agreement",
+      "observation": "The lower right component has the same inspected inner-stroke feature. Outline equivalence and other features are not determined.",
+      "svg_sha256": "94d1716aa947dca919e3dd1836c84c9e82a2476a5db8aea6b470f42855d55f39"
+    },
+    {
+      "entity_id": "unicode:U+6D77",
+      "glyph_reference": "u6d77-v@11",
+      "source_id": "V1-5C49",
+      "chart_feature": "two_inner_dots",
+      "kage_feature": "two_inner_dots",
+      "result": "feature_agreement",
+      "observation": "The lower right component has the same inspected inner-stroke feature. Outline equivalence and other features are not determined.",
+      "svg_sha256": "94d1716aa947dca919e3dd1836c84c9e82a2476a5db8aea6b470f42855d55f39"
+    },
+    {
+      "entity_id": "unicode:U+6D77",
+      "glyph_reference": "u6d77@19",
+      "source_id": "G0-3A23",
+      "chart_feature": "two_inner_dots",
+      "kage_feature": "continuous_inner_vertical",
+      "result": "feature_conflict",
+      "observation": "The generic GlyphWiki name resolves to the Japanese-style form and differs from the G-source reference in this inspected feature.",
+      "svg_sha256": "e44c39024506538937a72207f96fc9f856455904c80f0e60072b3ede7ff0c17b"
+    }
+  ]
+}

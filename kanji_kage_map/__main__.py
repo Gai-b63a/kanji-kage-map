@@ -41,6 +41,7 @@ def main():
     lookup.add_argument('--candidates', default='data/generated/mappings.jsonl')
     lookup.add_argument('--output', required=True)
     lookup.add_argument('--dataset', help='Portable SQLite dataset; does not need the upstream index')
+    lookup.add_argument('--feature-reviews', help='Pinned, scoped visual observations; does not change mapping decisions')
     release = commands.add_parser('build-release')
     release.add_argument('--directory', default='data/generated')
     release.add_argument('--project', default='.')
@@ -71,9 +72,13 @@ def main():
         from .sources import write_json
         if args.dataset:
             from .release import lookup_release
-            write_json(args.output, lookup_release(args.dataset, args.identifier, args.glyph))
+            result = lookup_release(args.dataset, args.identifier, args.glyph)
         else:
-            write_json(args.output, find(args.identifier, args.candidates, args.database, args.glyph))
+            result = find(args.identifier, args.candidates, args.database, args.glyph)
+        if args.feature_reviews:
+            from .feature_reviews import attach_feature_reviews
+            result = attach_feature_reviews(result, args.feature_reviews)
+        write_json(args.output, result)
         return
     if args.command == 'audit-dependencies':
         from .audit import audit_dependencies

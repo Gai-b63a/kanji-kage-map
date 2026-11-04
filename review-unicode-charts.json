@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "id": "unicode-cjk-chart",
+      "url": "https://www.unicode.org/Public/18.0.0/charts/PDF/U4E00.pdf",
+      "filename": "U4E00.pdf",
+      "version": "18.0.0",
+      "provider": "Unicode",
+      "encoding": "binary",
+      "license_status": "local-review-only",
+      "license_url": "https://www.unicode.org/charts/"
+    }
+  ]
+}
