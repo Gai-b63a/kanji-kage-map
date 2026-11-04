@@ -1,0 +1,37 @@
+{
+  "release_url": "https://github.com/Gai-b63a/kanji-kage-map/releases/tag/v0.1.0-ids-leads.1",
+  "assets": [
+    {
+      "name": "pua-ids-name-offline.zip",
+      "bytes": 1482394,
+      "sha256": "c71764e670850689fad93e7e1eba29e543884aa06b8ddf60a34d62da50da48f2"
+    },
+    {
+      "name": "pua-ids-name-supplement.json.gz",
+      "bytes": 1408164,
+      "sha256": "1ed9ec5bc1aa3c4405b30ef5b782136a4d1e2a0b1b766aab405ac658964a296e"
+    },
+    {
+      "name": "pua-ids-name-supplement.manifest.json",
+      "bytes": 417,
+      "sha256": "36c4d8d8922169c4cfb9dcc1090341a64c896d056875516fc4cbb8b5da81f9f3"
+    },
+    {
+      "name": "SHA256SUMS",
+      "bytes": 377,
+      "sha256": "284694066e3e2218f05a7760d53b822fb1e09d6395c39b13f3306c40c82ae1e6"
+    },
+    {
+      "name": "verification.json",
+      "bytes": 194,
+      "sha256": "a3aef588f1ff36074c2f7217fe169a126ae371ace95fbc459731c40e76e58ec5"
+    }
+  ],
+  "zip_payload_files": 32,
+  "entities": 6030,
+  "candidate_links": 4927,
+  "unique_roots": 4925,
+  "canonical_sha256": "6e926aaee42e1383074e66efc73cf99f4f42fcb04d6c7e8c8489de25cc1a5e29",
+  "all_lookup_links_verified": true,
+  "confirmed_glyph_matches": 0
+}
