@@ -1,0 +1,456 @@
+{
+  "format": "provisional-coverage-v1",
+  "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+  "source_versions": [
+    {
+      "provider": "BabelStone",
+      "version": "1.473"
+    },
+    {
+      "provider": "BabelStone",
+      "version": "2025-06-27"
+    },
+    {
+      "provider": "Unicode",
+      "version": "18.0.0"
+    }
+  ],
+  "population_rules": {
+    "all": "unique entity IDs",
+    "kind": "disjoint partition",
+    "membership": "overlapping sets; never sum to obtain the total"
+  },
+  "dependency_scope": "recorded reference and command-tag audit; not full syntax, rendering or glyph equivalence",
+  "groups": {
+    "all": {
+      "counts": {
+        "entities": 109556,
+        "candidates_found": 105657,
+        "requires_source_evidence": 2966,
+        "no_candidate_in_searched_rules": 933,
+        "candidate_links": 955185,
+        "dependency_complete_links": 955178,
+        "dependency_issue_links": 7,
+        "entities_with_any_dependency_complete_candidate": 105657,
+        "entities_with_dependency_issue_candidate": 7,
+        "entities_with_multiple_candidates": 100972,
+        "glyph_review_unreviewed": 109556,
+        "confirmed_glyph_matches": 0
+      },
+      "rates": {
+        "candidate_presence": {
+          "numerator": 105657,
+          "denominator": 109556,
+          "fraction": 0.9644108948848078
+        },
+        "confirmed_glyph_match": {
+          "numerator": 0,
+          "denominator": 109556,
+          "fraction": 0.0
+        },
+        "dependency_complete_candidate_links": {
+          "numerator": 955178,
+          "denominator": 955185,
+          "fraction": 0.9999926715767102
+        }
+      }
+    },
+    "kind:component": {
+      "counts": {
+        "entities": 368,
+        "candidates_found": 368,
+        "requires_source_evidence": 0,
+        "no_candidate_in_searched_rules": 0,
+        "candidate_links": 510,
+        "dependency_complete_links": 510,
+        "dependency_issue_links": 0,
+        "entities_with_any_dependency_complete_candidate": 368,
+        "entities_with_dependency_issue_candidate": 0,
+        "entities_with_multiple_candidates": 37,
+        "glyph_review_unreviewed": 368,
+        "confirmed_glyph_matches": 0
+      },
+      "rates": {
+        "candidate_presence": {
+          "numerator": 368,
+          "denominator": 368,
+          "fraction": 1.0
+        },
+        "confirmed_glyph_match": {
+          "numerator": 0,
+          "denominator": 368,
+          "fraction": 0.0
+        },
+        "dependency_complete_candidate_links": {
+          "numerator": 510,
+          "denominator": 510,
+          "fraction": 1.0
+        }
+      }
+    },
+    "kind:han": {
+      "counts": {
+        "entities": 102999,
+        "candidates_found": 102999,
+        "requires_source_evidence": 0,
+        "no_candidate_in_searched_rules": 0,
+        "candidate_links": 952020,
+        "dependency_complete_links": 952013,
+        "dependency_issue_links": 7,
+        "entities_with_any_dependency_complete_candidate": 102999,
+        "entities_with_dependency_issue_candidate": 7,
+        "entities_with_multiple_candidates": 100745,
+        "glyph_review_unreviewed": 102999,
+        "confirmed_glyph_matches": 0
+      },
+      "rates": {
+        "candidate_presence": {
+          "numerator": 102999,
+          "denominator": 102999,
+          "fraction": 1.0
+        },
+        "confirmed_glyph_match": {
+          "numerator": 0,
+          "denominator": 102999,
+          "fraction": 0.0
+        },
+        "dependency_complete_candidate_links": {
+          "numerator": 952013,
+          "denominator": 952020,
+          "fraction": 0.9999926472132938
+        }
+      }
+    },
+    "kind:numbered_component": {
+      "counts": {
+        "entities": 121,
+        "candidates_found": 0,
+        "requires_source_evidence": 121,
+        "no_candidate_in_searched_rules": 0,
+        "candidate_links": 0,
+        "dependency_complete_links": 0,
+        "dependency_issue_links": 0,
+        "entities_with_any_dependency_complete_candidate": 0,
+        "entities_with_dependency_issue_candidate": 0,
+        "entities_with_multiple_candidates": 0,
+        "glyph_review_unreviewed": 121,
+        "confirmed_glyph_matches": 0
+      },
+      "rates": {
+        "candidate_presence": {
+          "numerator": 0,
+          "denominator": 121,
+          "fraction": 0.0
+        },
+        "confirmed_glyph_match": {
+          "numerator": 0,
+          "denominator": 121,
+          "fraction": 0.0
+        },
+        "dependency_complete_candidate_links": {
+          "numerator": 0,
+          "denominator": 0,
+          "fraction": null
+        }
+      }
+    },
+    "kind:other_unicode": {
+      "counts": {
+        "entities": 38,
+        "candidates_found": 38,
+        "requires_source_evidence": 0,
+        "no_candidate_in_searched_rules": 0,
+        "candidate_links": 245,
+        "dependency_complete_links": 245,
+        "dependency_issue_links": 0,
+        "entities_with_any_dependency_complete_candidate": 38,
+        "entities_with_dependency_issue_candidate": 0,
+        "entities_with_multiple_candidates": 35,
+        "glyph_review_unreviewed": 38,
+        "confirmed_glyph_matches": 0
+      },
+      "rates": {
+        "candidate_presence": {
+          "numerator": 38,
+          "denominator": 38,
+          "fraction": 1.0
+        },
+        "confirmed_glyph_match": {
+          "numerator": 0,
+          "denominator": 38,
+          "fraction": 0.0
+        },
+        "dependency_complete_candidate_links": {
+          "numerator": 245,
+          "denominator": 245,
+          "fraction": 1.0
+        }
+      }
+    },
+    "kind:pua": {
+      "counts": {
+        "entities": 6030,
+        "candidates_found": 2252,
+        "requires_source_evidence": 2845,
+        "no_candidate_in_searched_rules": 933,
+        "candidate_links": 2410,
+        "dependency_complete_links": 2410,
+        "dependency_issue_links": 0,
+        "entities_with_any_dependency_complete_candidate": 2252,
+        "entities_with_dependency_issue_candidate": 0,
+        "entities_with_multiple_candidates": 155,
+        "glyph_review_unreviewed": 6030,
+        "confirmed_glyph_matches": 0
+      },
+      "rates": {
+        "candidate_presence": {
+          "numerator": 2252,
+          "denominator": 6030,
+          "fraction": 0.37346600331674956
+        },
+        "confirmed_glyph_match": {
+          "numerator": 0,
+          "denominator": 6030,
+          "fraction": 0.0
+        },
+        "dependency_complete_candidate_links": {
+          "numerator": 2410,
+          "denominator": 2410,
+          "fraction": 1.0
+        }
+      }
+    },
+    "membership:ids-pua_heading": {
+      "counts": {
+        "entities": 6030,
+        "candidates_found": 2252,
+        "requires_source_evidence": 2845,
+        "no_candidate_in_searched_rules": 933,
+        "candidate_links": 2410,
+        "dependency_complete_links": 2410,
+        "dependency_issue_links": 0,
+        "entities_with_any_dependency_complete_candidate": 2252,
+        "entities_with_dependency_issue_candidate": 0,
+        "entities_with_multiple_candidates": 155,
+        "glyph_review_unreviewed": 6030,
+        "confirmed_glyph_matches": 0
+      },
+      "rates": {
+        "candidate_presence": {
+          "numerator": 2252,
+          "denominator": 6030,
+          "fraction": 0.37346600331674956
+        },
+        "confirmed_glyph_match": {
+          "numerator": 0,
+          "denominator": 6030,
+          "fraction": 0.0
+        },
+        "dependency_complete_candidate_links": {
+          "numerator": 2410,
+          "denominator": 2410,
+          "fraction": 1.0
+        }
+      }
+    },
+    "membership:ids_component": {
+      "counts": {
+        "entities": 11318,
+        "candidates_found": 11198,
+        "requires_source_evidence": 120,
+        "no_candidate_in_searched_rules": 0,
+        "candidate_links": 279594,
+        "dependency_complete_links": 279593,
+        "dependency_issue_links": 1,
+        "entities_with_any_dependency_complete_candidate": 11198,
+        "entities_with_dependency_issue_candidate": 1,
+        "entities_with_multiple_candidates": 11185,
+        "glyph_review_unreviewed": 11318,
+        "confirmed_glyph_matches": 0
+      },
+      "rates": {
+        "candidate_presence": {
+          "numerator": 11198,
+          "denominator": 11318,
+          "fraction": 0.9893974200388761
+        },
+        "confirmed_glyph_match": {
+          "numerator": 0,
+          "denominator": 11318,
+          "fraction": 0.0
+        },
+        "dependency_complete_candidate_links": {
+          "numerator": 279593,
+          "denominator": 279594,
+          "fraction": 0.9999964233853373
+        }
+      }
+    },
+    "membership:ids_heading": {
+      "counts": {
+        "entities": 97680,
+        "candidates_found": 97680,
+        "requires_source_evidence": 0,
+        "no_candidate_in_searched_rules": 0,
+        "candidate_links": 941649,
+        "dependency_complete_links": 941642,
+        "dependency_issue_links": 7,
+        "entities_with_any_dependency_complete_candidate": 97680,
+        "entities_with_dependency_issue_candidate": 7,
+        "entities_with_multiple_candidates": 97680,
+        "glyph_review_unreviewed": 97680,
+        "confirmed_glyph_matches": 0
+      },
+      "rates": {
+        "candidate_presence": {
+          "numerator": 97680,
+          "denominator": 97680,
+          "fraction": 1.0
+        },
+        "confirmed_glyph_match": {
+          "numerator": 0,
+          "denominator": 97680,
+          "fraction": 0.0
+        },
+        "dependency_complete_candidate_links": {
+          "numerator": 941642,
+          "denominator": 941649,
+          "fraction": 0.999992566232216
+        }
+      }
+    },
+    "membership:numbered_definition": {
+      "counts": {
+        "entities": 121,
+        "candidates_found": 0,
+        "requires_source_evidence": 121,
+        "no_candidate_in_searched_rules": 0,
+        "candidate_links": 0,
+        "dependency_complete_links": 0,
+        "dependency_issue_links": 0,
+        "entities_with_any_dependency_complete_candidate": 0,
+        "entities_with_dependency_issue_candidate": 0,
+        "entities_with_multiple_candidates": 0,
+        "glyph_review_unreviewed": 121,
+        "confirmed_glyph_matches": 0
+      },
+      "rates": {
+        "candidate_presence": {
+          "numerator": 0,
+          "denominator": 121,
+          "fraction": 0.0
+        },
+        "confirmed_glyph_match": {
+          "numerator": 0,
+          "denominator": 121,
+          "fraction": 0.0
+        },
+        "dependency_complete_candidate_links": {
+          "numerator": 0,
+          "denominator": 0,
+          "fraction": null
+        }
+      }
+    },
+    "membership:pua-page_heading": {
+      "counts": {
+        "entities": 6030,
+        "candidates_found": 2252,
+        "requires_source_evidence": 2845,
+        "no_candidate_in_searched_rules": 933,
+        "candidate_links": 2410,
+        "dependency_complete_links": 2410,
+        "dependency_issue_links": 0,
+        "entities_with_any_dependency_complete_candidate": 2252,
+        "entities_with_dependency_issue_candidate": 0,
+        "entities_with_multiple_candidates": 155,
+        "glyph_review_unreviewed": 6030,
+        "confirmed_glyph_matches": 0
+      },
+      "rates": {
+        "candidate_presence": {
+          "numerator": 2252,
+          "denominator": 6030,
+          "fraction": 0.37346600331674956
+        },
+        "confirmed_glyph_match": {
+          "numerator": 0,
+          "denominator": 6030,
+          "fraction": 0.0
+        },
+        "dependency_complete_candidate_links": {
+          "numerator": 2410,
+          "denominator": 2410,
+          "fraction": 1.0
+        }
+      }
+    },
+    "membership:unicode_component": {
+      "counts": {
+        "entities": 368,
+        "candidates_found": 368,
+        "requires_source_evidence": 0,
+        "no_candidate_in_searched_rules": 0,
+        "candidate_links": 510,
+        "dependency_complete_links": 510,
+        "dependency_issue_links": 0,
+        "entities_with_any_dependency_complete_candidate": 368,
+        "entities_with_dependency_issue_candidate": 0,
+        "entities_with_multiple_candidates": 37,
+        "glyph_review_unreviewed": 368,
+        "confirmed_glyph_matches": 0
+      },
+      "rates": {
+        "candidate_presence": {
+          "numerator": 368,
+          "denominator": 368,
+          "fraction": 1.0
+        },
+        "confirmed_glyph_match": {
+          "numerator": 0,
+          "denominator": 368,
+          "fraction": 0.0
+        },
+        "dependency_complete_candidate_links": {
+          "numerator": 510,
+          "denominator": 510,
+          "fraction": 1.0
+        }
+      }
+    },
+    "membership:unicode_han": {
+      "counts": {
+        "entities": 102999,
+        "candidates_found": 102999,
+        "requires_source_evidence": 0,
+        "no_candidate_in_searched_rules": 0,
+        "candidate_links": 952020,
+        "dependency_complete_links": 952013,
+        "dependency_issue_links": 7,
+        "entities_with_any_dependency_complete_candidate": 102999,
+        "entities_with_dependency_issue_candidate": 7,
+        "entities_with_multiple_candidates": 100745,
+        "glyph_review_unreviewed": 102999,
+        "confirmed_glyph_matches": 0
+      },
+      "rates": {
+        "candidate_presence": {
+          "numerator": 102999,
+          "denominator": 102999,
+          "fraction": 1.0
+        },
+        "confirmed_glyph_match": {
+          "numerator": 0,
+          "denominator": 102999,
+          "fraction": 0.0
+        },
+        "dependency_complete_candidate_links": {
+          "numerator": 952013,
+          "denominator": 952020,
+          "fraction": 0.9999926472132938
+        }
+      }
+    }
+  },
+  "database_sha256": "99d876fce6118a3b80924fd05b3b9c8580ac0496a5db403daba0ac6ff64b3ab6"
+}
