@@ -1,0 +1,115 @@
+{
+  "format": "site-deploy-data-handoff-v1",
+  "date_jst": "2026-11-04",
+  "data_policy": "base authoritative; supplement additive research only; no implicit selection",
+  "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+  "base_entity_count": 109556,
+  "pua_entity_count": 6030,
+  "supplement_candidate_links": 4927,
+  "supplement_unique_roots": 4925,
+  "base_uncompressed_sha256": "4cb1ba08625e6a6771589304cfe214573c18165f32b59c68cdbc3054847cd0aa",
+  "base_uncompressed_path": "E:/GitHub/kanji-kage-map/.cache/corrected-published/offline/dataset.sqlite3",
+  "supplement_canonical_sha256": "6e926aaee42e1383074e66efc73cf99f4f42fcb04d6c7e8c8489de25cc1a5e29",
+  "font_missing": [
+    "U+E87B",
+    "U+E87C",
+    "U+E87D",
+    "U+E87F",
+    "U+F55A",
+    "U+F55B"
+  ],
+  "assets": [
+    {
+      "id": "base-db",
+      "release": "v0.1.0-preview.2",
+      "filename": "kanji-kage-map-v0.1.0-preview.2.sqlite3.gz",
+      "url": "https://github.com/Gai-b63a/kanji-kage-map/releases/download/v0.1.0-preview.2/kanji-kage-map-v0.1.0-preview.2.sqlite3.gz",
+      "local_path": "E:/GitHub/kanji-kage-map/.cache/corrected-published/kanji-kage-map-v0.1.0-preview.2.sqlite3.gz",
+      "bytes": 87186205,
+      "sha256": "ac49c3a853ebac387424482e1509871b7076b3246c14987eaa526a727da084d9"
+    },
+    {
+      "id": "base-manifest",
+      "release": "v0.1.0-preview.2",
+      "filename": "kanji-kage-map-v0.1.0-preview.2.manifest.json",
+      "url": "https://github.com/Gai-b63a/kanji-kage-map/releases/download/v0.1.0-preview.2/kanji-kage-map-v0.1.0-preview.2.manifest.json",
+      "local_path": "E:/GitHub/kanji-kage-map/.cache/corrected-published/kanji-kage-map-v0.1.0-preview.2.manifest.json",
+      "bytes": 1940,
+      "sha256": "aa75f1c66f5335d66de65fb35d9f7493088d8161d2dc44affd22d4417092d5ed"
+    },
+    {
+      "id": "pua-supplement",
+      "release": "v0.1.0-ids-leads.1",
+      "filename": "pua-ids-name-supplement.json.gz",
+      "url": "https://github.com/Gai-b63a/kanji-kage-map/releases/download/v0.1.0-ids-leads.1/pua-ids-name-supplement.json.gz",
+      "local_path": "E:/GitHub/kanji-kage-map/.cache/ids-name-published/pua-ids-name-supplement.json.gz",
+      "bytes": 1408164,
+      "sha256": "1ed9ec5bc1aa3c4405b30ef5b782136a4d1e2a0b1b766aab405ac658964a296e"
+    },
+    {
+      "id": "pua-manifest",
+      "release": "v0.1.0-ids-leads.1",
+      "filename": "pua-ids-name-supplement.manifest.json",
+      "url": "https://github.com/Gai-b63a/kanji-kage-map/releases/download/v0.1.0-ids-leads.1/pua-ids-name-supplement.manifest.json",
+      "local_path": "E:/GitHub/kanji-kage-map/.cache/ids-name-published/pua-ids-name-supplement.manifest.json",
+      "bytes": 417,
+      "sha256": "36c4d8d8922169c4cfb9dcc1090341a64c896d056875516fc4cbb8b5da81f9f3"
+    },
+    {
+      "id": "pua-font-woff",
+      "filename": "BabelStoneHanPUA.woff",
+      "url": "https://www.babelstone.co.uk/Fonts/WOFF/BabelStoneHanPUA.woff",
+      "local_path": "E:/GitHub/kanji-kage-map/data/raw/275aa35448ab1e214e9c9e9a5cd0622dc20db8c1c2e3a1d8302a9696b52b6f34/BabelStoneHanPUA.woff",
+      "bytes": 2257136,
+      "sha256": "275aa35448ab1e214e9c9e9a5cd0622dc20db8c1c2e3a1d8302a9696b52b6f34",
+      "observed_version": "1.472",
+      "advertised_version": "1.473",
+      "unmodified": true
+    }
+  ],
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "local_path": "E:/GitHub/kanji-kage-map/LICENSE",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "url": "https://raw.githubusercontent.com/Gai-b63a/kanji-kage-map/81cf1dc63f5b5b389a03b0c85065dcf08ffcf4c0/LICENSE",
+      "local_sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "NOTICE.md",
+      "local_path": "E:/GitHub/kanji-kage-map/NOTICE.md",
+      "sha256": "a44764e7f6d7ea125cfa84a31cb5baa906cc7651bc116ba6875ac5d1aa45c1c0",
+      "url": "https://raw.githubusercontent.com/Gai-b63a/kanji-kage-map/81cf1dc63f5b5b389a03b0c85065dcf08ffcf4c0/NOTICE.md",
+      "local_sha256": "a44764e7f6d7ea125cfa84a31cb5baa906cc7651bc116ba6875ac5d1aa45c1c0"
+    },
+    {
+      "path": "licenses/GLYPHWIKI.txt",
+      "local_path": "E:/GitHub/kanji-kage-map/licenses/GLYPHWIKI.txt",
+      "sha256": "1435fc6023e5e48fbf3f98ceeb2b2401a11884bb2d9d9d964a13b539a2e249cc",
+      "url": "https://raw.githubusercontent.com/Gai-b63a/kanji-kage-map/81cf1dc63f5b5b389a03b0c85065dcf08ffcf4c0/licenses/GLYPHWIKI.txt",
+      "local_sha256": "1435fc6023e5e48fbf3f98ceeb2b2401a11884bb2d9d9d964a13b539a2e249cc"
+    },
+    {
+      "path": "licenses/UNICODE.txt",
+      "local_path": "E:/GitHub/kanji-kage-map/licenses/UNICODE.txt",
+      "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96",
+      "url": "https://raw.githubusercontent.com/Gai-b63a/kanji-kage-map/81cf1dc63f5b5b389a03b0c85065dcf08ffcf4c0/licenses/UNICODE.txt",
+      "local_sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96"
+    },
+    {
+      "path": "licenses/ARPHICPL.txt",
+      "local_path": "E:/GitHub/kanji-kage-map/licenses/ARPHICPL.txt",
+      "sha256": "5590533436c70f10f2f524ee61456238c290175c6662fbe1c700b5f038a6d328",
+      "url": "https://raw.githubusercontent.com/Gai-b63a/kanji-kage-map/81cf1dc63f5b5b389a03b0c85065dcf08ffcf4c0/licenses/ARPHICPL.txt",
+      "local_sha256": "5590533436c70f10f2f524ee61456238c290175c6662fbe1c700b5f038a6d328"
+    },
+    {
+      "path": "licenses/KAGE-ENGINE-GPL-3.0.txt",
+      "local_path": "E:/GitHub/kanji-kage-map/licenses/KAGE-ENGINE-GPL-3.0.txt",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "url": "https://raw.githubusercontent.com/Gai-b63a/kanji-kage-map/81cf1dc63f5b5b389a03b0c85065dcf08ffcf4c0/licenses/KAGE-ENGINE-GPL-3.0.txt",
+      "local_sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    }
+  ],
+  "publication_verification_commit": "81cf1dc63f5b5b389a03b0c85065dcf08ffcf4c0"
+}
