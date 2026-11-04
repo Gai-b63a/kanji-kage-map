@@ -1,0 +1,80 @@
+name: Reproduce corrected dataset with scoped reviews
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/corrected-release.yml]
+permissions:
+  contents: write
+concurrency:
+  group: corrected-dataset-release
+  cancel-in-progress: false
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Test source code
+        run: python -m unittest discover -s tests -v
+      - name: Restore exact original bytes
+        run: |
+          python -m kanji_kage_map restore --lock sources.lock.json
+          python -m kanji_kage_map restore --lock glyphwiki.lock.json
+      - name: Rebuild complete inventory and index
+        run: |
+          python -m kanji_kage_map inventory
+          python -m kanji_kage_map index-glyphwiki
+      - name: Discover candidates and audit all dependencies
+        run: |
+          python -m kanji_kage_map candidates
+          python -m kanji_kage_map pua-candidates
+          python -m kanji_kage_map audit-dependencies
+          python -m kanji_kage_map audit-dependencies --candidates data/generated/pua-research/pua-candidates.jsonl --output data/generated/pua-research/dependency-audit
+          python -m kanji_kage_map assemble
+      - name: Require identical canonical mappings
+        run: |
+          echo 'ecf47b9cb361af7fb447f08000d34e811391fc6a869f7c9872463597e6daf6e1  data/generated/mappings.jsonl' | sha256sum --check
+      - name: Build regenerated portable database
+        run: python -m kanji_kage_map build-release
+      - name: Obtain immutable base
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir base
+          gh release download v0.1.0-preview.1 --pattern 'kanji-kage-map-v0.1.sqlite3.gz' --dir base
+          echo '3f689b0ea51466a945ca6b09c3d474f50f0701e367322a235a5406c1a608658f  base/kanji-kage-map-v0.1.sqlite3.gz' | sha256sum --check
+          gzip -d base/kanji-kage-map-v0.1.sqlite3.gz
+      - name: Verify correction, embed reviews and verify complete package
+        run: python tools/package_reviewed_release.py dist/kanji-kage-map-v0.1.sqlite3 --corrected --baseline base/kanji-kage-map-v0.1.sqlite3 --output corrected-dist
+      - name: Verify offline lookup using only extracted package
+        run: |
+          python - <<'PY'
+          import zipfile,gzip,shutil,pathlib
+          with zipfile.ZipFile('corrected-dist/kanji-kage-map-v0.1.0-preview.2-offline.zip') as z:
+              z.extractall('offline-check')
+          with gzip.open('offline-check/kanji-kage-map-v0.1.0-preview.2.sqlite3.gz','rb') as src,open('offline-check/dataset.sqlite3','xb') as dst:
+              shutil.copyfileobj(src,dst)
+          PY
+          cd offline-check
+          python -m kanji_kage_map lookup babelstone:han-pua:1.473:U+EADD --dataset dataset.sqlite3 --output corrected.json
+          python -m kanji_kage_map lookup U+4E00 --dataset dataset.sqlite3 --glyph u4e00 --output one.json
+          python -m kanji_kage_map lookup-source-leads babelstone:han-pua:1.473:U+E0C7 --dataset dataset.sqlite3 --unicode-target U+32580 --glyph u32580 --output pua.json
+          python - <<'PY'
+          import json
+          correction=json.load(open('corrected.json'))
+          assert correction['source_refs']==['USAT05567']
+          assert correction['search_status']=='no_candidate_in_searched_rules'
+          one=json.load(open('one.json')); pua=json.load(open('pua.json'))
+          assert one['review_decisions']['history'][0]['decision']=='equivalent'
+          assert one['selected_glyph'] is None
+          assert pua['unicode_leads'][0]['bundle']['root']=='u32580@3'
+          PY
+      - name: Publish new prerelease without replacing existing releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create v0.1.0-preview.2 --target "$GITHUB_SHA" --prerelease --title 'v0.1.0-preview.2 — corrected candidates and scoped reviews' --notes-file docs/CORRECTED-RELEASE-NOTES.md corrected-dist/kanji-kage-map-v0.1.0-preview.2-offline.zip corrected-dist/kanji-kage-map-v0.1.0-preview.2.sqlite3.gz corrected-dist/kanji-kage-map-v0.1.0-preview.2.manifest.json corrected-dist/one-reviewed.json corrected-dist/sea-reviewed.json corrected-dist/SHA256SUMS
