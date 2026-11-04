@@ -1,0 +1,36 @@
+{
+  "release": "v0.1.0-preview.1",
+  "zip_payload_files_verified": 71,
+  "database_sha256": "99d876fce6118a3b80924fd05b3b9c8580ac0496a5db403daba0ac6ff64b3ab6",
+  "standalone_lookup_examples": [
+    "U+6D77/u6d77",
+    "babelstone:han-pua:1.473:U+E080/uk-20656"
+  ],
+  "all_database_tables_logically_identical_to_local": {
+    "metadata": {
+      "rows": 8,
+      "logical_sha256": "a3c91688a74b39bfd484cac998a9c78daeaf2d896da809d3f25b512c6239a930"
+    },
+    "inventory": {
+      "rows": 109556,
+      "logical_sha256": "1562e3b4067dd337f42b135ce34bcdc895d6a50c8d702db6f2d4c07e7644f8e8"
+    },
+    "mappings": {
+      "rows": 109556,
+      "logical_sha256": "0c4fc83e60f8165c31a4d2d50d4aff911397cd4ec75e6db2961bc2d2098f53f9"
+    },
+    "glyphs": {
+      "rows": 1201970,
+      "logical_sha256": "596db54d8bde4bc221fdba407bcafaf85f001bf38b032cf6f972ca2524542c33"
+    },
+    "dependencies": {
+      "rows": 1810938,
+      "logical_sha256": "799924c4971421b4f8747ba423e7c1276bbe016597b5bbb9533779b4f6cc06dd"
+    },
+    "issues": {
+      "rows": 4,
+      "logical_sha256": "18ce25ff453d3a79afbf676c95cb95940a4b102a144c38b9a62a6ce15a576b7e"
+    }
+  },
+  "note": "SQLite physical bytes differ across environments; all stored table values match."
+}

@@ -1,6 +1,6 @@
 # 独立配布用データセット
 
-現在はローカル生成・検証済みで、GitHubへの公開はまだ行っていません。
+[暫定リリース v0.1.0-preview.1](https://github.com/Gai-b63a/kanji-kage-map/releases/tag/v0.1.0-preview.1) を公開し、実ダウンロードも検証しました。[公開・再現性の記録](PUBLICATION.md)を参照してください。以下の92MBとハッシュは当初のWindowsローカル生成物の記録です。公開Linux版はgzip 87,183,731 bytesで、[公開manifest](published-manifest.json)に別のハッシュを記録しています。全DB格納値は一致しています。
 
 ## 内容
 
@@ -60,4 +60,4 @@ SQLite SHA-256：`7b235cb838c4abc948086b30e3625092196ba51edef5b12fb1d9782d7eb4df
 
 gzip SHA-256：`625ac65f482e2d0ab932226a7f4cf0d61e270b4e702ca5354802a4174bbdc0ac`
 
-公開前には配布ファイル一式・公開URL・ダウンロード後のチェックサムを再確認します。現時点ではローカル成果物であり、公開済みリリースではありません。
+公開ファイル一式・公開URL・ダウンロード後のチェックサムを確認済みです。ZIP内コードによる独立検索も検証しました。物理ファイルのハッシュは取得元に対応するmanifestを使用してください。

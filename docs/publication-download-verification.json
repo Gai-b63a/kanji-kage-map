@@ -1,0 +1,51 @@
+{
+  "release": "https://github.com/Gai-b63a/kanji-kage-map/releases/tag/v0.1.0-preview.1",
+  "assets": [
+    {
+      "name": "kanji-kage-map-v0.1-jsonl.tar.gz",
+      "bytes": 69835844,
+      "sha256": "b1473dd949c51989346fa6d45439322e1bb027b0fb5cfa02bf1d6adaacce34bc"
+    },
+    {
+      "name": "kanji-kage-map-v0.1-offline.zip",
+      "bytes": 87489970,
+      "sha256": "3f56bcf07263561bb21c2ae1cdf888370f78d966a39211844d1561ab9bce7eea"
+    },
+    {
+      "name": "kanji-kage-map-v0.1.manifest.json",
+      "bytes": 613,
+      "sha256": "0b3cea8ffc007883bb8c0ce13f2c8f103d197bbeeff472076d730fe3e56f527c"
+    },
+    {
+      "name": "kanji-kage-map-v0.1.sqlite3.gz",
+      "bytes": 87183731,
+      "sha256": "3f689b0ea51466a945ca6b09c3d474f50f0701e367322a235a5406c1a608658f"
+    },
+    {
+      "name": "portable-verification.json",
+      "bytes": 515,
+      "sha256": "16119a876d4af4ec9478eb7e5eec88079668d3a47d3d3f42cabde70676ddd304"
+    },
+    {
+      "name": "pua-example.json",
+      "bytes": 4782,
+      "sha256": "b94a17f5a8361eee119ca6f5c473f82adf889419d061540ab2da6b3dc0b40596"
+    },
+    {
+      "name": "sea-example.json",
+      "bytes": 34908,
+      "sha256": "ee8fced4cd2e91e95eccad668e1debbba6ff0df6aabdb18220ba2939550b6dea"
+    },
+    {
+      "name": "SHA256SUMS",
+      "bytes": 739,
+      "sha256": "06ea06c6239ad024a8a8d9e2d260ecb1cc17ad00771604906cff1e350d10bffd"
+    },
+    {
+      "name": "syntax-summary.json",
+      "bytes": 1051,
+      "sha256": "15477e1b4a4ce7eb87803f9c83e0f10e27c9b84f02719b23a161e666ba27fe52"
+    }
+  ],
+  "checksummed_but_not_attached": []
+}

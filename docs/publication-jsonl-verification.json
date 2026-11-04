@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "path": "NOTICE.md",
+      "sha256": "a44764e7f6d7ea125cfa84a31cb5baa906cc7651bc116ba6875ac5d1aa45c1c0"
+    },
+    {
+      "path": "licenses/GLYPHWIKI.txt",
+      "sha256": "1435fc6023e5e48fbf3f98ceeb2b2401a11884bb2d9d9d964a13b539a2e249cc"
+    },
+    {
+      "path": "licenses/UNICODE.txt",
+      "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96"
+    },
+    {
+      "path": "sources.lock.json",
+      "sha256": "2388a0dd56b95eadb546c22ef77afac78818aaa83dda9359efb4e4a90b2cf17f"
+    },
+    {
+      "path": "glyphwiki.lock.json",
+      "sha256": "0b3428246b814af28fbc70da384f8f45c388b915bf62fd8330e49e8e63f93536"
+    },
+    {
+      "path": "inventory.jsonl",
+      "sha256": "80cd7c099186c17fadbf1766e2a4b15fab6db66024483534f791a40c5c1bf3b0"
+    },
+    {
+      "path": "mappings.jsonl",
+      "sha256": "aa06be9392495dd1b23c7682ca3ff28697cd272a31122f6caa9b560fa5a86b3c"
+    },
+    {
+      "path": "mappings.summary.json",
+      "sha256": "b6a104f70bca8f858ed20b5ed0282f18350f79152e3754f22f970354797e4415"
+    },
+    {
+      "path": "dependency-audit/candidate-dependencies.jsonl",
+      "sha256": "f4e36fe519a6b86e5943ac6c241ae68150bd45dd402dd81b6049e985411d7d71"
+    },
+    {
+      "path": "dependency-audit/dependency-issues.jsonl",
+      "sha256": "76c3af794adcb394217cd29462a1b1f56fa68f5fb2774768b895514e55272849"
+    },
+    {
+      "path": "dependency-audit/dependencies.jsonl",
+      "sha256": "9b3308359236a154ec800fc4b67b778d23490b406a8f48ea757242227ca56119"
+    },
+    {
+      "path": "dependency-audit/dependency-summary.json",
+      "sha256": "3bdeffedc0ee5928a51ea12e092e19e067a191ef515bf8924751e24b6a3af7c1"
+    },
+    {
+      "path": "dependency-audit/checksums.json",
+      "sha256": "d626cc23a47bd882641b175df8457fa6b371107a2f144ad032874ff2973d8add"
+    },
+    {
+      "path": "dependency-audit/glyphs.jsonl",
+      "sha256": "af36d6ba7ba7f40134b9aeea20e2ef7a4d7a387ef422c32593d589e9567a2a8f"
+    },
+    {
+      "path": "pua-research/pua-candidates.jsonl",
+      "sha256": "5ba83355b82c55523ff4cc91e94b7ee9a9b0b9696fc4abeec8ea474c4d7802a4"
+    },
+    {
+      "path": "pua-research/dependency-audit/candidate-dependencies.jsonl",
+      "sha256": "88bc3e17a2d901b16bfa0a18c84a33b44a8fa1238839d910845e89847b6c8466"
+    },
+    {
+      "path": "pua-research/dependency-audit/dependency-issues.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "pua-research/dependency-audit/dependencies.jsonl",
+      "sha256": "7b14f91f73422b18563549b1815a87a3d6c0271f4b92bf1e61564c2d8956b51c"
+    },
+    {
+      "path": "pua-research/dependency-audit/dependency-summary.json",
+      "sha256": "861f8ad708df8bf50b5ffb3407607d7f4f2dbd17f6cf2b3db24159229e685626"
+    },
+    {
+      "path": "pua-research/dependency-audit/checksums.json",
+      "sha256": "122aa87c608326483f85b84f9dee9f2a861b4267788f4f5067b5e25aef639fa0"
+    },
+    {
+      "path": "pua-research/dependency-audit/glyphs.jsonl",
+      "sha256": "4e7fdf5ed9d0f681074be6a50a7db3798984a65a1dc8abdbb3908f8802b34484"
+    },
+    {
+      "path": "syntax-audit/syntax-issues.jsonl",
+      "sha256": "166e6ab844810df0d54e6f7fd9c030f30f1b37e31535e29b64c5b4afc68ebc37"
+    },
+    {
+      "path": "syntax-audit/syntax-summary.json",
+      "sha256": "15477e1b4a4ce7eb87803f9c83e0f10e27c9b84f02719b23a161e666ba27fe52"
+    }
+  ],
+  "different_local_files": [
+    "syntax-audit/syntax-summary.json"
+  ],
+  "difference_explanation": "Syntax summary records the Linux database physical hash; stored database table values and syntax findings are identical."
+}

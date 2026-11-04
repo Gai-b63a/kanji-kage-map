@@ -1,0 +1,18 @@
+{
+  "format": "kanji-kage-map-portable-v0.1",
+  "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+  "counts": {
+    "inventory": 109556,
+    "mappings": 109556,
+    "glyphs": 1201970,
+    "dependencies": 1810938,
+    "issues": 4,
+    "missing_dependency_targets": 1
+  },
+  "database_sha256": "99d876fce6118a3b80924fd05b3b9c8580ac0496a5db403daba0ac6ff64b3ab6",
+  "gzip_sha256": "3f689b0ea51466a945ca6b09c3d474f50f0701e367322a235a5406c1a608658f",
+  "database_bytes": 1033977856,
+  "gzip_bytes": 87183731,
+  "status": "local-build-only-not-published",
+  "confirmed_matches": 0
+}

@@ -2,7 +2,7 @@
 
 Unicode漢字・部品、および版を指定したBabelStone PUA識別子から、対応するGlyphWikiのKAGE字形を探し、根拠と確認状態を付けて配布するデータセット。
 
-**コードと監査資料を公開し、GitHub上のテスト成功を確認しました（2026-11-04）。全109,556識別子を保持していますが、字形一致の確認済み対応は0件です。** 大容量配布物の公開・取得検証は進行中です。[公開CI](https://github.com/Gai-b63a/kanji-kage-map/actions)
+**[暫定リリース v0.1.0-preview.1](https://github.com/Gai-b63a/kanji-kage-map/releases/tag/v0.1.0-preview.1) を公開しました（2026-11-04）。全109,556識別子を保持していますが、字形一致の確認済み対応は0件です。** Linuxでの再生成・全件検証と、公開配布物のダウンロード照合を完了しました。[公開検証記録](docs/PUBLICATION.md)
 
 ## 対象と目的
 
@@ -58,7 +58,7 @@ python -m unittest discover -s tests -v
 
 PUAの公式TTF・WOFF・WOFF2は内部版が1.472で、採用表1.473と不一致でした。6文字の不足を明示し、正解字形としての採用は保留しています。KAGE側のPUA候補2,406字形は空でない有限の描画出力を確認しましたが、字形一致の認定とは別です。[フォント調査と描画検証](docs/FONT-REVIEW.md)
 
-元索引なしで使える独立SQLiteデータセットも生成・全件検証しました。圧縮サイズは約92MB、同じ入力からの再生成でSQLite・gzipとも一致しています。[配布用データの使用方法](docs/PORTABLE-DATASET.md)。大容量配布物の公開・取得検証は進行中です。全収録KAGEの追加検査と検索時の所見取得は [静的検査](docs/SYNTAX-AUDIT.md) に記載しています。
+元索引なしで使える独立SQLiteデータセットを公開しました。公開ZIPは約87.5MBです。[配布用データの使用方法](docs/PORTABLE-DATASET.md)。同一環境ではバイト一致、Windows/Linux間では全DB格納値の一致を確認しています。全収録KAGEの追加検査と検索時の所見取得は [静的検査](docs/SYNTAX-AUDIT.md) に記載しています。
 
 ## 既存試作との関係
 
