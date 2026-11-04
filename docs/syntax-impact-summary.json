@@ -1,0 +1,38 @@
+{
+  "format": "kage-static-impact-v1",
+  "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+  "dataset_sha256": "7b235cb838c4abc948086b30e3625092196ba51edef5b12fb1d9782d7eb4df0d",
+  "direct_findings_sha256": "166e6ab844810df0d54e6f7fd9c030f30f1b37e31535e29b64c5b4afc68ebc37",
+  "checker_sha256": "f5ec5e10565f1093021d09054643d4436ee34a6252dd339ef7ef4811a193329c",
+  "direct_finding_origins": 418,
+  "reachable_nodes_with_findings": 560,
+  "counts": {
+    "entities_scanned": 109556,
+    "candidate_links_scanned": 955185,
+    "affected_candidate_links": 554,
+    "dependency_only_candidate_links": 140,
+    "affected_entities": 438,
+    "direct_finding_candidate_links": 414
+  },
+  "unique_affected_candidate_roots": 554,
+  "candidate_links_by_reason": {
+    "blank_numeric_zero_coercion": 35,
+    "engine_unsupported_command": 58,
+    "invalid_command_tag": 6,
+    "missing_numeric_field": 1,
+    "noncanonical_nonnegative_integer": 450,
+    "nonnumeric_field": 4
+  },
+  "entities_by_reason": {
+    "blank_numeric_zero_coercion": 33,
+    "engine_unsupported_command": 55,
+    "invalid_command_tag": 6,
+    "missing_numeric_field": 1,
+    "noncanonical_nonnegative_integer": 341,
+    "nonnumeric_field": 4
+  },
+  "affected_links_verified_by_bundle_inspection": 554,
+  "output_sha256": "ffbbd988cbb77d814edbbdf1c8a2fcaf9aa4359e4a5621331f340f0121b633d3",
+  "output_bytes": 6570,
+  "limitation": "Reachability of static findings, not proof of rendering failure or glyph mismatch. Reasons overlap; raw KAGE and existing mapping states are unchanged."
+}
