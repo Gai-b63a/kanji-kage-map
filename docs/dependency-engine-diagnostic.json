@@ -1,0 +1,185 @@
+{
+  "format": "dependency-engine-diagnostic-v1",
+  "engine": "@kurgm/kage-engine@0.7.0",
+  "input_sha256": "6431579a1dda27a4e37646a624aa5784a08e7a08392fab143e13b68b3fa0f10d",
+  "engine_source_sha256": {
+    "kage.js": "af910dd2e1e9c4a1363c2d0b4ee199703cde4c8b4342b4a2f150bf878f140e2f",
+    "buhin.js": "1fa24104b152c660bbfef62bc3396e743a5d283bc0ecac9f7d00b2649aab1ac6",
+    "stroke.js": "e0bac2af2a442b8e000ca2d23824d1a908ef56dce08bb7e9bd1b74823e22f481",
+    "font/mincho/index.js": "b7f7f73fc83d5043b06795fb016def44868c877d7116cee510dce2c5d2eabcab"
+  },
+  "policy": "Known invalid inputs observed without repair; no dependency, mapping or equivalence status changes. Nonfinite stroke fields include unused coordinates and are not independently a validity judgment.",
+  "results": [
+    {
+      "entity_id": "unicode:U+28CD8",
+      "candidate": "twedu-c15255-001@6",
+      "dependency_status": "issues",
+      "raw_glyph_hashes": {
+        "twedu-c15255-001@6": "51536889ca5990d8b0bac8d69efaaf9991a05a271ea7e80d5b38a30aba17c72d",
+        "u5c6f-var-006": "b3bfc33e5caf35ac2999a9ae514976c7c92ebd91ea51de3d899ba98372731cbe",
+        "cdpo-854a-05": "8735524626857cee98ff444889b6b2f66ac1014fcf6c909a0c8b0114f65ee8da"
+      },
+      "expanded_strokes": 16,
+      "strokes_with_nonfinite_fields": 16,
+      "polygon_count": 32,
+      "nonfinite_output_points": 0,
+      "svg_sha256": "732601eed52655aa7d6fc6196e89b919eb9a2bcee0d7ac7c245d4d427f549623",
+      "engine_result": "nonempty_output",
+      "missing_lookups": [],
+      "counterfactual_omission": {
+        "policy": "Diagnostic omission only, not an approved repair",
+        "svg_sha256": "732601eed52655aa7d6fc6196e89b919eb9a2bcee0d7ac7c245d4d427f549623",
+        "polygon_count": 32,
+        "same_svg_as_original": true
+      }
+    },
+    {
+      "entity_id": "unicode:U+28EB6",
+      "candidate": "hkcs_m28eb6@1",
+      "dependency_status": "issues",
+      "raw_glyph_hashes": {
+        "hkcs_m28eb6@1": "7d69512079cf7851608985d0fe459adb5cad48ff591bcf1828c286f31eaf37a6",
+        "hkcs_m9675": "2ea6f960d894a16ebca4b95085a7514acefe29762e36a1f97b9bae85907e3df7",
+        "hkcs_m590c-p02-s00": "7952444a3188d9c13c02f847b165540a6fc0f5899d66b6bc65b726e50cc1f7f7",
+        "hkcs_m5902-p04-s00": "e08ee66eea01463290e78befe8c6a6bd20dd025f44d6ce7ceaab3110b6d3bbdc",
+        "hkcs_m961d-p01-s00": "307da8ac4c9a07409c1b9ae01bb4544ed56956b7a31b2013d60138d6cb13aa25",
+        "hkcs_wrong": "8b40d065ec6434808727608c723bac92399129861e5a91b006f6f5f902f74f33",
+        "hkcs_m932f@2": "b34bfc91116704b712b620e9dd052d0f4b64a55eabeca491600347f074c9b85f",
+        "hkcs_m6614-p02-s00@3": "e80d160fbdc76d27c61957a2c2c1dae27ad0c661e10494ef736670f1a70ca253",
+        "hkcs_m65e5-04@2": "3bd067a6a2761928fee7146ca1c4f45da9cce41de1a64a106bfafd9d6f5f561e",
+        "hkcs_m91d2-01@1": "3edc285e0c3615c73c298ae15dfc3059c561f0a6a8ef028cda50450c18f01144",
+        "u25cb@3": "f4558907dd4fb7692074fff1a1e9769965b25977e02fe1b09980280e1fe5d186",
+        "circle@3": "47b6d680402ff71d5984d900c1bd8d372dd986b44054bce6fb3a0e9399d8d1db",
+        "u25ef": "c7a0bed686f96ddd9207cd3422299c3234000f205df24406ddb61c60ecf18fe2"
+      },
+      "expanded_strokes": 38,
+      "strokes_with_nonfinite_fields": 34,
+      "polygon_count": 69,
+      "nonfinite_output_points": 0,
+      "svg_sha256": "eb6b243f6de05fe455829a988282f3e3f5b15cb5f89a1fe9d719e066f2619d9a",
+      "engine_result": "nonempty_output",
+      "missing_lookups": [],
+      "counterfactual_omission": {
+        "policy": "Diagnostic omission only, not an approved repair",
+        "svg_sha256": "5cf469be2271e7b61f3da739b4c203d33ac599eb5a77beff340a444724907609",
+        "polygon_count": 69,
+        "same_svg_as_original": false
+      }
+    },
+    {
+      "entity_id": "unicode:U+29006",
+      "candidate": "hkcs_m29006@1",
+      "dependency_status": "issues",
+      "raw_glyph_hashes": {
+        "hkcs_m29006@1": "90ab3d3b14586cbd102bb62c5f86d36e895a5f6c887ae19826c8ef4afd2345f1",
+        "hkcs_m96b9-p02-s02": "8242a0bbbb5ecba12912d574e19587cb962c6d207ab31634237a6ae191ee1ac1",
+        "hkcs_m7a81-p01-s00": "fd6b9d2bc4fa1ca484e628db7cd26c51a96760560e54f5f279d0d14c58f0df54"
+      },
+      "expanded_strokes": 19,
+      "strokes_with_nonfinite_fields": 18,
+      "polygon_count": 44,
+      "nonfinite_output_points": 0,
+      "svg_sha256": "c1afc573927ba9f7071635d89a7820dd420344a0dda0281db7c957edc4cdb403",
+      "engine_result": "nonempty_output",
+      "missing_lookups": [],
+      "counterfactual_omission": {
+        "policy": "Diagnostic omission only, not an approved repair",
+        "svg_sha256": "c1afc573927ba9f7071635d89a7820dd420344a0dda0281db7c957edc4cdb403",
+        "polygon_count": 44,
+        "same_svg_as_original": true
+      }
+    },
+    {
+      "entity_id": "unicode:U+31296",
+      "candidate": "hkcs_m31296@1",
+      "dependency_status": "issues",
+      "raw_glyph_hashes": {
+        "hkcs_m31296@1": "1ad1ea70f6c9a67cb74103179ddc0c2dcd9f17931cc494d58fb324064562b7fa",
+        "hkcs_digit2-f": "de2db82a648c6bac2ac9ce944f24b31a8faba0fa392feaf3923c5fc1dbd3407a",
+        "hkcs_digit2-9": "d502b91893d45439a64156dea06f47309619f9838559e104ea267f1ac3580ca9",
+        "hkcs_digit2-d": "836e9143cab2b77f367d6c316334fb8aa4e9db14423fe34ebdc407685b060307",
+        "hkcs_digit2-u": "8b1fc42b3dd29e1046997151cdf5a8697e3978442251d8e1b24064edb5269ec6",
+        "hkcs_m9d9f": "07c70e461ec05ee28706ab8ab9b308c48ca0fbdeb8b7cd17fdc0caec3f81cc4e",
+        "hkcs_m9ce5-p02-s00": "822bbe36945ef908e19411d1fa8b191cb4259de40f26e47660f787c8fc60f3c6",
+        "hkcs_m7a81-p01-s00": "fd6b9d2bc4fa1ca484e628db7cd26c51a96760560e54f5f279d0d14c58f0df54",
+        "hkcs_u25a1": "cc092510dcc07044a48eb84caf4eda42bb65677411aa71764a84e7b03a15ce38",
+        "hkcs_char-2245": "8439a93775fbe738ffaebce8a4fafcc63697472103b4be58f22aefe9159a533e",
+        "uff5e": "fd9f49954affae70c9fc399c0ea85e56b8f91c802e21b2eea1d38c3be16a5daf"
+      },
+      "expanded_strokes": 56,
+      "strokes_with_nonfinite_fields": 55,
+      "polygon_count": 86,
+      "nonfinite_output_points": 0,
+      "svg_sha256": "3c1d430658cb945ee1919ee6d6ccc37ced66711cfddb33f096e3bd5fe9b85f07",
+      "engine_result": "nonempty_output",
+      "missing_lookups": [],
+      "counterfactual_omission": {
+        "policy": "Diagnostic omission only, not an approved repair",
+        "svg_sha256": "3c1d430658cb945ee1919ee6d6ccc37ced66711cfddb33f096e3bd5fe9b85f07",
+        "polygon_count": 86,
+        "same_svg_as_original": true
+      }
+    },
+    {
+      "entity_id": "unicode:U+39B3",
+      "candidate": "lp_lps-00001460@1",
+      "dependency_status": "issues",
+      "raw_glyph_hashes": {
+        "lp_lps-00001460@1": "0ea49d59921572cac2c74f2b20f11917ec638f8fea6cddded267f7db52fd79c2"
+      },
+      "expanded_strokes": 1,
+      "strokes_with_nonfinite_fields": 1,
+      "polygon_count": 0,
+      "nonfinite_output_points": 0,
+      "svg_sha256": "de560f9748e5628018279d3247a1a1be0beb5af0d8aa9f167008400000f27bad",
+      "engine_result": "empty_output",
+      "missing_lookups": [
+        "lp_lpy-00001460"
+      ]
+    },
+    {
+      "entity_id": "unicode:U+7A81",
+      "candidate": "hkcs_m7a81-p01-s00@1",
+      "dependency_status": "issues",
+      "raw_glyph_hashes": {
+        "hkcs_m7a81-p01-s00@1": "fd6b9d2bc4fa1ca484e628db7cd26c51a96760560e54f5f279d0d14c58f0df54"
+      },
+      "expanded_strokes": 11,
+      "strokes_with_nonfinite_fields": 10,
+      "polygon_count": 28,
+      "nonfinite_output_points": 0,
+      "svg_sha256": "684b60ddf8a09e6127f298a65f1a24acf041622c32b7e463c7e44f61307dc5e6",
+      "engine_result": "nonempty_output",
+      "missing_lookups": [],
+      "counterfactual_omission": {
+        "policy": "Diagnostic omission only, not an approved repair",
+        "svg_sha256": "684b60ddf8a09e6127f298a65f1a24acf041622c32b7e463c7e44f61307dc5e6",
+        "polygon_count": 28,
+        "same_svg_as_original": true
+      }
+    },
+    {
+      "entity_id": "unicode:U+9D9F",
+      "candidate": "hkcs_m9d9f@1",
+      "dependency_status": "issues",
+      "raw_glyph_hashes": {
+        "hkcs_m9d9f@1": "07c70e461ec05ee28706ab8ab9b308c48ca0fbdeb8b7cd17fdc0caec3f81cc4e",
+        "hkcs_m9ce5-p02-s00": "822bbe36945ef908e19411d1fa8b191cb4259de40f26e47660f787c8fc60f3c6",
+        "hkcs_m7a81-p01-s00": "fd6b9d2bc4fa1ca484e628db7cd26c51a96760560e54f5f279d0d14c58f0df54"
+      },
+      "expanded_strokes": 24,
+      "strokes_with_nonfinite_fields": 23,
+      "polygon_count": 52,
+      "nonfinite_output_points": 0,
+      "svg_sha256": "5b242c3e59b7ba78180e8a57d64ddd1c5eb8adc12a11f2fedb10c4c215636b15",
+      "engine_result": "nonempty_output",
+      "missing_lookups": [],
+      "counterfactual_omission": {
+        "policy": "Diagnostic omission only, not an approved repair",
+        "svg_sha256": "5b242c3e59b7ba78180e8a57d64ddd1c5eb8adc12a11f2fedb10c4c215636b15",
+        "polygon_count": 52,
+        "same_svg_as_original": true
+      }
+    }
+  ]
+}
