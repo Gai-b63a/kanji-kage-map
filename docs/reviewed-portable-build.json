@@ -1,0 +1,15 @@
+{
+  "format": "reviewed-portable-build-v1",
+  "parent_dataset_sha256": "99d876fce6118a3b80924fd05b3b9c8580ac0496a5db403daba0ac6ff64b3ab6",
+  "dataset_sha256": "c3aacc26de5293abf9dee45f81315f0e7e8f37f0f987ba6d18078b665aebfe8f",
+  "ledger_sha256": "3d16ef0af168cec418d1b9b46848c2a81286b077438a158d24718fbbe27484d3",
+  "history_records": 3,
+  "active_records": 3,
+  "active_decisions": {
+    "different": 1,
+    "equivalent": 1,
+    "inconclusive": 1
+  },
+  "mapping_records_unchanged": true,
+  "limitation": "Scoped review ledger embedded; global mapping selection and coverage are not rewritten."
+}

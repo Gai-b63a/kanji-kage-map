@@ -124,6 +124,7 @@ def build_release(directory, output, project):
 
 
 def lookup_release(dataset, value, glyph=None):
+    from .review_decisions import attach_embedded
     identifier = normalize_identifier(value)
     with closing(sqlite3.connect(Path(dataset).resolve().as_uri() + '?mode=ro', uri=True)) as db:
         metadata = {k:json.loads(v) for k,v in db.execute('SELECT key,value FROM metadata')}
@@ -136,7 +137,7 @@ def lookup_release(dataset, value, glyph=None):
         result['bundle'] = None
         result['bundle_status'] = 'choose_candidate' if result['candidates'] else 'no_evidence_backed_candidate'
         if glyph is None:
-            return result
+            return attach_embedded(result, metadata)
         candidate = next((c for c in result['candidates'] if c['name'] == glyph), None)
         if not candidate or candidate['revision'] is None:
             raise ValueError('Requested glyph is not a pinned candidate')
@@ -172,4 +173,4 @@ def lookup_release(dataset, value, glyph=None):
                                dependencies=edges, issues=problems, dependency_status='issues' if problems else 'complete',
                                review_status='unreviewed', render_status='not_run')
         result['static_syntax_audit'] = inspect_bundle(result['bundle'])
-        return result
+        return attach_embedded(result, metadata)

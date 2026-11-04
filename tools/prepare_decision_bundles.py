@@ -4,7 +4,7 @@ from pathlib import Path
 import sys
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
-from kanji_kage_map.review_decisions import read_history, attach_decisions
+from kanji_kage_map.review_decisions import read_history, attach_history
 from kanji_kage_map.release import lookup_release
 from kanji_kage_map.sources import write_json
 
@@ -25,7 +25,7 @@ if __name__ == '__main__':
         if key in seen:
             continue
         result=lookup_release(args.dataset,review['entity_id'],review['glyph_reference'].rsplit('@',1)[0])
-        attach_decisions(result,args.ledger)
+        attach_history(result,ledger)
         if result['bundle']['root'] != review['glyph_reference']:
             raise ValueError('Reviewed revision is not the resolved candidate revision')
         records.append(dict(glyph=review['glyph_reference'],entity_id=review['entity_id'],bundle=result['bundle']))

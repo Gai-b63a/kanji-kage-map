@@ -82,7 +82,10 @@ def subject(record):
 
 
 def read_history(path):
-    raw = Path(path).read_bytes()
+    return parse_history(Path(path).read_bytes())
+
+
+def parse_history(raw):
     history, current, ids = [], {}, {}
     for line in raw.decode('utf-8').splitlines():
         record = validate(json.loads(line))
@@ -104,7 +107,11 @@ def read_history(path):
 
 
 def attach_decisions(result, path):
-    ledger = read_history(path)
+    require('review_decisions' not in result, 'Dataset already contains reviews; append with include_reviews instead of replacing history')
+    return attach_history(result, read_history(path))
+
+
+def attach_history(result, ledger):
     candidates = {f"{c['name']}@{c['revision']}" for c in result['candidates']}
     relevant = [r for r in ledger['history'] if r['entity_id'] == result['entity_id']]
     for record in relevant:
@@ -116,3 +123,11 @@ def attach_decisions(result, path):
     return dict(result, review_decisions=dict(file_sha256=ledger['file_sha256'],history=history,
                 active_review_ids=[i for i in ledger['active_review_ids'] if i in ids],
                 application='scoped_evidence_only_no_automatic_selection'))
+
+
+def attach_embedded(result, metadata):
+    if 'review_ledger_jsonl' not in metadata:
+        return result
+    raw = metadata['review_ledger_jsonl'].encode('utf-8')
+    require(hashlib.sha256(raw).hexdigest() == metadata['review_ledger_sha256'], 'Embedded review checksum mismatch')
+    return attach_history(result, parse_history(raw))

@@ -1,0 +1,34 @@
+{
+  "format": "reviewed-portable-full-comparison-v1",
+  "parent_sha256": "99d876fce6118a3b80924fd05b3b9c8580ac0496a5db403daba0ac6ff64b3ab6",
+  "derived_sha256": "c3aacc26de5293abf9dee45f81315f0e7e8f37f0f987ba6d18078b665aebfe8f",
+  "all_original_table_rows_equal": {
+    "inventory": 109556,
+    "mappings": 109556,
+    "glyphs": 1201970,
+    "dependencies": 1810938,
+    "issues": 4
+  },
+  "all_original_metadata_equal": true,
+  "added_metadata_keys": [
+    "review_application",
+    "review_ledger_inputs",
+    "review_ledger_jsonl",
+    "review_ledger_sha256",
+    "review_parent_dataset_sha256"
+  ],
+  "lookup_examples": [
+    {
+      "entity_id": "unicode:U+4E00",
+      "review_records": 1
+    },
+    {
+      "entity_id": "unicode:U+6D77",
+      "review_records": 2
+    },
+    {
+      "entity_id": "unicode:U+9F8D",
+      "review_records": 0
+    }
+  ]
+}

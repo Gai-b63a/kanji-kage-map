@@ -7,7 +7,7 @@ import sys
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from kanji_kage_map.glyphwiki import digest_file
 from kanji_kage_map.release import lookup_release
-from kanji_kage_map.review_decisions import read_history, attach_decisions
+from kanji_kage_map.review_decisions import read_history, attach_history
 from kanji_kage_map.sources import write_json
 
 
@@ -20,7 +20,7 @@ if __name__ == '__main__':
     ledger=read_history(args.ledger)
     entities={r['entity_id'] for r in ledger['history']}
     for entity in sorted(entities):
-        attach_decisions(lookup_release(args.dataset,entity),args.ledger)
+        attach_history(lookup_release(args.dataset,entity),ledger)
     active=[r for r in ledger['history'] if r['review_id'] in ledger['active_review_ids']]
     report=dict(format='review-ledger-validation-v1',ledger_sha256=ledger['file_sha256'],
                 dataset_sha256=digest_file(args.dataset),history_records=len(ledger['history']),
