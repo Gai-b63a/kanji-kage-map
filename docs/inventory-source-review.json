@@ -1,0 +1,2837 @@
+{
+  "format": "inventory-source-review-v1",
+  "reviewer": "Codex (automated source audit, policy inspected by agent)",
+  "review_date": "2026-11-04",
+  "queue_sha256": "174e0710ac97d31e45c4343bfe891df383070a1f68a997c9f66328e7dffde3a3",
+  "source_hashes": {
+    "ids": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+    "ids-pua": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+    "pua-page": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+    "ucd-readme": "b0ea442f29dee90584aacd3665a6e1ce87ffc917a4d31f34e1916d2d6f7f9205",
+    "unicode-data": "0736451de439ae7baf1425136617da495e09ee5afbe6e394374db7009ea08950",
+    "prop-list": "f438f532e8737bb8a2702126cdf9c4af5e357c58c7acf9d9eb2fc7c1a1d955d6",
+    "blocks": "a58f8d322f3c5e254f9f97b1cbf76a454a7e02de6ac35619a5e4f27aaabfd553",
+    "unicode-license": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96"
+  },
+  "operator_arity_matches_pinned_ucd": true,
+  "entities": 61,
+  "evidence_events": 160,
+  "decisions": {
+    "source_whitespace_preserved": 1,
+    "assigned_unicode_leaves_outside_han_and_radical_sets": 49,
+    "source_expression_not_one_complete_ids": 11
+  },
+  "confirmed_glyph_matches": 0,
+  "records": [
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E4FA",
+      "source_review_status": "source_audit_complete",
+      "decision": "source_whitespace_preserved",
+      "evidence": [
+        {
+          "line": 1144,
+          "raw": "⿱口⿰⿰丶丶 口",
+          "reason": "whitespace_in_ids",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 9460,
+          "raw": "⿱口⿰⿰丶丶 口",
+          "reason": "whitespace_in_ids",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {},
+      "expression_balances": {
+        "⿱口⿰⿰丶丶 口": {
+          "complete_or_partial_roots": 1,
+          "unfilled_child_slots": 0,
+          "one_complete_expression": true
+        }
+      },
+      "next_action": "Retain the exact source; ignoring whitespace for inventory enumeration is not a glyph correction.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E798",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 1806,
+          "raw": "☰",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 14821,
+          "raw": "☰",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+2630": {
+          "character": "☰",
+          "assigned": true,
+          "block": "Miscellaneous Symbols",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E799",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 1807,
+          "raw": "☱",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 14829,
+          "raw": "☱",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+2631": {
+          "character": "☱",
+          "assigned": true,
+          "block": "Miscellaneous Symbols",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E79A",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 1808,
+          "raw": "☲",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 14837,
+          "raw": "☲",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+2632": {
+          "character": "☲",
+          "assigned": true,
+          "block": "Miscellaneous Symbols",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E79B",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 1809,
+          "raw": "☳",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 14845,
+          "raw": "☳",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+2633": {
+          "character": "☳",
+          "assigned": true,
+          "block": "Miscellaneous Symbols",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E79C",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 1810,
+          "raw": "☴",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 14853,
+          "raw": "☴",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+2634": {
+          "character": "☴",
+          "assigned": true,
+          "block": "Miscellaneous Symbols",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E79D",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 1811,
+          "raw": "☵",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 14861,
+          "raw": "☵",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+2635": {
+          "character": "☵",
+          "assigned": true,
+          "block": "Miscellaneous Symbols",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E79E",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 1812,
+          "raw": "☶",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 14869,
+          "raw": "☶",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+2636": {
+          "character": "☶",
+          "assigned": true,
+          "block": "Miscellaneous Symbols",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E79F",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 1813,
+          "raw": "☷",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 14877,
+          "raw": "☷",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+2637": {
+          "character": "☷",
+          "assigned": true,
+          "block": "Miscellaneous Symbols",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E860",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 2006,
+          "raw": "〇",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 16447,
+          "raw": "〇",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+3007": {
+          "character": "〇",
+          "assigned": true,
+          "block": "CJK Symbols and Punctuation",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E861",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 2007,
+          "raw": "〇",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 16456,
+          "raw": "〇",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+3007": {
+          "character": "〇",
+          "assigned": true,
+          "block": "CJK Symbols and Punctuation",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E862",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 2008,
+          "raw": "〇",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 16464,
+          "raw": "〇",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+3007": {
+          "character": "〇",
+          "assigned": true,
+          "block": "CJK Symbols and Punctuation",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E863",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 2009,
+          "raw": "〇",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 16472,
+          "raw": "〇",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+3007": {
+          "character": "〇",
+          "assigned": true,
+          "block": "CJK Symbols and Punctuation",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E945",
+      "source_review_status": "source_audit_complete",
+      "decision": "source_expression_not_one_complete_ids",
+      "evidence": [
+        {
+          "line": 2201,
+          "raw": "⿳一八⿰丿⿰丨丨㇂",
+          "reason": "extra_ids_operand",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 2201,
+          "raw": "⿳一八⿰丿⿰丨丨㇂",
+          "reason": "ids_arity_mismatch",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 18020,
+          "raw": "⿳一八⿰丿⿰丨丨㇂",
+          "reason": "extra_ids_operand",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        },
+        {
+          "line": 18020,
+          "raw": "⿳一八⿰丿⿰丨丨㇂",
+          "reason": "ids_arity_mismatch",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {},
+      "expression_balances": {
+        "⿳一八⿰丿⿰丨丨㇂": {
+          "complete_or_partial_roots": 2,
+          "unfilled_child_slots": 0,
+          "one_complete_expression": false
+        }
+      },
+      "next_action": "Obtain an explicit source correction or edition-specific glyph evidence; do not infer a corrected expression.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+EA13",
+      "source_review_status": "source_audit_complete",
+      "decision": "source_expression_not_one_complete_ids",
+      "evidence": [
+        {
+          "line": 2395,
+          "raw": "⿳艹⿴北白八夊",
+          "reason": "extra_ids_operand",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 2395,
+          "raw": "⿳艹⿴北白八夊",
+          "reason": "ids_arity_mismatch",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 19603,
+          "raw": "⿳艹⿴北白八夊",
+          "reason": "extra_ids_operand",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        },
+        {
+          "line": 19603,
+          "raw": "⿳艹⿴北白八夊",
+          "reason": "ids_arity_mismatch",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {},
+      "expression_balances": {
+        "⿳艹⿴北白八夊": {
+          "complete_or_partial_roots": 2,
+          "unfilled_child_slots": 0,
+          "one_complete_expression": false
+        }
+      },
+      "next_action": "Obtain an explicit source correction or edition-specific glyph evidence; do not infer a corrected expression.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+EB12",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 2643,
+          "raw": "〥",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 21640,
+          "raw": "〥",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+3025": {
+          "character": "〥",
+          "assigned": true,
+          "block": "CJK Symbols and Punctuation",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+EB13",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 2644,
+          "raw": "〦",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 21648,
+          "raw": "〦",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+3026": {
+          "character": "〦",
+          "assigned": true,
+          "block": "CJK Symbols and Punctuation",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+EDE1",
+      "source_review_status": "source_audit_complete",
+      "decision": "source_expression_not_one_complete_ids",
+      "evidence": [
+        {
+          "line": 3346,
+          "raw": "⿱山⿶凵氺八承",
+          "reason": "extra_ids_operand",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 3346,
+          "raw": "⿱山⿶凵氺八承",
+          "reason": "ids_arity_mismatch",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 27467,
+          "raw": "⿱山⿶凵氺八承",
+          "reason": "extra_ids_operand",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        },
+        {
+          "line": 27467,
+          "raw": "⿱山⿶凵氺八承",
+          "reason": "ids_arity_mismatch",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {},
+      "expression_balances": {
+        "⿱山⿶凵氺八承": {
+          "complete_or_partial_roots": 3,
+          "unfilled_child_slots": 0,
+          "one_complete_expression": false
+        }
+      },
+      "next_action": "Obtain an explicit source correction or edition-specific glyph evidence; do not infer a corrected expression.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F0E8",
+      "source_review_status": "source_audit_complete",
+      "decision": "source_expression_not_one_complete_ids",
+      "evidence": [
+        {
+          "line": 4100,
+          "raw": "⿱⿺二女",
+          "reason": "ids_arity_mismatch",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 33659,
+          "raw": "⿱⿺二女",
+          "reason": "ids_arity_mismatch",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {},
+      "expression_balances": {
+        "⿱⿺二女": {
+          "complete_or_partial_roots": 1,
+          "unfilled_child_slots": 1,
+          "one_complete_expression": false
+        }
+      },
+      "next_action": "Obtain an explicit source correction or edition-specific glyph evidence; do not infer a corrected expression.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F11E",
+      "source_review_status": "source_audit_complete",
+      "decision": "source_expression_not_one_complete_ids",
+      "evidence": [
+        {
+          "line": 4147,
+          "raw": "⿰⿰⿳士冖麥殳",
+          "reason": "ids_arity_mismatch",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 34045,
+          "raw": "⿰⿰⿳士冖麥殳",
+          "reason": "ids_arity_mismatch",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {},
+      "expression_balances": {
+        "⿰⿰⿳士冖麥殳": {
+          "complete_or_partial_roots": 1,
+          "unfilled_child_slots": 1,
+          "one_complete_expression": false
+        }
+      },
+      "next_action": "Obtain an explicit source correction or edition-specific glyph evidence; do not infer a corrected expression.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F164",
+      "source_review_status": "source_audit_complete",
+      "decision": "source_expression_not_one_complete_ids",
+      "evidence": [
+        {
+          "line": 4214,
+          "raw": "⿰氵丰月",
+          "reason": "extra_ids_operand",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 4214,
+          "raw": "⿰氵丰月",
+          "reason": "ids_arity_mismatch",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 34588,
+          "raw": "⿰氵丰月",
+          "reason": "extra_ids_operand",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        },
+        {
+          "line": 34588,
+          "raw": "⿰氵丰月",
+          "reason": "ids_arity_mismatch",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {},
+      "expression_balances": {
+        "⿰氵丰月": {
+          "complete_or_partial_roots": 2,
+          "unfilled_child_slots": 0,
+          "one_complete_expression": false
+        }
+      },
+      "next_action": "Obtain an explicit source correction or edition-specific glyph evidence; do not infer a corrected expression.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F3E2",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 4806,
+          "raw": "タ",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 4806,
+          "raw": "カ",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 39468,
+          "raw": "タ",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        },
+        {
+          "line": 39468,
+          "raw": "カ",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+30BF": {
+          "character": "タ",
+          "assigned": true,
+          "block": "Katakana",
+          "disposition": "retain_as_other_unicode_source_component"
+        },
+        "U+30AB": {
+          "character": "カ",
+          "assigned": true,
+          "block": "Katakana",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F4FC",
+      "source_review_status": "source_audit_complete",
+      "decision": "source_expression_not_one_complete_ids",
+      "evidence": [
+        {
+          "line": 5075,
+          "raw": "⿰疒龙鳥",
+          "reason": "extra_ids_operand",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 5075,
+          "raw": "⿰疒龙鳥",
+          "reason": "ids_arity_mismatch",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 41676,
+          "raw": "⿰疒龙鳥",
+          "reason": "extra_ids_operand",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        },
+        {
+          "line": 41676,
+          "raw": "⿰疒龙鳥",
+          "reason": "ids_arity_mismatch",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {},
+      "expression_balances": {
+        "⿰疒龙鳥": {
+          "complete_or_partial_roots": 2,
+          "unfilled_child_slots": 0,
+          "one_complete_expression": false
+        }
+      },
+      "next_action": "Obtain an explicit source correction or edition-specific glyph evidence; do not infer a corrected expression.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F579",
+      "source_review_status": "source_audit_complete",
+      "decision": "source_expression_not_one_complete_ids",
+      "evidence": [
+        {
+          "line": 5191,
+          "raw": "尸ソ",
+          "reason": "extra_ids_operand",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 5191,
+          "raw": "ソ",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 5191,
+          "raw": "尸ソ",
+          "reason": "ids_arity_mismatch",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 42622,
+          "raw": "尸ソ",
+          "reason": "extra_ids_operand",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        },
+        {
+          "line": 42622,
+          "raw": "ソ",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        },
+        {
+          "line": 42622,
+          "raw": "尸ソ",
+          "reason": "ids_arity_mismatch",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+30BD": {
+          "character": "ソ",
+          "assigned": true,
+          "block": "Katakana",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {
+        "尸ソ": {
+          "complete_or_partial_roots": 2,
+          "unfilled_child_slots": 0,
+          "one_complete_expression": false
+        }
+      },
+      "next_action": "Obtain an explicit source correction or edition-specific glyph evidence; do not infer a corrected expression.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F825",
+      "source_review_status": "source_audit_complete",
+      "decision": "source_expression_not_one_complete_ids",
+      "evidence": [
+        {
+          "line": 5858,
+          "raw": "⿱⿰⿳土宀冖去大土",
+          "reason": "extra_ids_operand",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 5858,
+          "raw": "⿱⿰⿳土宀冖去大土",
+          "reason": "ids_arity_mismatch",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 48138,
+          "raw": "⿱⿰⿳土宀冖去大土",
+          "reason": "extra_ids_operand",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        },
+        {
+          "line": 48138,
+          "raw": "⿱⿰⿳土宀冖去大土",
+          "reason": "ids_arity_mismatch",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {},
+      "expression_balances": {
+        "⿱⿰⿳土宀冖去大土": {
+          "complete_or_partial_roots": 2,
+          "unfilled_child_slots": 0,
+          "one_complete_expression": false
+        }
+      },
+      "next_action": "Obtain an explicit source correction or edition-specific glyph evidence; do not infer a corrected expression.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8BA",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 5999,
+          "raw": "ヱ",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49284,
+          "raw": "ヱ",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+30F1": {
+          "character": "ヱ",
+          "assigned": true,
+          "block": "Katakana",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8BB",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6000,
+          "raw": "ヰ",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49292,
+          "raw": "ヰ",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+30F0": {
+          "character": "ヰ",
+          "assigned": true,
+          "block": "Katakana",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8BC",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6001,
+          "raw": "ソ",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49300,
+          "raw": "ソ",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+30BD": {
+          "character": "ソ",
+          "assigned": true,
+          "block": "Katakana",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8BD",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6002,
+          "raw": "サ",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 6002,
+          "raw": "バ",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49308,
+          "raw": "サ",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        },
+        {
+          "line": 49308,
+          "raw": "バ",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+30B5": {
+          "character": "サ",
+          "assigned": true,
+          "block": "Katakana",
+          "disposition": "retain_as_other_unicode_source_component"
+        },
+        "U+30D0": {
+          "character": "バ",
+          "assigned": true,
+          "block": "Katakana",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8BF",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6004,
+          "raw": "マ",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49324,
+          "raw": "マ",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+30DE": {
+          "character": "マ",
+          "assigned": true,
+          "block": "Katakana",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8C0",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6005,
+          "raw": "K",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49332,
+          "raw": "K",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+004B": {
+          "character": "K",
+          "assigned": true,
+          "block": "Basic Latin",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8C1",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6006,
+          "raw": "K",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49340,
+          "raw": "K",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+004B": {
+          "character": "K",
+          "assigned": true,
+          "block": "Basic Latin",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8C2",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6007,
+          "raw": "K",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49348,
+          "raw": "K",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+004B": {
+          "character": "K",
+          "assigned": true,
+          "block": "Basic Latin",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8C3",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6008,
+          "raw": "A",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49356,
+          "raw": "A",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+0041": {
+          "character": "A",
+          "assigned": true,
+          "block": "Basic Latin",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8C4",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6009,
+          "raw": "E",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49364,
+          "raw": "E",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+0045": {
+          "character": "E",
+          "assigned": true,
+          "block": "Basic Latin",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8C5",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6010,
+          "raw": "N",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49372,
+          "raw": "N",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+004E": {
+          "character": "N",
+          "assigned": true,
+          "block": "Basic Latin",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8C6",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6011,
+          "raw": "M",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49380,
+          "raw": "M",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+004D": {
+          "character": "M",
+          "assigned": true,
+          "block": "Basic Latin",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8C7",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6012,
+          "raw": "도",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49388,
+          "raw": "도",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+B3C4": {
+          "character": "도",
+          "assigned": true,
+          "block": "Hangul Syllables",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8C8",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6013,
+          "raw": "ふ",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49396,
+          "raw": "ふ",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+3075": {
+          "character": "ふ",
+          "assigned": true,
+          "block": "Hiragana",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8C9",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6014,
+          "raw": "K",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49404,
+          "raw": "K",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+004B": {
+          "character": "K",
+          "assigned": true,
+          "block": "Basic Latin",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8CA",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6015,
+          "raw": "O",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49412,
+          "raw": "O",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+004F": {
+          "character": "O",
+          "assigned": true,
+          "block": "Basic Latin",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8CB",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6016,
+          "raw": "K",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 6016,
+          "raw": "O",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49420,
+          "raw": "K",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        },
+        {
+          "line": 49420,
+          "raw": "O",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+004B": {
+          "character": "K",
+          "assigned": true,
+          "block": "Basic Latin",
+          "disposition": "retain_as_other_unicode_source_component"
+        },
+        "U+004F": {
+          "character": "O",
+          "assigned": true,
+          "block": "Basic Latin",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8CC",
+      "source_review_status": "source_audit_complete",
+      "decision": "source_expression_not_one_complete_ids",
+      "evidence": [
+        {
+          "line": 6017,
+          "raw": "辶チ",
+          "reason": "extra_ids_operand",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 6017,
+          "raw": "チ",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 6017,
+          "raw": "辶チ",
+          "reason": "ids_arity_mismatch",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49428,
+          "raw": "辶チ",
+          "reason": "extra_ids_operand",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        },
+        {
+          "line": 49428,
+          "raw": "チ",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        },
+        {
+          "line": 49428,
+          "raw": "辶チ",
+          "reason": "ids_arity_mismatch",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+30C1": {
+          "character": "チ",
+          "assigned": true,
+          "block": "Katakana",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {
+        "辶チ": {
+          "complete_or_partial_roots": 2,
+          "unfilled_child_slots": 0,
+          "one_complete_expression": false
+        }
+      },
+      "next_action": "Obtain an explicit source correction or edition-specific glyph evidence; do not infer a corrected expression.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8CD",
+      "source_review_status": "source_audit_complete",
+      "decision": "source_expression_not_one_complete_ids",
+      "evidence": [
+        {
+          "line": 6018,
+          "raw": "辶ト",
+          "reason": "extra_ids_operand",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 6018,
+          "raw": "ト",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 6018,
+          "raw": "辶ト",
+          "reason": "ids_arity_mismatch",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49436,
+          "raw": "辶ト",
+          "reason": "extra_ids_operand",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        },
+        {
+          "line": 49436,
+          "raw": "ト",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        },
+        {
+          "line": 49436,
+          "raw": "辶ト",
+          "reason": "ids_arity_mismatch",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+30C8": {
+          "character": "ト",
+          "assigned": true,
+          "block": "Katakana",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {
+        "辶ト": {
+          "complete_or_partial_roots": 2,
+          "unfilled_child_slots": 0,
+          "one_complete_expression": false
+        }
+      },
+      "next_action": "Obtain an explicit source correction or edition-specific glyph evidence; do not infer a corrected expression.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8CE",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6019,
+          "raw": "キ",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49444,
+          "raw": "キ",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+30AD": {
+          "character": "キ",
+          "assigned": true,
+          "block": "Katakana",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8CF",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6020,
+          "raw": "ギ",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49452,
+          "raw": "ギ",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+30AE": {
+          "character": "ギ",
+          "assigned": true,
+          "block": "Katakana",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8D0",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6021,
+          "raw": "コ",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49460,
+          "raw": "コ",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+30B3": {
+          "character": "コ",
+          "assigned": true,
+          "block": "Katakana",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8D1",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6022,
+          "raw": "R",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49468,
+          "raw": "R",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+0052": {
+          "character": "R",
+          "assigned": true,
+          "block": "Basic Latin",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8D2",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6023,
+          "raw": "K",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49476,
+          "raw": "K",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+004B": {
+          "character": "K",
+          "assigned": true,
+          "block": "Basic Latin",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8D3",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6024,
+          "raw": "K",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49484,
+          "raw": "K",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+004B": {
+          "character": "K",
+          "assigned": true,
+          "block": "Basic Latin",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8D4",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6025,
+          "raw": "R",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49492,
+          "raw": "R",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+0052": {
+          "character": "R",
+          "assigned": true,
+          "block": "Basic Latin",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8D5",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6026,
+          "raw": "K",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49500,
+          "raw": "K",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+004B": {
+          "character": "K",
+          "assigned": true,
+          "block": "Basic Latin",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8D6",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6027,
+          "raw": "K",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49508,
+          "raw": "K",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+004B": {
+          "character": "K",
+          "assigned": true,
+          "block": "Basic Latin",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8D7",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6028,
+          "raw": "S",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49516,
+          "raw": "S",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+0053": {
+          "character": "S",
+          "assigned": true,
+          "block": "Basic Latin",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8D8",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6029,
+          "raw": "K",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49524,
+          "raw": "K",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+004B": {
+          "character": "K",
+          "assigned": true,
+          "block": "Basic Latin",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8D9",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6030,
+          "raw": "K",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49532,
+          "raw": "K",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+004B": {
+          "character": "K",
+          "assigned": true,
+          "block": "Basic Latin",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8DA",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6031,
+          "raw": "S",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49540,
+          "raw": "S",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+0053": {
+          "character": "S",
+          "assigned": true,
+          "block": "Basic Latin",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8DB",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6032,
+          "raw": "N",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49548,
+          "raw": "N",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+004E": {
+          "character": "N",
+          "assigned": true,
+          "block": "Basic Latin",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8DC",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6033,
+          "raw": "K",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49556,
+          "raw": "K",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+004B": {
+          "character": "K",
+          "assigned": true,
+          "block": "Basic Latin",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8DD",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6034,
+          "raw": "コ",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 6034,
+          "raw": "ン",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 6034,
+          "raw": "ク",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 6034,
+          "raw": "リ",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49564,
+          "raw": "コ",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        },
+        {
+          "line": 49564,
+          "raw": "ン",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        },
+        {
+          "line": 49564,
+          "raw": "ク",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        },
+        {
+          "line": 49564,
+          "raw": "リ",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+30B3": {
+          "character": "コ",
+          "assigned": true,
+          "block": "Katakana",
+          "disposition": "retain_as_other_unicode_source_component"
+        },
+        "U+30F3": {
+          "character": "ン",
+          "assigned": true,
+          "block": "Katakana",
+          "disposition": "retain_as_other_unicode_source_component"
+        },
+        "U+30AF": {
+          "character": "ク",
+          "assigned": true,
+          "block": "Katakana",
+          "disposition": "retain_as_other_unicode_source_component"
+        },
+        "U+30EA": {
+          "character": "リ",
+          "assigned": true,
+          "block": "Katakana",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8DE",
+      "source_review_status": "source_audit_complete",
+      "decision": "assigned_unicode_leaves_outside_han_and_radical_sets",
+      "evidence": [
+        {
+          "line": 6035,
+          "raw": "エ",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 6035,
+          "raw": "ン",
+          "reason": "unclassified_leaf",
+          "source_id": "ids-pua",
+          "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+          "location_kind": "text_line_ids_fields"
+        },
+        {
+          "line": 49572,
+          "raw": "エ",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        },
+        {
+          "line": 49572,
+          "raw": "ン",
+          "reason": "unclassified_leaf",
+          "source_id": "pua-page",
+          "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+          "source_version": "1.473",
+          "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+          "location_kind": "first_html_table_row_ids_cell"
+        }
+      ],
+      "leaves": {
+        "U+30A8": {
+          "character": "エ",
+          "assigned": true,
+          "block": "Katakana",
+          "disposition": "retain_as_other_unicode_source_component"
+        },
+        "U+30F3": {
+          "character": "ン",
+          "assigned": true,
+          "block": "Katakana",
+          "disposition": "retain_as_other_unicode_source_component"
+        }
+      },
+      "expression_balances": {},
+      "next_action": "Retain each source component and its kind; source presence does not establish the PUA glyph identity.",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null
+    }
+  ]
+}
