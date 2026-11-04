@@ -1,0 +1,38 @@
+{
+  "format": "syntax-affected-render-audit-v1",
+  "dataset_sha256": "4cb1ba08625e6a6771589304cfe214573c18165f32b59c68cdbc3054847cd0aa",
+  "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+  "impact_sha256": "ffbbd988cbb77d814edbbdf1c8a2fcaf9aa4359e4a5621331f340f0121b633d3",
+  "input_sha256": "808da1b9fcaaa6b2eba2a077ad1199b6c52371d56c463f0eedb7c8731f6304ef",
+  "renderer_sha256": "25fcb710dcdb7240ea78c2f9fd82f8927221a89a9ca3bd785bad9213c1a13912",
+  "package_lock_sha256": "d1728d57ce562d568f04957b4e3079ee4ec37b77e514df13802897adfedde332",
+  "engine": "@kurgm/kage-engine@0.7.0",
+  "candidate_links": 554,
+  "entities": 438,
+  "outcomes": {
+    "finite_nonempty": 548,
+    "blocked_dependency": 6
+  },
+  "outcomes_by_reason": {
+    "blank_numeric_zero_coercion": {
+      "finite_nonempty": 35
+    },
+    "engine_unsupported_command": {
+      "finite_nonempty": 58
+    },
+    "invalid_command_tag": {
+      "blocked_dependency": 6
+    },
+    "missing_numeric_field": {
+      "finite_nonempty": 1
+    },
+    "noncanonical_nonnegative_integer": {
+      "finite_nonempty": 450
+    },
+    "nonnumeric_field": {
+      "finite_nonempty": 4
+    }
+  },
+  "results_sha256": "9d4ce20de248e33ac7f78622106e708cc8c3b2fd4700e40e4b29467c4d7a554c",
+  "limitation": "Only statically flagged candidates. Existing dependency guard retained; finite nonempty output does not certify correctness or equivalence. Raw KAGE and mapping states unchanged."
+}
