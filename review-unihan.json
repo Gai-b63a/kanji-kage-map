@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "id": "unihan",
+      "url": "https://www.unicode.org/Public/18.0.0/ucd/Unihan.zip",
+      "filename": "Unihan.zip",
+      "version": "18.0.0",
+      "provider": "Unicode",
+      "encoding": "binary",
+      "license_status": "unicode-license-v3",
+      "license_url": "https://www.unicode.org/license.txt"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "unihan",
+      "url": "https://www.unicode.org/Public/18.0.0/ucd/Unihan.zip",
+      "filename": "Unihan.zip",
+      "version": "18.0.0",
+      "provider": "Unicode",
+      "encoding": "binary",
+      "license_status": "unicode-license-v3",
+      "license_url": "https://www.unicode.org/license.txt",
+      "final_url": "https://www.unicode.org/Public/18.0.0/ucd/Unihan.zip",
+      "http_last_modified": "Wed, 05 Aug 2026 18:11:42 GMT",
+      "status": "acquired",
+      "path": "data/raw/4c93ea9c1f636451729a840978f1667a53886af37ba854fdcce109721c63d43e/Unihan.zip",
+      "sha256": "4c93ea9c1f636451729a840978f1667a53886af37ba854fdcce109721c63d43e",
+      "bytes": 8340649,
+      "retrieved_at": "2026-11-04T08:57:19.168028+00:00"
+    }
+  ]
+}
