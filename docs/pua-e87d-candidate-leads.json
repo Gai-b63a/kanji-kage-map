@@ -1,0 +1,380 @@
+{
+  "format": "e87d-component-search-v1",
+  "source_table_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+  "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+  "sql": "SELECT name,revision,related,data,line FROM latest WHERE data LIKE ? AND data LIKE ? ORDER BY name",
+  "parameters": [
+    "%u98e0%",
+    "%u76e7%"
+  ],
+  "searched_latest_rows": 2095944,
+  "leads": [
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E87D",
+      "candidate": "ka-kc04555@2",
+      "related": "u3013",
+      "source_line": 548694,
+      "root_kage_sha256": "1d4b96e4c8f4505b168071914ab5e13f072dd7ca16049f5262600371e093b1ac",
+      "evidence_kind": "component_token_search_lead_only",
+      "bundle": {
+        "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+        "root": "ka-kc04555@2",
+        "glyphs": {
+          "ka-kc04555@2": {
+            "name": "ka-kc04555",
+            "revision": 2,
+            "related": "u3013",
+            "data": "99:0:0:0:0:200:200:u2ff0-u98e0-u76e7",
+            "line": 2292974
+          },
+          "u2ff0-u98e0-u76e7": {
+            "name": "u2ff0-u98e0-u76e7",
+            "revision": 2,
+            "related": "u3013",
+            "data": "99:0:0:1:0:171:200:u98e0-01:0:0:0$99:130:0:70:0:192:200:u76e7-j:0:-80:0",
+            "line": 1710737
+          },
+          "u76e7-j": {
+            "name": "u76e7-j",
+            "revision": 5,
+            "related": "u76e7",
+            "data": "99:0:0:0:0:200:200:u864d-10$99:0:0:22:85:200:195:u30937-jv",
+            "line": 1898573
+          },
+          "u30937-jv": {
+            "name": "u30937-jv",
+            "revision": 4,
+            "related": "u30937",
+            "data": "99:0:0:10:0:190:209:u7530-03$99:0:0:0:-57:200:209:u76bf-04",
+            "line": 1760094
+          },
+          "u76bf-04": {
+            "name": "u76bf-04",
+            "revision": 6,
+            "related": "u76bf",
+            "data": "1:12:32:46:133:46:178$1:2:2:46:133:154:133$1:22:32:154:133:154:178$1:32:32:82:133:82:178$1:32:32:118:133:118:178$1:0:0:14:178:186:178",
+            "line": 1898183
+          },
+          "u7530-03": {
+            "name": "u7530-03",
+            "revision": 4,
+            "related": "u7530",
+            "data": "1:12:13:40:26:40:88$1:2:2:40:26:160:26$1:22:23:160:26:160:88$1:32:32:100:26:100:88$1:2:2:40:57:160:57$1:2:2:40:88:160:88",
+            "line": 1895504
+          },
+          "u864d-10": {
+            "name": "u864d-10",
+            "revision": 3,
+            "related": "u864d",
+            "data": "1:0:32:96:13:96:46$1:2:0:96:28:165:28$7:12:7:35:46:35:111:35:163:12:185$1:2:2:35:46:176:46$2:22:7:176:46:169:56:159:68$1:0:0:45:72:153:63$3:0:5:90:48:90:85:170:85",
+            "line": 1925549
+          },
+          "u98e0-01": {
+            "name": "u98e0-01",
+            "revision": 3,
+            "related": "u98e0",
+            "data": "2:0:7:62:15:44:58:13:86$2:7:8:58:25:83:38:94:58$1:0:32:61:48:61:74$1:2:2:38:74:83:74$1:22:23:83:74:83:121$1:0:2:38:97:83:97$1:2:2:38:121:83:121$1:12:32:38:74:38:167$2:0:7:17:174:43:166:81:150$2:7:8:61:131:81:145:90:168",
+            "line": 1955634
+          }
+        },
+        "dependencies": [
+          {
+            "parent": "ka-kc04555@2",
+            "line": 1,
+            "raw_reference": "u2ff0-u98e0-u76e7",
+            "resolved_name": "u2ff0-u98e0-u76e7",
+            "resolved_revision": 2
+          },
+          {
+            "parent": "u2ff0-u98e0-u76e7",
+            "line": 1,
+            "raw_reference": "u98e0-01",
+            "resolved_name": "u98e0-01",
+            "resolved_revision": 3
+          },
+          {
+            "parent": "u2ff0-u98e0-u76e7",
+            "line": 2,
+            "raw_reference": "u76e7-j",
+            "resolved_name": "u76e7-j",
+            "resolved_revision": 5
+          },
+          {
+            "parent": "u76e7-j",
+            "line": 1,
+            "raw_reference": "u864d-10",
+            "resolved_name": "u864d-10",
+            "resolved_revision": 3
+          },
+          {
+            "parent": "u76e7-j",
+            "line": 2,
+            "raw_reference": "u30937-jv",
+            "resolved_name": "u30937-jv",
+            "resolved_revision": 4
+          },
+          {
+            "parent": "u30937-jv",
+            "line": 1,
+            "raw_reference": "u7530-03",
+            "resolved_name": "u7530-03",
+            "resolved_revision": 4
+          },
+          {
+            "parent": "u30937-jv",
+            "line": 2,
+            "raw_reference": "u76bf-04",
+            "resolved_name": "u76bf-04",
+            "resolved_revision": 6
+          }
+        ],
+        "issues": [],
+        "dependency_status": "complete",
+        "review_status": "unreviewed",
+        "render_status": "not_run"
+      }
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E87D",
+      "candidate": "takata_my-gaiji-0099@1",
+      "related": "u3013",
+      "source_line": 1438219,
+      "root_kage_sha256": "eb873501e26e2493702dcdff6578aec88e91a998e7c159acaf243d08ac53255d",
+      "evidence_kind": "component_token_search_lead_only",
+      "bundle": {
+        "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+        "root": "takata_my-gaiji-0099@1",
+        "glyphs": {
+          "takata_my-gaiji-0099@1": {
+            "name": "takata_my-gaiji-0099",
+            "revision": 1,
+            "related": "u3013",
+            "data": "99:0:0:0:0:159:200:u98e0-01@1:0:0:0$99:0:0:63:0:200:200:u76e7-g@2:0:0:0",
+            "line": 3882711
+          },
+          "u76e7-g@2": {
+            "name": "u76e7-g",
+            "revision": 2,
+            "related": "u76e7",
+            "data": "99:0:0:0:0:200:200:u864d-g10:0:0:0$99:0:0:22:85:200:195:cdp-8cf4@10:0:0:0",
+            "line": 5861010
+          },
+          "cdp-8cf4@10": {
+            "name": "cdp-8cf4",
+            "revision": 10,
+            "related": "u3013",
+            "data": "99:0:0:20:9:180:109:u7530$99:0:0:-2:-70:202:216:u76bf-04@5",
+            "line": 241163
+          },
+          "u76bf-04@5": {
+            "name": "u76bf-04",
+            "revision": 5,
+            "related": "u76bf",
+            "data": "1:12:32:46:133:46:175$1:2:2:46:133:154:133$1:22:32:154:133:154:175$1:32:32:82:133:82:175$1:32:32:118:133:118:175$1:0:0:14:175:186:175",
+            "line": 5859304
+          },
+          "u7530": {
+            "name": "u7530",
+            "revision": 4,
+            "related": "u3013",
+            "data": "99:0:0:0:0:200:200:u7530-j",
+            "line": 1895499
+          },
+          "u7530-j": {
+            "name": "u7530-j",
+            "revision": 2,
+            "related": "u7530",
+            "data": "1:12:13:33:37:33:167$1:2:2:33:37:167:37$1:22:23:167:37:167:167$1:32:32:100:37:100:167$1:2:2:33:101:167:101$1:2:2:33:167:167:167",
+            "line": 1895513
+          },
+          "u864d-g10": {
+            "name": "u864d-g10",
+            "revision": 1,
+            "related": "u864d",
+            "data": "1:0:32:96:13:96:46$1:2:0:96:28:165:28$7:12:7:35:46:35:111:35:163:12:185$1:2:2:35:46:176:46$2:22:7:176:46:169:56:159:68$1:0:0:45:72:153:63$3:0:5:96:51:96:85:170:85",
+            "line": 1925576
+          },
+          "u98e0-01@1": {
+            "name": "u98e0-01",
+            "revision": 1,
+            "related": "u98e0",
+            "data": "2:0:7:62:15:44:58:13:86$2:7:8:58:25:83:38:94:58$1:0:32:61:48:61:74$1:2:2:38:74:83:74$1:22:23:83:74:83:121$1:0:2:38:97:83:97$1:2:2:38:121:83:121$1:12:32:38:74:38:167$2:0:7:17:174:43:166:81:150$2:7:8:61:131:81:145:90:168",
+            "line": 6162441
+          }
+        },
+        "dependencies": [
+          {
+            "parent": "takata_my-gaiji-0099@1",
+            "line": 1,
+            "raw_reference": "u98e0-01@1",
+            "resolved_name": "u98e0-01",
+            "resolved_revision": 1
+          },
+          {
+            "parent": "takata_my-gaiji-0099@1",
+            "line": 2,
+            "raw_reference": "u76e7-g@2",
+            "resolved_name": "u76e7-g",
+            "resolved_revision": 2
+          },
+          {
+            "parent": "u76e7-g@2",
+            "line": 1,
+            "raw_reference": "u864d-g10",
+            "resolved_name": "u864d-g10",
+            "resolved_revision": 1
+          },
+          {
+            "parent": "u76e7-g@2",
+            "line": 2,
+            "raw_reference": "cdp-8cf4@10",
+            "resolved_name": "cdp-8cf4",
+            "resolved_revision": 10
+          },
+          {
+            "parent": "cdp-8cf4@10",
+            "line": 1,
+            "raw_reference": "u7530",
+            "resolved_name": "u7530",
+            "resolved_revision": 4
+          },
+          {
+            "parent": "cdp-8cf4@10",
+            "line": 2,
+            "raw_reference": "u76bf-04@5",
+            "resolved_name": "u76bf-04",
+            "resolved_revision": 5
+          },
+          {
+            "parent": "u7530",
+            "line": 1,
+            "raw_reference": "u7530-j",
+            "resolved_name": "u7530-j",
+            "resolved_revision": 2
+          }
+        ],
+        "issues": [],
+        "dependency_status": "complete",
+        "review_status": "unreviewed",
+        "render_status": "not_run"
+      }
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E87D",
+      "candidate": "u2ff0-u98e0-u76e7@2",
+      "related": "u3013",
+      "source_line": 1710737,
+      "root_kage_sha256": "0dd5a1d08b683003d408caa6bb7fd0cec539a50997f89e4c09768e3ec0aaca29",
+      "evidence_kind": "component_token_search_lead_only",
+      "bundle": {
+        "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+        "root": "u2ff0-u98e0-u76e7@2",
+        "glyphs": {
+          "u2ff0-u98e0-u76e7@2": {
+            "name": "u2ff0-u98e0-u76e7",
+            "revision": 2,
+            "related": "u3013",
+            "data": "99:0:0:1:0:171:200:u98e0-01:0:0:0$99:130:0:70:0:192:200:u76e7-j:0:-80:0",
+            "line": 5068102
+          },
+          "u76e7-j": {
+            "name": "u76e7-j",
+            "revision": 5,
+            "related": "u76e7",
+            "data": "99:0:0:0:0:200:200:u864d-10$99:0:0:22:85:200:195:u30937-jv",
+            "line": 1898573
+          },
+          "u30937-jv": {
+            "name": "u30937-jv",
+            "revision": 4,
+            "related": "u30937",
+            "data": "99:0:0:10:0:190:209:u7530-03$99:0:0:0:-57:200:209:u76bf-04",
+            "line": 1760094
+          },
+          "u76bf-04": {
+            "name": "u76bf-04",
+            "revision": 6,
+            "related": "u76bf",
+            "data": "1:12:32:46:133:46:178$1:2:2:46:133:154:133$1:22:32:154:133:154:178$1:32:32:82:133:82:178$1:32:32:118:133:118:178$1:0:0:14:178:186:178",
+            "line": 1898183
+          },
+          "u7530-03": {
+            "name": "u7530-03",
+            "revision": 4,
+            "related": "u7530",
+            "data": "1:12:13:40:26:40:88$1:2:2:40:26:160:26$1:22:23:160:26:160:88$1:32:32:100:26:100:88$1:2:2:40:57:160:57$1:2:2:40:88:160:88",
+            "line": 1895504
+          },
+          "u864d-10": {
+            "name": "u864d-10",
+            "revision": 3,
+            "related": "u864d",
+            "data": "1:0:32:96:13:96:46$1:2:0:96:28:165:28$7:12:7:35:46:35:111:35:163:12:185$1:2:2:35:46:176:46$2:22:7:176:46:169:56:159:68$1:0:0:45:72:153:63$3:0:5:90:48:90:85:170:85",
+            "line": 1925549
+          },
+          "u98e0-01": {
+            "name": "u98e0-01",
+            "revision": 3,
+            "related": "u98e0",
+            "data": "2:0:7:62:15:44:58:13:86$2:7:8:58:25:83:38:94:58$1:0:32:61:48:61:74$1:2:2:38:74:83:74$1:22:23:83:74:83:121$1:0:2:38:97:83:97$1:2:2:38:121:83:121$1:12:32:38:74:38:167$2:0:7:17:174:43:166:81:150$2:7:8:61:131:81:145:90:168",
+            "line": 1955634
+          }
+        },
+        "dependencies": [
+          {
+            "parent": "u2ff0-u98e0-u76e7@2",
+            "line": 1,
+            "raw_reference": "u98e0-01",
+            "resolved_name": "u98e0-01",
+            "resolved_revision": 3
+          },
+          {
+            "parent": "u2ff0-u98e0-u76e7@2",
+            "line": 2,
+            "raw_reference": "u76e7-j",
+            "resolved_name": "u76e7-j",
+            "resolved_revision": 5
+          },
+          {
+            "parent": "u76e7-j",
+            "line": 1,
+            "raw_reference": "u864d-10",
+            "resolved_name": "u864d-10",
+            "resolved_revision": 3
+          },
+          {
+            "parent": "u76e7-j",
+            "line": 2,
+            "raw_reference": "u30937-jv",
+            "resolved_name": "u30937-jv",
+            "resolved_revision": 4
+          },
+          {
+            "parent": "u30937-jv",
+            "line": 1,
+            "raw_reference": "u7530-03",
+            "resolved_name": "u7530-03",
+            "resolved_revision": 4
+          },
+          {
+            "parent": "u30937-jv",
+            "line": 2,
+            "raw_reference": "u76bf-04",
+            "resolved_name": "u76bf-04",
+            "resolved_revision": 6
+          }
+        ],
+        "issues": [],
+        "dependency_status": "complete",
+        "review_status": "unreviewed",
+        "render_status": "not_run"
+      }
+    }
+  ],
+  "limitations": [
+    "Substring matches include aliases and are not independent glyphs.",
+    "Search does not cover all possible names or indirect component paths.",
+    "Source IDS is a discovery clue; no KAGE is generated or edited.",
+    "No glyph equivalence judgment or published mapping change."
+  ]
+}

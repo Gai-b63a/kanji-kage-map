@@ -1,0 +1,41 @@
+[
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+E87D",
+    "candidate": "ka-kc04555@2",
+    "related": "u3013",
+    "source_line": 548694,
+    "root_kage_sha256": "1d4b96e4c8f4505b168071914ab5e13f072dd7ca16049f5262600371e093b1ac",
+    "evidence_kind": "component_token_search_lead_only",
+    "engine": "@kurgm/kage-engine@0.7.0",
+    "render_status": "finite_nonempty",
+    "polygon_count": 53,
+    "svg_sha256": "163171a8fdafef3f782ac41b9acf9eeed4076e0902bc5bd06d20012d3add2237",
+    "review_status": "unreviewed"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+E87D",
+    "candidate": "takata_my-gaiji-0099@1",
+    "related": "u3013",
+    "source_line": 1438219,
+    "root_kage_sha256": "eb873501e26e2493702dcdff6578aec88e91a998e7c159acaf243d08ac53255d",
+    "evidence_kind": "component_token_search_lead_only",
+    "engine": "@kurgm/kage-engine@0.7.0",
+    "render_status": "finite_nonempty",
+    "polygon_count": 53,
+    "svg_sha256": "3cbcbcf9b7047384115c0452e0c29bdddb1d7045903ffd8afb07451d99b01bec",
+    "review_status": "unreviewed"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+E87D",
+    "candidate": "u2ff0-u98e0-u76e7@2",
+    "related": "u3013",
+    "source_line": 1710737,
+    "root_kage_sha256": "0dd5a1d08b683003d408caa6bb7fd0cec539a50997f89e4c09768e3ec0aaca29",
+    "evidence_kind": "component_token_search_lead_only",
+    "engine": "@kurgm/kage-engine@0.7.0",
+    "render_status": "finite_nonempty",
+    "polygon_count": 53,
+    "svg_sha256": "163171a8fdafef3f782ac41b9acf9eeed4076e0902bc5bd06d20012d3add2237",
+    "review_status": "unreviewed"
+  }
+]
