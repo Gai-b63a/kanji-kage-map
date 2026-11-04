@@ -1,0 +1,43 @@
+{
+  "format": "mapping-regeneration-audit-v1",
+  "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+  "baseline_sha256": "99d876fce6118a3b80924fd05b3b9c8580ac0496a5db403daba0ac6ff64b3ab6",
+  "mappings_sha256": "ecf47b9cb361af7fb447f08000d34e811391fc6a869f7c9872463597e6daf6e1",
+  "entities_compared": 109556,
+  "unchanged_entities": 109555,
+  "baseline_search_counts": {
+    "candidates_found": 105657,
+    "no_candidate_in_searched_rules": 933,
+    "requires_source_evidence": 2966
+  },
+  "revised_search_counts": {
+    "candidates_found": 105657,
+    "no_candidate_in_searched_rules": 934,
+    "requires_source_evidence": 2965
+  },
+  "changes": [
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+EADD",
+      "fields": [
+        {
+          "field": "search_status",
+          "before_present": true,
+          "after_present": true,
+          "before": "requires_source_evidence",
+          "after": "no_candidate_in_searched_rules"
+        },
+        {
+          "field": "source_refs",
+          "before_present": true,
+          "after_present": true,
+          "before": [],
+          "after": [
+            "USAT05567"
+          ]
+        }
+      ]
+    }
+  ],
+  "comparison": "All parsed JSON fields, including nested candidate evidence; array order is significant.",
+  "limitation": "Mapping comparison does not itself compare portable glyph tables or certify glyph equivalence."
+}

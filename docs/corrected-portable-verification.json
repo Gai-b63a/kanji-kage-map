@@ -1,0 +1,24 @@
+{
+  "format": "corrected-portable-verification-v1",
+  "baseline_sha256": "99d876fce6118a3b80924fd05b3b9c8580ac0496a5db403daba0ac6ff64b3ab6",
+  "revised_sha256": "50871b81ed0915f3377a4cffb9f00ffb12a6625ac2d9a7d4ea7ad8dd0b8ca697",
+  "rows_compared": {
+    "inventory": 109556,
+    "mappings": 109556,
+    "glyphs": 1201970,
+    "dependencies": 1810938,
+    "issues": 4
+  },
+  "changed_mapping_ids": [
+    "babelstone:han-pua:1.473:U+EADD"
+  ],
+  "changed_mapping_fields": [
+    "search_status",
+    "source_refs"
+  ],
+  "changed_metadata": [
+    "inputs.mappings.jsonl"
+  ],
+  "all_other_records_identical": true,
+  "status": "local-build-not-published"
+}
