@@ -11,7 +11,9 @@ from .sources import write_json
 
 def source_ids(cell):
     # Use only the explicit Source Refs column, not narrative mentions or IDS.
-    return sorted(set(re.findall(r'\b[A-Z][A-Z0-9]*[-_][A-Z0-9]+(?:-[A-Z0-9]+)*\b', cell)))
+    # The adopted table also spells U+EADD's source as USAT05567 (no hyphen).
+    # Preserve that literal identifier; do not silently invent USAT-05567.
+    return sorted(set(re.findall(r'\b(?:[A-Z][A-Z0-9]*[-_][A-Z0-9]+(?:-[A-Z0-9]+)*|USAT[0-9]{5})\b', cell)))
 
 
 def discover_pua(database, source_rows, inventory, output):

@@ -25,6 +25,8 @@ class LookupTests(unittest.TestCase):
     def test_source_ids_preserve_distinct_namespaces(self):
         self.assertEqual(source_ids('UK-20863\nTC-3E52\nUK-20863'), ['TC-3E52', 'UK-20863'])
         self.assertEqual(source_ids('G_CY0651'), ['G_CY0651'])
+        self.assertEqual(source_ids('USAT05567 USAT-05567 USAT05567'), ['USAT-05567', 'USAT05567'])
+        self.assertEqual(source_ids('XUSAT05567 USAT055678 unrelated12345'), [])
 
 
 if __name__ == '__main__':

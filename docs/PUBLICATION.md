@@ -4,6 +4,8 @@
 
 ## 公開の証拠
 
+公開後に見つかった訂正：[U+EADDの出典ID抽出漏れ](PUA-DISCOVERY-CORRECTION.md)。最新コードでは修正済みですが、このタグの配布物は不変で、旧調査状態を保持します。
+
 - タグ対象コミット：`015a1db1384b0264ddf7929ad21e3e121e0f5809`
 - [固定原本からのLinux再生成・全件検証・公開ジョブ](https://github.com/Gai-b63a/kanji-kage-map/actions/runs/41795180715)：成功。
 - [39件のPythonテストとNode描画テスト](https://github.com/Gai-b63a/kanji-kage-map/actions/runs/41796556458)：成功。

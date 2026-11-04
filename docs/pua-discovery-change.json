@@ -1,0 +1,52 @@
+{
+  "format": "pua-discovery-change-audit-v1",
+  "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+  "inputs": {
+    ".cache/published-preview/offline/kanji-kage-map-v0.1.sqlite3": "99d876fce6118a3b80924fd05b3b9c8580ac0496a5db403daba0ac6ff64b3ab6",
+    "data/generated/pua-source-id-fix/pua-candidates.jsonl": "003041667be119b1a0a59cec7e6a5b7c1663f5fe0bebd2ee724ed85dd533a8cf",
+    "data/generated/source-rows.jsonl": "cf19856e5214b302cf203071a538eee91dbb3f01314694f7515460a34108d379"
+  },
+  "entities_compared": 6151,
+  "pua_source_rows": 6030,
+  "nonempty_source_cells": 3186,
+  "nonempty_source_cells_without_recognized_id": [],
+  "baseline_search_counts": {
+    "candidates_found": 2252,
+    "no_candidate_in_searched_rules": 933,
+    "requires_source_evidence": 2966
+  },
+  "revised_search_counts": {
+    "candidates_found": 2252,
+    "no_candidate_in_searched_rules": 934,
+    "requires_source_evidence": 2965
+  },
+  "changes": [
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+EADD",
+      "before": {
+        "source_refs": [],
+        "search_status": "requires_source_evidence",
+        "mapping_status": "unreviewed",
+        "review_status": "unreviewed",
+        "selected_glyph": null,
+        "candidate_references": []
+      },
+      "after": {
+        "source_refs": [
+          "USAT05567"
+        ],
+        "search_status": "no_candidate_in_searched_rules",
+        "mapping_status": "unreviewed",
+        "review_status": "unreviewed",
+        "selected_glyph": null,
+        "candidate_references": []
+      },
+      "source": {
+        "source_id": "pua-page",
+        "line": 21253,
+        "raw_source_refs": "USAT05567"
+      }
+    }
+  ],
+  "limitation": "Projection compares discovery IDs and states, not all candidate evidence fields or glyph equivalence; one recognized ID does not prove a cell was completely parsed."
+}
