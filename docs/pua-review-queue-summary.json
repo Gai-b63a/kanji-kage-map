@@ -1,0 +1,79 @@
+{
+  "format": "pua-research-queue-v1",
+  "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+  "inputs": {
+    "candidates": {
+      "path": "data\\generated\\pua-source-id-fix\\pua-candidates.jsonl",
+      "sha256": "003041667be119b1a0a59cec7e6a5b7c1663f5fe0bebd2ee724ed85dd533a8cf"
+    },
+    "inventory": {
+      "path": "data\\generated\\inventory.jsonl",
+      "sha256": "80cd7c099186c17fadbf1766e2a4b15fab6db66024483534f791a40c5c1bf3b0"
+    },
+    "source_rows": {
+      "path": "data\\generated\\source-rows.jsonl",
+      "sha256": "cf19856e5214b302cf203071a538eee91dbb3f01314694f7515460a34108d379"
+    },
+    "sources_lock": {
+      "path": "sources.lock.json",
+      "sha256": "0918cb988fa9233d469b790c21176d07e6cb522c6ff925abfdda340ec5745fb5"
+    },
+    "numbered": {
+      "path": "docs\\numbered-component-source-review.json",
+      "sha256": "edb40685f2b63114faeabf099864fc69b144877bab7233245a73960373be637a"
+    },
+    "font_metadata": {
+      "path": "docs\\pua-font-metadata.json",
+      "sha256": "19946e8ba5047ec0a942dd4504efa4ece46c7c985b3f5ba233bdca2cd3411ba0"
+    },
+    "font_missing": {
+      "path": "docs\\pua-font-missing.json",
+      "sha256": "4866de01bd23f3bed55843d565c684cf3e964abab2ca0dacca4a26d0f7556282"
+    },
+    "font_lock": {
+      "path": "review-sources.lock.json",
+      "sha256": "f7327bfc562385115aae383ef70a73d7880548d8dbeb7562ed939b3546567664"
+    }
+  },
+  "entities": 6151,
+  "categories": {
+    "bibliographic_source_requires_investigation": 2173,
+    "candidate_visual_review_required": 2252,
+    "numbered_target_edition_unverified": 121,
+    "primary_source_requires_investigation": 671,
+    "source_id_without_exact_name_candidate": 934
+  },
+  "blocker_counts": {
+    "adopted_table_and_inspected_font_editions_differ": 6030,
+    "numbered_target_edition_unspecified": 121,
+    "specimen_absent_from_inspected_font": 6
+  },
+  "next_action_counts": {
+    "compare_isolated_component": 121,
+    "compare_source_and_candidates": 2252,
+    "disambiguate_candidates": 155,
+    "establish_font_edition": 6030,
+    "establish_numbered_target_edition": 121,
+    "inspect_cited_source": 2173,
+    "investigate_source_identifier": 934,
+    "locate_missing_specimen": 6,
+    "locate_primary_source": 671,
+    "resolve_ids_text_difference": 11
+  },
+  "task_definitions": {
+    "establish_font_edition": "Obtain a specimen of the adopted PUA edition, or document glyph continuity from edition-specific evidence.",
+    "locate_missing_specimen": "Locate the adopted-edition specimen missing from the inspected font; do not substitute a fallback glyph.",
+    "compare_source_and_candidates": "Compare the source specimen and every pinned candidate; record structural and regional differences.",
+    "disambiguate_candidates": "Keep all candidates until source evidence supports a selection or an explicit ambiguity decision.",
+    "investigate_source_identifier": "Investigate source-ID spelling and primary-source crosswalks; absence under exact-name search is not global absence.",
+    "inspect_cited_source": "Inspect the bibliography or linked source in the pinned table row and establish a citable glyph identity.",
+    "locate_primary_source": "Locate a primary specimen or definition for this edition-specific PUA identifier.",
+    "establish_numbered_target_edition": "Establish the PUA edition intended by the numbered definition before transferring any correspondence.",
+    "compare_isolated_component": "Compare the isolated component against its intended source; do not equate it with a transformed component in a full glyph.",
+    "resolve_ids_text_difference": "Investigate the two source IDS descriptions; text differences do not by themselves establish glyph differences."
+  },
+  "queue_sha256": "e16d795f9fff0882520b3c67df7458005ede9562d04bc0edcc34efae7a4e9584",
+  "queue_bytes": 89626,
+  "confirmed_glyph_matches": 0,
+  "limitation": "Research triage, not completed visual review or identity confirmation. Includes the U+EADD source-ID correction; the preview.1 database is unchanged."
+}
