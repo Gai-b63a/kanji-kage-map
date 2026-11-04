@@ -42,6 +42,7 @@ def main():
     lookup.add_argument('--output', required=True)
     lookup.add_argument('--dataset', help='Portable SQLite dataset; does not need the upstream index')
     lookup.add_argument('--feature-reviews', help='Pinned, scoped visual observations; does not change mapping decisions')
+    lookup.add_argument('--review-decisions', help='Append-only scoped review ledger; no automatic glyph selection')
     leads = commands.add_parser('lookup-source-leads')
     leads.add_argument('identifier')
     leads.add_argument('--dataset', required=True)
@@ -92,6 +93,9 @@ def main():
         if args.feature_reviews:
             from .feature_reviews import attach_feature_reviews
             result = attach_feature_reviews(result, args.feature_reviews)
+        if args.review_decisions:
+            from .review_decisions import attach_decisions
+            result = attach_decisions(result, args.review_decisions)
         write_json(args.output, result)
         return
     if args.command == 'audit-dependencies':
