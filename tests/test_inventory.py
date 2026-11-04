@@ -103,6 +103,21 @@ class InventoryTests(unittest.TestCase):
                 acquire(Path(temp) / 'missing.json', path)
             self.assertEqual(path.read_text(), '{}')
 
+    def test_single_glyphwiki_lock_restores_without_rewriting_metadata(self):
+        with tempfile.TemporaryDirectory(dir=self.temp_root) as temp:
+            root = Path(temp)
+            data = b'archive bytes'
+            (root / 'dump').write_bytes(data)
+            lock = root / 'glyphwiki.lock.json'
+            write_json(lock, dict(provider='GlyphWiki', path='dump', bytes=len(data),
+                                  sha256=hashlib.sha256(data).hexdigest()))
+            before = lock.read_bytes()
+            restore(lock)
+            self.assertEqual(lock.read_bytes(), before)
+            (root / 'dump').write_bytes(b'changed')
+            with self.assertRaisesRegex(ValueError, 'hash/size mismatch'):
+                restore(lock)
+
     def test_pending_source_rejected(self):
         with tempfile.TemporaryDirectory(dir=self.temp_root) as temp:
             lock = Path(temp) / 'lock.json'

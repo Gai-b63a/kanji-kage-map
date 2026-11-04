@@ -1,0 +1,59 @@
+name: Reproduce and publish provisional dataset
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/release.yml]
+permissions:
+  contents: write
+concurrency:
+  group: provisional-dataset-release
+  cancel-in-progress: false
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Test source code
+        run: python -m unittest discover -s tests -v
+      - name: Restore exact original bytes
+        run: |
+          python -m kanji_kage_map restore --lock sources.lock.json
+          python -m kanji_kage_map restore --lock glyphwiki.lock.json
+      - name: Rebuild complete inventory and index
+        run: |
+          python -m kanji_kage_map inventory
+          python -m kanji_kage_map index-glyphwiki
+      - name: Discover candidates and audit all dependencies
+        run: |
+          python -m kanji_kage_map candidates
+          python -m kanji_kage_map pua-candidates
+          python -m kanji_kage_map audit-dependencies
+          python -m kanji_kage_map audit-dependencies --candidates data/generated/pua-research/pua-candidates.jsonl --output data/generated/pua-research/dependency-audit
+          python -m kanji_kage_map assemble
+      - name: Require identical canonical mappings
+        run: |
+          echo 'aa06be9392495dd1b23c7682ca3ff28697cd272a31122f6caa9b560fa5a86b3c  data/generated/mappings.jsonl' | sha256sum --check
+      - name: Build portable database and verify every record
+        run: |
+          python -m kanji_kage_map build-release
+          python tools/verify_release.py dist/kanji-kage-map-v0.1.sqlite3 --output dist/portable-verification.json
+          python tools/audit_syntax.py dist/kanji-kage-map-v0.1.sqlite3
+          python -m kanji_kage_map lookup U+6D77 --dataset dist/kanji-kage-map-v0.1.sqlite3 --glyph u6d77 --output dist/sea-example.json
+          python -m kanji_kage_map lookup babelstone:han-pua:1.473:U+E080 --dataset dist/kanji-kage-map-v0.1.sqlite3 --glyph uk-20656 --output dist/pua-example.json
+      - name: Package distributable data and original notices
+        run: |
+          python tools/package_release.py
+          tar -czf dist/kanji-kage-map-v0.1-jsonl.tar.gz NOTICE.md licenses/GLYPHWIKI.txt licenses/UNICODE.txt sources.lock.json glyphwiki.lock.json -C data/generated inventory.jsonl mappings.jsonl mappings.summary.json dependency-audit pua-research/pua-candidates.jsonl pua-research/dependency-audit syntax-audit
+          cp data/generated/syntax-audit/syntax-summary.json dist/syntax-summary.json
+          cd dist
+          sha256sum *.zip *.tar.gz *.sqlite3.gz *.json > SHA256SUMS
+      - name: Publish provisional release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create v0.1.0-preview.1 --target "$GITHUB_SHA" --title 'v0.1.0-preview.1 — provisional candidates, not confirmed glyph matches' --prerelease --notes-file docs/RELEASE-NOTES.md dist/kanji-kage-map-v0.1-offline.zip dist/kanji-kage-map-v0.1-jsonl.tar.gz dist/kanji-kage-map-v0.1.sqlite3.gz dist/kanji-kage-map-v0.1.manifest.json dist/portable-verification.json dist/syntax-summary.json dist/SHA256SUMS

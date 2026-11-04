@@ -41,7 +41,14 @@ def acquire(manifest, lock):
 def restore(lock):
     """Fetch missing pinned inputs, refusing changed upstream bytes."""
     lock = Path(lock).resolve()
-    for record in json.loads(lock.read_text(encoding='utf-8'))['sources']:
+    document = json.loads(lock.read_text(encoding='utf-8'))
+    if 'sources' in document:
+        records = document['sources']
+    elif document.get('provider') == 'GlyphWiki':
+        records = [dict(document, id='glyphwiki', status='acquired')]
+    else:
+        raise ValueError('Unknown source lock format')
+    for record in records:
         if record['status'] != 'acquired':
             raise ValueError(f"Cannot restore pending source: {record['id']}")
         path = (lock.parent / record['path']).resolve()
