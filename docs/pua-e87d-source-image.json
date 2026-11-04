@@ -1,0 +1,66 @@
+{
+  "format": "primary-source-image-observation-v1",
+  "entity_id": "babelstone:han-pua:1.473:U+E87D",
+  "checked_at": "2026-11-04T10:48:52.683006+00:00",
+  "source_table_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+  "source_table_locator": {
+    "html_line": 16669,
+    "label": "卷96 folio 25b",
+    "viewer_url": "https://iiif.lib.harvard.edu/manifests/view/drs:428496451$35i"
+  },
+  "commons": {
+    "page_id": 118494665,
+    "title": "File:Harvard drs 428496451 潛確居類書 v.34.pdf",
+    "description_url": "https://commons.wikimedia.org/wiki/File:Harvard_drs_428496451_%E6%BD%9B%E7%A2%BA%E5%B1%85%E9%A1%9E%E6%9B%B8_v.34.pdf",
+    "api_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url%7Csize%7Csha1%7Ctimestamp&iiurlwidth=4000&iiurlparam=page35-4000px&titles=File%3AHarvard+drs+428496451+%E6%BD%9B%E7%A2%BA%E5%B1%85%E9%A1%9E%E6%9B%B8+v.34.pdf",
+    "api_response_sha256": "737cea09d56c90f2e3ee021175787cb4399ed733c7a1673f8eee4d04f0e09f39",
+    "pdf_page_count": 165,
+    "pdf_size_reported": 143297753,
+    "pdf_sha1_reported": "0b411019a1511128252f1b1a5b4a2735640bc63f",
+    "pdf_downloaded": false
+  },
+  "page_image": {
+    "requested_pdf_page": 35,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Harvard_drs_428496451_%E6%BD%9B%E7%A2%BA%E5%B1%85%E9%A1%9E%E6%9B%B8_v.34.pdf/page35-1920px-Harvard_drs_428496451_%E6%BD%9B%E7%A2%BA%E5%B1%85%E9%A1%9E%E6%9B%B8_v.34.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "b676603dee5bb0b8bba49a1813af93b80de92747e4b71d67f90d77892b14f052",
+    "bytes": 820429,
+    "observed_pixel_dimensions": [
+      1920,
+      1608
+    ],
+    "api_reported_thumb_dimensions": [
+      4000,
+      3348
+    ],
+    "local_cache": ".cache/primary-source-check/harvard-page35.jpg",
+    "visually_inspected": true
+  },
+  "observation": {
+    "reviewer": "Codex",
+    "reviewer_kind": "ai",
+    "scope": "source_location_only",
+    "two_facing_pages": true,
+    "text_region": "飲饌部; right-hand leaf contains text around 蕭家 and 庾家粽子",
+    "possible_target_region_pixels_xyxy": [
+      1605,
+      775,
+      1685,
+      875
+    ],
+    "possible_target_region_status": "lead_only_requires_character_and_folio_confirmation",
+    "printed_folio_alignment": "not_verified",
+    "harvard_canvas_to_commons_pdf_alignment": "not_verified",
+    "edition_identity": "not_verified"
+  },
+  "mapping": {
+    "published_candidates": 0,
+    "search_status": "requires_source_evidence",
+    "mapping_status": "unreviewed",
+    "changed": false
+  },
+  "limitations": [
+    "Commons API metadata is not an independently verified hash of a downloaded PDF.",
+    "Requested width 4000 returned the same 1920x1608 JPEG as the earlier responsive URL; API dimensions do not describe the acquired bytes.",
+    "The source-image location observation does not establish glyph equivalence or supply a KAGE candidate."
+  ]
+}

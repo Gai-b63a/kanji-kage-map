@@ -43,10 +43,12 @@
           "html_line": 16669
         }
       ],
-      "access_status": "http_403",
-      "detail": "Direct HTTPS requests to Harvard viewer and the officially documented manifest URL both returned HTTP 403. Commons catalog lists a mirror with the same DRS identifier, but the mirror file page was not accessible through the web tool.",
+      "access_status": "commons_page_image_inspected_alignment_pending",
+      "detail": "Commons public imageinfo API resolved the 165-page PDF and page 35 JPEG. Acquired and visually inspected the 1920x1608 image; folio alignment, edition identity and exact target character remain unverified. Harvard direct access previously returned HTTP 403.",
       "glyph_inspected": false,
-      "mapping_status_changed": false
+      "mapping_status_changed": false,
+      "page_image_inspected": true,
+      "source_image_observation": "pua-e87d-source-image.json"
     },
     {
       "entity_id": "babelstone:han-pua:1.473:U+E87F",
