@@ -1,0 +1,3038 @@
+{
+  "format": "numbered-component-source-review-v1",
+  "records": [
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{1}",
+      "source_claim": {
+        "pua_codepoint": "U+F2A5",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 77,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2A5",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 36978
+      },
+      "numbered_ids": "⿹⿺㇉一灬",
+      "pua_ids": "⿹⿺㇉一灬",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{2}",
+      "source_claim": {
+        "pua_codepoint": "U+F0CF",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 78,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F0CF",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 33463
+      },
+      "numbered_ids": "⿱⺈𫩏",
+      "pua_ids": "⿱⺈𫩏",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{3}",
+      "source_claim": {
+        "pua_codepoint": "U+F2A7",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 79,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2A7",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 36986
+      },
+      "numbered_ids": "⿱⺈⿵冂人",
+      "pua_ids": "⿱⺈⿵冂人",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{4}",
+      "source_claim": {
+        "pua_codepoint": "U+F313",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 80,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F313",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37772
+      },
+      "numbered_ids": "⿱⿻⿰丨丨丷冖",
+      "pua_ids": "⿱⿻⿰丨丨丷冖",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{5}",
+      "source_claim": {
+        "pua_codepoint": "U+F2A9",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 81,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2A9",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37002
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{6}",
+      "source_claim": {
+        "pua_codepoint": "U+F2AA",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 82,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2AA",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37010
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{7}",
+      "source_claim": {
+        "pua_codepoint": "U+F4F3",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 83,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F4F3",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 41603
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{8}",
+      "source_claim": {
+        "pua_codepoint": "U+F2AB",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 84,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2AB",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37018
+      },
+      "numbered_ids": "⿻⿱㇒一乚",
+      "pua_ids": "⿻⿱㇒一乚",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{9}",
+      "source_claim": {
+        "pua_codepoint": "U+F2AC",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 85,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2AC",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37026
+      },
+      "numbered_ids": "⿱⿰㇒㇖丨",
+      "pua_ids": "⿱⿰㇒乛丨",
+      "text_comparison": "ids_text_differs",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{10}",
+      "source_claim": {
+        "pua_codepoint": "U+F2A8",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 86,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2A8",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 36994
+      },
+      "numbered_ids": "⿻⿻㇈丿丶",
+      "pua_ids": "⿻⿻㇈丿丶",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{11}",
+      "source_claim": {
+        "pua_codepoint": "U+F2AD",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 87,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2AD",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37034
+      },
+      "numbered_ids": "⿰⿱丶㇀⿱㇒丶",
+      "pua_ids": "⿰⿱丶㇀⿱㇒丶",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{12}",
+      "source_claim": {
+        "pua_codepoint": "U+F2AE",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 88,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2AE",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37042
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{13}",
+      "source_claim": {
+        "pua_codepoint": "U+F29F",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 89,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F29F",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 36930
+      },
+      "numbered_ids": "⿸⿰丿⿱⺊⺂七",
+      "pua_ids": "⿸⿰丿⿱⺊乛七",
+      "text_comparison": "ids_text_differs",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{14}",
+      "source_claim": {
+        "pua_codepoint": "U+F2B0",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 90,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2B0",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37059
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{15}",
+      "source_claim": {
+        "pua_codepoint": "U+F2B1",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 91,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2B1",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37067
+      },
+      "numbered_ids": "⿻𱍸㇒",
+      "pua_ids": "⿻𱍸㇒",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{16}",
+      "source_claim": {
+        "pua_codepoint": "U+F31A",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 92,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F31A",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37820
+      },
+      "numbered_ids": "⿲⿺𠄌⺀⿺𠄌⺀㇂",
+      "pua_ids": "⿲⿺𠄌⺀⿺𠄌⺀㇂",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{17}",
+      "source_claim": {
+        "pua_codepoint": "U+F2B3",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 93,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2B3",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37083
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{18}",
+      "source_claim": {
+        "pua_codepoint": "U+F2B4",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 94,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2B4",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37091
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{19}",
+      "source_claim": {
+        "pua_codepoint": "U+F2B5",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 95,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2B5",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37099
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{20}",
+      "source_claim": {
+        "pua_codepoint": "U+F5EE",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 96,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F5EE",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 43554
+      },
+      "numbered_ids": "丸",
+      "pua_ids": "",
+      "text_comparison": "ids_text_differs",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{21}",
+      "source_claim": {
+        "pua_codepoint": "U+F101",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 97,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F101",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 33853
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{22}",
+      "source_claim": {
+        "pua_codepoint": "U+F2E6",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 98,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2E6",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37446
+      },
+      "numbered_ids": "⿺㇉一",
+      "pua_ids": "⿺㇉一",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{23}",
+      "source_claim": {
+        "pua_codepoint": "U+F2E9",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 99,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2E9",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37470
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{24}",
+      "source_claim": {
+        "pua_codepoint": "U+F2F2",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 100,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2F2",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37536
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{25}",
+      "source_claim": {
+        "pua_codepoint": "U+F2F4",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 101,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2F4",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37552
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{26}",
+      "source_claim": {
+        "pua_codepoint": "U+F2BA",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 102,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2BA",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37123
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{27}",
+      "source_claim": {
+        "pua_codepoint": "U+F2BB",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 103,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2BB",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37131
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{28}",
+      "source_claim": {
+        "pua_codepoint": "U+F2BC",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 104,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2BC",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37139
+      },
+      "numbered_ids": "⿻弋一",
+      "pua_ids": "⿻弋一",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{29}",
+      "source_claim": {
+        "pua_codepoint": "U+F2BD",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 105,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2BD",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37147
+      },
+      "numbered_ids": "⿻弋𢆶",
+      "pua_ids": "⿻弋𢆶",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{30}",
+      "source_claim": {
+        "pua_codepoint": "U+F2F5",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 106,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2F5",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37560
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{31}",
+      "source_claim": {
+        "pua_codepoint": "U+F2BF",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 107,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2BF",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37163
+      },
+      "numbered_ids": "⿴囗⿻𰀪丶",
+      "pua_ids": "⿴囗⿻𰀪丶",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{32}",
+      "source_claim": {
+        "pua_codepoint": "U+F5FD",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 108,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F5FD",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 43674
+      },
+      "numbered_ids": "⿱⿻𠮛⿰丨丨冖",
+      "pua_ids": "⿱⿻𠮛⿰丨丨冖",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{33}",
+      "source_claim": {
+        "pua_codepoint": "U+F2C1",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 109,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2C1",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37171
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{34}",
+      "source_claim": {
+        "pua_codepoint": "U+F2B2",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 110,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2B2",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37075
+      },
+      "numbered_ids": "⿹勹丿",
+      "pua_ids": "⿹勹丿",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{35}",
+      "source_claim": {
+        "pua_codepoint": "U+F2C3",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 111,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2C3",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37179
+      },
+      "numbered_ids": "⿻几𠄠",
+      "pua_ids": "⿻几𠄠",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{36}",
+      "source_claim": {
+        "pua_codepoint": "U+F2C4",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 112,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2C4",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37187
+      },
+      "numbered_ids": "",
+      "pua_ids": "",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{37}",
+      "source_claim": {
+        "pua_codepoint": "U+F2B6",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 113,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2B6",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37107
+      },
+      "numbered_ids": "⿱⺊冖",
+      "pua_ids": "⿱⺊冖",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{38}",
+      "source_claim": {
+        "pua_codepoint": "U+F2B9",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 114,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2B9",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37115
+      },
+      "numbered_ids": "⿱𰀉冖",
+      "pua_ids": "⿱𰀉冖",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{39}",
+      "source_claim": {
+        "pua_codepoint": "U+F2C7",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 115,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2C7",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37211
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{40}",
+      "source_claim": {
+        "pua_codepoint": "U+F2C8",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 116,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2C8",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37219
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{41}",
+      "source_claim": {
+        "pua_codepoint": "U+F2C6",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 117,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2C6",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37203
+      },
+      "numbered_ids": "⿻𦉫𠄠",
+      "pua_ids": "⿻𦉫𠄠",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{42}",
+      "source_claim": {
+        "pua_codepoint": "U+F2D4",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 118,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2D4",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37307
+      },
+      "numbered_ids": "彐",
+      "pua_ids": "",
+      "text_comparison": "ids_text_differs",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{43}",
+      "source_claim": {
+        "pua_codepoint": "U+F2A4",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 119,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2A4",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 36970
+      },
+      "numbered_ids": "⺕",
+      "pua_ids": "",
+      "text_comparison": "ids_text_differs",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{44}",
+      "source_claim": {
+        "pua_codepoint": "U+F2C9",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 120,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2C9",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37227
+      },
+      "numbered_ids": "⿱十冖",
+      "pua_ids": "⿱十冖",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{45}",
+      "source_claim": {
+        "pua_codepoint": "U+F5FB",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 121,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F5FB",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 43658
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{46}",
+      "source_claim": {
+        "pua_codepoint": "U+EC30",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 122,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+EC30",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 24032
+      },
+      "numbered_ids": "⿻日乚",
+      "pua_ids": "⿻日乚",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{47}",
+      "source_claim": {
+        "pua_codepoint": "U+F2CA",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 123,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2CA",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37235
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{48}",
+      "source_claim": {
+        "pua_codepoint": "U+F5FC",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 124,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F5FC",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 43666
+      },
+      "numbered_ids": "㐄",
+      "pua_ids": "",
+      "text_comparison": "ids_text_differs",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{49}",
+      "source_claim": {
+        "pua_codepoint": "U+F2D2",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 125,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2D2",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37299
+      },
+      "numbered_ids": "⿰丨丿",
+      "pua_ids": "⿰丨丿",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{50}",
+      "source_claim": {
+        "pua_codepoint": "U+F319",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 126,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F319",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37812
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{51}",
+      "source_claim": {
+        "pua_codepoint": "U+F2CB",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 127,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2CB",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37243
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{52}",
+      "source_claim": {
+        "pua_codepoint": "U+F2E8",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 128,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2E8",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37462
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{53}",
+      "source_claim": {
+        "pua_codepoint": "U+F2E7",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 129,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2E7",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37454
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{54}",
+      "source_claim": {
+        "pua_codepoint": "U+F2FA",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 130,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2FA",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37600
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{55}",
+      "source_claim": {
+        "pua_codepoint": "U+F2D0",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 131,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2D0",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37283
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{56}",
+      "source_claim": {
+        "pua_codepoint": "U+F2CF",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 132,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2CF",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37275
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{57}",
+      "source_claim": {
+        "pua_codepoint": "U+F2CE",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 133,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2CE",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37267
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{58}",
+      "source_claim": {
+        "pua_codepoint": "U+F2CD",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 134,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2CD",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37259
+      },
+      "numbered_ids": "⿰{39}丶",
+      "pua_ids": "",
+      "text_comparison": "ids_text_differs",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{59}",
+      "source_claim": {
+        "pua_codepoint": "U+F13C",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 135,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F13C",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 34278
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{60}",
+      "source_claim": {
+        "pua_codepoint": "U+F5F6",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 136,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F5F6",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 43618
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{61}",
+      "source_claim": {
+        "pua_codepoint": "U+F5F0",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 137,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F5F0",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 43570
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{62}",
+      "source_claim": {
+        "pua_codepoint": "U+F13D",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 138,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F13D",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 34286
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{64}",
+      "source_claim": {
+        "pua_codepoint": "U+F314",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 140,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F314",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37780
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{65}",
+      "source_claim": {
+        "pua_codepoint": "U+F318",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 141,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F318",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37804
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{66}",
+      "source_claim": {
+        "pua_codepoint": "U+F31B",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 142,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F31B",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37828
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{67}",
+      "source_claim": {
+        "pua_codepoint": "U+F2F7",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 143,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2F7",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37576
+      },
+      "numbered_ids": "⿴⿰丨丨𠄠",
+      "pua_ids": "⿲丨二丨",
+      "text_comparison": "ids_text_differs",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{68}",
+      "source_claim": {
+        "pua_codepoint": "U+F5F4",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 144,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F5F4",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 43602
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{69}",
+      "source_claim": {
+        "pua_codepoint": "U+F5F5",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 145,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F5F5",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 43610
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{70}",
+      "source_claim": {
+        "pua_codepoint": "U+F2D1",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 146,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2D1",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37291
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{71}",
+      "source_claim": {
+        "pua_codepoint": "U+F5FE",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 147,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F5FE",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 43682
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{72}",
+      "source_claim": {
+        "pua_codepoint": "U+F5FF",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 148,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F5FF",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 43690
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{73}",
+      "source_claim": {
+        "pua_codepoint": "U+ECE0",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 149,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECE0",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25422
+      },
+      "numbered_ids": "⿴𠀃三",
+      "pua_ids": "⿴𠀃三",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{74}",
+      "source_claim": {
+        "pua_codepoint": "U+ECE1",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 150,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECE1",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25430
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{75}",
+      "source_claim": {
+        "pua_codepoint": "U+ECE2",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 151,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECE2",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25438
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{76}",
+      "source_claim": {
+        "pua_codepoint": "U+ECE3",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 152,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECE3",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25446
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{77}",
+      "source_claim": {
+        "pua_codepoint": "U+ECE4",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 153,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECE4",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25454
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{78}",
+      "source_claim": {
+        "pua_codepoint": "U+ECE5",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 154,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECE5",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25462
+      },
+      "numbered_ids": "⿱⿻口⿰丨丨一",
+      "pua_ids": "⿱⿻口⿰丨丨一",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{79}",
+      "source_claim": {
+        "pua_codepoint": "U+F5E1",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 155,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F5E1",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 43466
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{80}",
+      "source_claim": {
+        "pua_codepoint": "U+ECE6",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 156,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECE6",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25470
+      },
+      "numbered_ids": "⿱冖八",
+      "pua_ids": "⿱冖八",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{81}",
+      "source_claim": {
+        "pua_codepoint": "U+ECE7",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 157,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECE7",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25478
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{82}",
+      "source_claim": {
+        "pua_codepoint": "U+F2E3",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 158,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2E3",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37422
+      },
+      "numbered_ids": "⿱𦘒一",
+      "pua_ids": "⿱𦘒一",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{83}",
+      "source_claim": {
+        "pua_codepoint": "U+ECE9",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 159,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECE9",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25486
+      },
+      "numbered_ids": "⿳亠丷冖",
+      "pua_ids": "⿳亠丷冖",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{84}",
+      "source_claim": {
+        "pua_codepoint": "U+ECEA",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 160,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECEA",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25494
+      },
+      "numbered_ids": "⿰丿乛",
+      "pua_ids": "⿰丿乛",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{85}",
+      "source_claim": {
+        "pua_codepoint": "U+ECEB",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 161,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECEB",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25502
+      },
+      "numbered_ids": "⿰丿⿱丶乛",
+      "pua_ids": "⿰丿⿱丶乛",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{86}",
+      "source_claim": {
+        "pua_codepoint": "U+ECEC",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 162,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECEC",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25510
+      },
+      "numbered_ids": "⿲丶丶丶",
+      "pua_ids": "⿲丶丶丶",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{87}",
+      "source_claim": {
+        "pua_codepoint": "U+ECED",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 163,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECED",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25518
+      },
+      "numbered_ids": "⿳亠口冖",
+      "pua_ids": "⿳亠口冖",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{88}",
+      "source_claim": {
+        "pua_codepoint": "U+ECEE",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 164,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECEE",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25526
+      },
+      "numbered_ids": "⿵𠆢一",
+      "pua_ids": "⿵𠆢一",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{89}",
+      "source_claim": {
+        "pua_codepoint": "U+F5F7",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 165,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F5F7",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 43626
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{90}",
+      "source_claim": {
+        "pua_codepoint": "U+F5F8",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 166,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F5F8",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 43634
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{91}",
+      "source_claim": {
+        "pua_codepoint": "U+F5F9",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 167,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F5F9",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 43642
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{92}",
+      "source_claim": {
+        "pua_codepoint": "U+F5FA",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 168,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F5FA",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 43650
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{93}",
+      "source_claim": {
+        "pua_codepoint": "U+ECEF",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 169,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECEF",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25534
+      },
+      "numbered_ids": "⿻昌乚",
+      "pua_ids": "⿻昌乚",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{94}",
+      "source_claim": {
+        "pua_codepoint": "U+ECF0",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 170,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECF0",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25542
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{95}",
+      "source_claim": {
+        "pua_codepoint": "U+ECF1",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 171,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECF1",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25550
+      },
+      "numbered_ids": "⿻尸一",
+      "pua_ids": "⿻尸一",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{96}",
+      "source_claim": {
+        "pua_codepoint": "U+ECF2",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 172,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECF2",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25558
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{97}",
+      "source_claim": {
+        "pua_codepoint": "U+ECF3",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 173,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECF3",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25566
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{98}",
+      "source_claim": {
+        "pua_codepoint": "U+F5DE",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 174,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F5DE",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 43442
+      },
+      "numbered_ids": "⿻一曲",
+      "pua_ids": "⿻一曲",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{99}",
+      "source_claim": {
+        "pua_codepoint": "U+ECF5",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 175,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECF5",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25574
+      },
+      "numbered_ids": "⿻𦉫𠄠",
+      "pua_ids": "⿻𦉫𠄠",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{100}",
+      "source_claim": {
+        "pua_codepoint": "U+F3BE",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 176,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F3BE",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 39167
+      },
+      "numbered_ids": "？",
+      "pua_ids": "㇯之丶",
+      "text_comparison": "ids_text_differs",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{101}",
+      "source_claim": {
+        "pua_codepoint": "U+ECF6",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 177,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECF6",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25582
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{102}",
+      "source_claim": {
+        "pua_codepoint": "U+ECF7",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 178,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECF7",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25590
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{103}",
+      "source_claim": {
+        "pua_codepoint": "U+ECF8",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 179,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECF8",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25598
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{104}",
+      "source_claim": {
+        "pua_codepoint": "U+ECF9",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 180,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECF9",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25606
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{105}",
+      "source_claim": {
+        "pua_codepoint": "U+ECFA",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 181,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECFA",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25614
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{106}",
+      "source_claim": {
+        "pua_codepoint": "U+ECFB",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 182,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECFB",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25622
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{107}",
+      "source_claim": {
+        "pua_codepoint": "U+ECFC",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 183,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECFC",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25630
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{108}",
+      "source_claim": {
+        "pua_codepoint": "U+ECFD",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 184,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECFD",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25638
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{109}",
+      "source_claim": {
+        "pua_codepoint": "U+ECFE",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 185,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECFE",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25646
+      },
+      "numbered_ids": "⿻⿱㇒一丿",
+      "pua_ids": "⿻⿱㇒一丿",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{110}",
+      "source_claim": {
+        "pua_codepoint": "U+F29E",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 186,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F29E",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 36922
+      },
+      "numbered_ids": "冂",
+      "pua_ids": "",
+      "text_comparison": "ids_text_differs",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{111}",
+      "source_claim": {
+        "pua_codepoint": "U+EF31",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 187,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+EF31",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 30137
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{112}",
+      "source_claim": {
+        "pua_codepoint": "U+EF32",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 188,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+EF32",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 30145
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{113}",
+      "source_claim": {
+        "pua_codepoint": "U+EF33",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 189,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+EF33",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 30153
+      },
+      "numbered_ids": "⿵冂八",
+      "pua_ids": "⿵冂八",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{114}",
+      "source_claim": {
+        "pua_codepoint": "U+EF34",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 190,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+EF34",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 30161
+      },
+      "numbered_ids": "⿱土八",
+      "pua_ids": "⿱土八",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{115}",
+      "source_claim": {
+        "pua_codepoint": "U+EF35",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 191,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+EF35",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 30169
+      },
+      "numbered_ids": "⿻𰀪⺀",
+      "pua_ids": "⿻𰀪⺀",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{116}",
+      "source_claim": {
+        "pua_codepoint": "U+EF36",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 192,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+EF36",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 30177
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{117}",
+      "source_claim": {
+        "pua_codepoint": "U+EF37",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 193,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+EF37",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 30185
+      },
+      "numbered_ids": "⿺𠃊⺊",
+      "pua_ids": "⿺𠃊⺊",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{118}",
+      "source_claim": {
+        "pua_codepoint": "U+ECFF",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 194,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+ECFF",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 25654
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{119}",
+      "source_claim": {
+        "pua_codepoint": "U+F2E5",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 195,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2E5",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37438
+      },
+      "numbered_ids": "⿻己⿱工工",
+      "pua_ids": "⿻己⿱工工",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{120}",
+      "source_claim": {
+        "pua_codepoint": "U+F2CC",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 196,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F2CC",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 37251
+      },
+      "numbered_ids": "⿻弓⿱{50}匚",
+      "pua_ids": "",
+      "text_comparison": "ids_text_differs",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{121}",
+      "source_claim": {
+        "pua_codepoint": "U+F5DF",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 197,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F5DF",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 43450
+      },
+      "numbered_ids": "⿱⺈罒",
+      "pua_ids": "⿱⺈罒",
+      "text_comparison": "ids_text_identical",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    },
+    {
+      "entity_id": "babelstone:ids-component:2025-06-27:{122}",
+      "source_claim": {
+        "pua_codepoint": "U+F5E3",
+        "source_version": "2025-06-27",
+        "source_sha256": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+        "source_url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+        "line": 198,
+        "target_pua_edition_specified": false
+      },
+      "comparison_target": {
+        "entity_id": "babelstone:han-pua:1.473:U+F5E3",
+        "source_version": "1.473",
+        "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+        "source_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+        "line": 43482
+      },
+      "numbered_ids": "？",
+      "pua_ids": "",
+      "text_comparison": "unknown_placeholder_versus_blank",
+      "relation_status": "explicit_codepoint_claim_target_edition_unverified",
+      "glyph_review_status": "unreviewed",
+      "selected_glyph": null,
+      "next_action": "Establish PUA edition continuity and compare the isolated component glyph; text equality alone is insufficient."
+    }
+  ],
+  "entities": 121,
+  "comparison_counts": {
+    "ids_text_differs": 11,
+    "ids_text_identical": 44,
+    "unknown_placeholder_versus_blank": 66
+  },
+  "confirmed_glyph_matches": 0,
+  "scope": "source-declared PUA codepoints and text comparison only; no KAGE candidate propagation"
+}
