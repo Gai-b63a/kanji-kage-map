@@ -1,0 +1,220 @@
+{
+  "format": "dependency-issue-traces-v1",
+  "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+  "scope": {
+    "entities_scanned": 109556,
+    "candidate_links_scanned": 955185,
+    "local_issue_events": 4,
+    "affected_candidate_links": 7,
+    "affected_entities": 7
+  },
+  "limitation": "Traces the recorded dependency audit findings; not a full syntax or glyph-equivalence review.",
+  "affected": [
+    {
+      "entity_id": "unicode:U+28CD8",
+      "candidate": "twedu-c15255-001@6",
+      "evidence": [
+        {
+          "issue": {
+            "line": 3,
+            "raw": ":0:0:0",
+            "reason": "invalid_kage_command",
+            "reference": "twedu-c15255-001@6"
+          },
+          "shortest_dependency_path": [],
+          "glyph": {
+            "data": "99:200:-23:0:0:200:200:cdpo-854a-05:0:0:-20$99:0:0:30:71:170:177:u5c6f-var-006$:0:0:0",
+            "line": 3988686,
+            "name": "twedu-c15255-001",
+            "reference": "twedu-c15255-001@6",
+            "related": "u28cd8",
+            "revision": 6,
+            "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72"
+          }
+        }
+      ],
+      "dependency_status": "issues",
+      "review_status": "unreviewed"
+    },
+    {
+      "entity_id": "unicode:U+28EB6",
+      "candidate": "hkcs_m28eb6@1",
+      "evidence": [
+        {
+          "issue": {
+            "line": 6,
+            "raw": "s",
+            "reason": "invalid_kage_command",
+            "reference": "hkcs_m28eb6@1"
+          },
+          "shortest_dependency_path": [],
+          "glyph": {
+            "data": "99:0:0:0:0:150:150:hkcs_wrong$1:0:2:20:165:108:165$1:32:32:90:145:108:165$1:32:32:90:185:108:165$99:0:0:120:120:190:190:hkcs_m9675$s",
+            "line": 909609,
+            "name": "hkcs_m28eb6",
+            "reference": "hkcs_m28eb6@1",
+            "related": "u28eb6",
+            "revision": 1,
+            "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72"
+          }
+        }
+      ],
+      "dependency_status": "issues",
+      "review_status": "unreviewed"
+    },
+    {
+      "entity_id": "unicode:U+29006",
+      "candidate": "hkcs_m29006@1",
+      "evidence": [
+        {
+          "issue": {
+            "line": 7,
+            "raw": ":0:7:49:54:42:90:18:104",
+            "reason": "invalid_kage_command",
+            "reference": "hkcs_m7a81-p01-s00@1"
+          },
+          "shortest_dependency_path": [
+            {
+              "parent": "hkcs_m29006@1",
+              "line": 1,
+              "raw_reference": "hkcs_m7a81-p01-s00",
+              "target": "hkcs_m7a81-p01-s00@1"
+            }
+          ],
+          "glyph": {
+            "data": "1:0:32:60:16:60:45$2:7:8:28:36:29:58:16:69$1:0:2:26:45:95:45$2:22:7:95:45:92:54:84:64$2:0:7:47:54:44:90:18:108$103:0:1005:68:54:68:86:96:86$:0:7:49:54:42:90:18:104$1:0:100:14:126:102:126$7:0:7:57:96:57:122:56:164:13:184$2:7:8:59:136:80:148:93:170$2:7:8:69:98:79:105:83:116",
+            "line": 960475,
+            "name": "hkcs_m7a81-p01-s00",
+            "reference": "hkcs_m7a81-p01-s00@1",
+            "related": "u7a81",
+            "revision": 1,
+            "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72"
+          }
+        }
+      ],
+      "dependency_status": "issues",
+      "review_status": "unreviewed"
+    },
+    {
+      "entity_id": "unicode:U+31296",
+      "candidate": "hkcs_m31296@1",
+      "evidence": [
+        {
+          "issue": {
+            "line": 7,
+            "raw": ":0:7:49:54:42:90:18:104",
+            "reason": "invalid_kage_command",
+            "reference": "hkcs_m7a81-p01-s00@1"
+          },
+          "shortest_dependency_path": [
+            {
+              "parent": "hkcs_m31296@1",
+              "line": 3,
+              "raw_reference": "hkcs_m9d9f",
+              "target": "hkcs_m9d9f@1"
+            },
+            {
+              "parent": "hkcs_m9d9f@1",
+              "line": 1,
+              "raw_reference": "hkcs_m7a81-p01-s00",
+              "target": "hkcs_m7a81-p01-s00@1"
+            }
+          ],
+          "glyph": {
+            "data": "1:0:32:60:16:60:45$2:7:8:28:36:29:58:16:69$1:0:2:26:45:95:45$2:22:7:95:45:92:54:84:64$2:0:7:47:54:44:90:18:108$103:0:1005:68:54:68:86:96:86$:0:7:49:54:42:90:18:104$1:0:100:14:126:102:126$7:0:7:57:96:57:122:56:164:13:184$2:7:8:59:136:80:148:93:170$2:7:8:69:98:79:105:83:116",
+            "line": 960475,
+            "name": "hkcs_m7a81-p01-s00",
+            "reference": "hkcs_m7a81-p01-s00@1",
+            "related": "u7a81",
+            "revision": 1,
+            "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72"
+          }
+        }
+      ],
+      "dependency_status": "issues",
+      "review_status": "unreviewed"
+    },
+    {
+      "entity_id": "unicode:U+39B3",
+      "candidate": "lp_lps-00001460@1",
+      "evidence": [
+        {
+          "issue": {
+            "reason": "missing_reference",
+            "reference": "lp_lpy-00001460"
+          },
+          "shortest_dependency_path": [
+            {
+              "parent": "lp_lps-00001460@1",
+              "line": 1,
+              "raw_reference": "lp_lpy-00001460",
+              "target": "lp_lpy-00001460"
+            }
+          ],
+          "glyph": null
+        }
+      ],
+      "dependency_status": "issues",
+      "review_status": "unreviewed"
+    },
+    {
+      "entity_id": "unicode:U+7A81",
+      "candidate": "hkcs_m7a81-p01-s00@1",
+      "evidence": [
+        {
+          "issue": {
+            "line": 7,
+            "raw": ":0:7:49:54:42:90:18:104",
+            "reason": "invalid_kage_command",
+            "reference": "hkcs_m7a81-p01-s00@1"
+          },
+          "shortest_dependency_path": [],
+          "glyph": {
+            "data": "1:0:32:60:16:60:45$2:7:8:28:36:29:58:16:69$1:0:2:26:45:95:45$2:22:7:95:45:92:54:84:64$2:0:7:47:54:44:90:18:108$103:0:1005:68:54:68:86:96:86$:0:7:49:54:42:90:18:104$1:0:100:14:126:102:126$7:0:7:57:96:57:122:56:164:13:184$2:7:8:59:136:80:148:93:170$2:7:8:69:98:79:105:83:116",
+            "line": 960475,
+            "name": "hkcs_m7a81-p01-s00",
+            "reference": "hkcs_m7a81-p01-s00@1",
+            "related": "u7a81",
+            "revision": 1,
+            "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72"
+          }
+        }
+      ],
+      "dependency_status": "issues",
+      "review_status": "unreviewed"
+    },
+    {
+      "entity_id": "unicode:U+9D9F",
+      "candidate": "hkcs_m9d9f@1",
+      "evidence": [
+        {
+          "issue": {
+            "line": 7,
+            "raw": ":0:7:49:54:42:90:18:104",
+            "reason": "invalid_kage_command",
+            "reference": "hkcs_m7a81-p01-s00@1"
+          },
+          "shortest_dependency_path": [
+            {
+              "parent": "hkcs_m9d9f@1",
+              "line": 1,
+              "raw_reference": "hkcs_m7a81-p01-s00",
+              "target": "hkcs_m7a81-p01-s00@1"
+            }
+          ],
+          "glyph": {
+            "data": "1:0:32:60:16:60:45$2:7:8:28:36:29:58:16:69$1:0:2:26:45:95:45$2:22:7:95:45:92:54:84:64$2:0:7:47:54:44:90:18:108$103:0:1005:68:54:68:86:96:86$:0:7:49:54:42:90:18:104$1:0:100:14:126:102:126$7:0:7:57:96:57:122:56:164:13:184$2:7:8:59:136:80:148:93:170$2:7:8:69:98:79:105:83:116",
+            "line": 960475,
+            "name": "hkcs_m7a81-p01-s00",
+            "reference": "hkcs_m7a81-p01-s00@1",
+            "related": "u7a81",
+            "revision": 1,
+            "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72"
+          }
+        }
+      ],
+      "dependency_status": "issues",
+      "review_status": "unreviewed"
+    }
+  ]
+}
