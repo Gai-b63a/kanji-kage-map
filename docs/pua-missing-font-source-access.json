@@ -1,0 +1,88 @@
+{
+  "format": "primary-source-access-audit-v1",
+  "checked_at": "2026-11-04T10:41:33.395754+00:00",
+  "source_table_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+  "entities": [
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E87B",
+      "source_links": [
+        {
+          "column": "source",
+          "url": "https://guji.nlc.cn/read/book?metadataId=1012948&imageId=10035849&searchKey=%E9%A3%BE%E4%BB%8A%E5%AF%8C%E8%80%85",
+          "label": "卷229 folio 16a",
+          "html_line": 16653
+        }
+      ],
+      "access_status": "viewer_text_only_no_image",
+      "detail": "Web retrieval returned an HTML viewer with zero readable lines; source image not inspected.",
+      "glyph_inspected": false,
+      "mapping_status_changed": false
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E87C",
+      "source_links": [
+        {
+          "column": "source",
+          "url": "https://guji.nlc.cn/read/book?metadataId=1012948&imageId=10035849&searchKey=%E9%A3%BE%E4%BB%8A%E5%AF%8C%E8%80%85",
+          "label": "卷229 folio 16a",
+          "html_line": 16661
+        }
+      ],
+      "access_status": "viewer_text_only_no_image",
+      "detail": "Web retrieval returned an HTML viewer with zero readable lines; source image not inspected.",
+      "glyph_inspected": false,
+      "mapping_status_changed": false
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E87D",
+      "source_links": [
+        {
+          "column": "source",
+          "url": "https://iiif.lib.harvard.edu/manifests/view/drs:428496451$35i",
+          "label": "卷96 folio 25b",
+          "html_line": 16669
+        }
+      ],
+      "access_status": "http_403",
+      "detail": "Direct HTTPS requests to Harvard viewer and the officially documented manifest URL both returned HTTP 403. Commons catalog lists a mirror with the same DRS identifier, but the mirror file page was not accessible through the web tool.",
+      "glyph_inspected": false,
+      "mapping_status_changed": false
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E87F",
+      "source_links": [
+        {
+          "column": "source",
+          "url": "https://commons.wikimedia.org/w/index.php?title=File%3ASBL064_%E5%A4%96%E8%87%BA%E7%A7%98%E8%A6%81%E6%96%B9.pdf&page=1398",
+          "label": "卷32 folio 13a",
+          "html_line": 16685
+        }
+      ],
+      "access_status": "file_description_found_page_not_inspected",
+      "detail": "Commons canonical file description was retrieved. The linked page=1398 viewer was not accessible through the web tool. No page image was inspected.",
+      "glyph_inspected": false,
+      "mapping_status_changed": false
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F55A",
+      "source_links": [],
+      "access_status": "no_source_in_pinned_table",
+      "detail": "The pinned table source and source-reference columns are blank; no primary-source hyperlink is available.",
+      "glyph_inspected": false,
+      "mapping_status_changed": false
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F55B",
+      "source_links": [],
+      "access_status": "no_source_in_pinned_table",
+      "detail": "The pinned table source and source-reference columns are blank; no primary-source hyperlink is available.",
+      "glyph_inspected": false,
+      "mapping_status_changed": false
+    }
+  ],
+  "harvard_manifest": "https://iiif.lib.harvard.edu/manifests/drs:428496451",
+  "manifest_derivation_documentation": "https://library.harvard.edu/services-tools/iiif-manifests-digital-objects",
+  "mirror_catalog": "https://commons.wikimedia.org/wiki/Commons:Library_back_up_project/file_list/Harvard-Yenching/1",
+  "mirror_catalog_filename": "File:Harvard drs 428496451 潛確居類書 v.34.pdf",
+  "limitation": "Access results describe this environment at this time. A tool error does not prove a source is unavailable to people; a catalog match does not establish image identity or page-number alignment."
+}
