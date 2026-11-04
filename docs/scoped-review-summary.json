@@ -1,0 +1,112 @@
+{
+  "format": "scoped-review-summary-v1",
+  "ledger_sha256": "3d16ef0af168cec418d1b9b46848c2a81286b077438a158d24718fbbe27484d3",
+  "inventory_entities": 109556,
+  "history_records": 3,
+  "current_records": 3,
+  "withdrawn_current_records": 0,
+  "active_nonwithdrawn_records": 3,
+  "entities_with_active_scoped_records": 2,
+  "entities_without_active_scoped_records": 109554,
+  "counts_by_scope": [
+    {
+      "kind": "whole_glyph",
+      "criterion": "structural_glyph_v1",
+      "decision": "different",
+      "records": 1
+    },
+    {
+      "kind": "whole_glyph",
+      "criterion": "structural_glyph_v1",
+      "decision": "equivalent",
+      "records": 1
+    },
+    {
+      "kind": "whole_glyph",
+      "criterion": "structural_glyph_v1",
+      "decision": "inconclusive",
+      "records": 1
+    }
+  ],
+  "reviewer_kinds": {
+    "ai": 3
+  },
+  "multiple_equivalent_candidates_same_context": [],
+  "active_contexts": [
+    {
+      "review_id": "sea-u6d77-19-g0-3a23-20261104",
+      "entity_id": "unicode:U+6D77",
+      "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+      "glyph_reference": "u6d77@19",
+      "scope": {
+        "criterion": "structural_glyph_v1",
+        "kind": "whole_glyph",
+        "source_id": "G0-3A23"
+      },
+      "source": {
+        "edition_alignment": "verified",
+        "locator": "U+6D77; PDF page 206; printed page 762; G0-3A23",
+        "provider": "Unicode",
+        "sha256": "9c2527a34623870413a348778a7804475c15e92960017dd3693ba18fd121aaf9",
+        "url": "https://www.unicode.org/Public/18.0.0/charts/PDF/U4E00.pdf",
+        "version": "18.0.0"
+      },
+      "decision": "different",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex (assessment of recorded visual observations)"
+      }
+    },
+    {
+      "review_id": "sea-u6d77-19-j0-3324-20261104",
+      "entity_id": "unicode:U+6D77",
+      "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+      "glyph_reference": "u6d77@19",
+      "scope": {
+        "criterion": "structural_glyph_v1",
+        "kind": "whole_glyph",
+        "source_id": "J0-3324"
+      },
+      "source": {
+        "edition_alignment": "verified",
+        "locator": "U+6D77; PDF page 206; printed page 762; J0-3324",
+        "provider": "Unicode",
+        "sha256": "9c2527a34623870413a348778a7804475c15e92960017dd3693ba18fd121aaf9",
+        "url": "https://www.unicode.org/Public/18.0.0/charts/PDF/U4E00.pdf",
+        "version": "18.0.0"
+      },
+      "decision": "inconclusive",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex (assessment of recorded visual observations)"
+      }
+    },
+    {
+      "review_id": "one-u4e00-46-j0-306c-20261104",
+      "entity_id": "unicode:U+4E00",
+      "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+      "glyph_reference": "u4e00@46",
+      "scope": {
+        "criterion": "structural_glyph_v1",
+        "kind": "whole_glyph",
+        "source_id": "J0-306C"
+      },
+      "source": {
+        "edition_alignment": "verified",
+        "locator": "U+4E00; PDF page 2; printed page 558; J0-306C",
+        "provider": "Unicode",
+        "sha256": "9c2527a34623870413a348778a7804475c15e92960017dd3693ba18fd121aaf9",
+        "url": "https://www.unicode.org/Public/18.0.0/charts/PDF/U4E00.pdf",
+        "version": "18.0.0"
+      },
+      "decision": "equivalent",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex (AI visual inspection of the source page and rendered KAGE)"
+      }
+    }
+  ],
+  "policy": "Counts describe scoped records only; no global confirmed-entity count or candidate selection is inferred. Different sources, editions and criteria remain separate. Withdrawal excludes a record from active judgments; history remains retained.",
+  "dataset_sha256": "3ee5b8e17cf1320767df79b80d771b9c5b6d05947583073354263f0d9b8aca9e",
+  "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72"
+}
