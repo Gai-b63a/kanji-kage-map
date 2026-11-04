@@ -1,0 +1,12 @@
+{
+  "format": "corrected-offline-lookup-verification-v1",
+  "package_import_isolated": true,
+  "one_scoped_equivalence": true,
+  "sea_scoped_difference_and_inconclusive": true,
+  "eadd_source_refs": [
+    "USAT05567"
+  ],
+  "eadd_search_status": "no_candidate_in_searched_rules",
+  "pua_lead_bundle": "u32580@3",
+  "automatic_selection": false
+}
