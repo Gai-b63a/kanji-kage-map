@@ -1,0 +1,56 @@
+name: Publish scoped review supplement
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/review-release.yml]
+permissions:
+  contents: write
+concurrency:
+  group: scoped-review-release
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Test code
+        run: python -m unittest discover -s tests
+      - name: Obtain immutable base
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir base
+          gh release download v0.1.0-preview.1 --pattern 'kanji-kage-map-v0.1.sqlite3.gz' --dir base
+          echo '3f689b0ea51466a945ca6b09c3d474f50f0701e367322a235a5406c1a608658f  base/kanji-kage-map-v0.1.sqlite3.gz' | sha256sum --check
+          gzip -d base/kanji-kage-map-v0.1.sqlite3.gz
+      - name: Build and verify all original records and packaged files
+        run: python tools/package_reviewed_release.py base/kanji-kage-map-v0.1.sqlite3 --output review-dist
+      - name: Verify offline lookup using only extracted package
+        run: |
+          python - <<'PY'
+          import zipfile,gzip,shutil,pathlib
+          with zipfile.ZipFile('review-dist/kanji-kage-map-v0.1.0-review.1-offline.zip') as z:
+              z.extractall('offline-check')
+          with gzip.open('offline-check/kanji-kage-map-v0.1.0-review.1.sqlite3.gz','rb') as src,open('offline-check/dataset.sqlite3','xb') as dst:
+              shutil.copyfileobj(src,dst)
+          PY
+          cd offline-check
+          python -m kanji_kage_map lookup U+4E00 --dataset dataset.sqlite3 --glyph u4e00 --output one.json
+          python -m kanji_kage_map lookup-source-leads babelstone:han-pua:1.473:U+E0C7 --dataset dataset.sqlite3 --unicode-target U+32580 --glyph u32580 --output pua.json
+          python - <<'PY'
+          import json
+          one=json.load(open('one.json')); pua=json.load(open('pua.json'))
+          assert one['review_decisions']['history'][0]['decision']=='equivalent'
+          assert one['selected_glyph'] is None
+          assert pua['unicode_leads'][0]['bundle']['root']=='u32580@3'
+          PY
+      - name: Publish new prerelease without replacing existing releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create v0.1.0-review.1 --target "$GITHUB_SHA" --prerelease --title 'v0.1.0-review.1 — scoped review supplement' --notes-file docs/REVIEW-RELEASE-NOTES.md review-dist/kanji-kage-map-v0.1.0-review.1-offline.zip review-dist/kanji-kage-map-v0.1.0-review.1.sqlite3.gz review-dist/kanji-kage-map-v0.1.0-review.1.manifest.json review-dist/one-reviewed.json review-dist/sea-reviewed.json review-dist/SHA256SUMS
