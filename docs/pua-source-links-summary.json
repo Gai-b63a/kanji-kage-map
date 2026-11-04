@@ -1,0 +1,81 @@
+{
+  "format": "pua-source-links-v1",
+  "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+  "output_sha256": "775a1ef066f09cfa0153c27e187cd9e17f8bb6304f9fcb4c3ff0df96883d81ae",
+  "entities": 6030,
+  "entities_with_links": 4286,
+  "links": 6038,
+  "missing_font_entities": [
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E87B",
+      "source_id": "pua-page",
+      "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+      "links": [
+        {
+          "column": "source",
+          "url": "https://guji.nlc.cn/read/book?metadataId=1012948&imageId=10035849&searchKey=%E9%A3%BE%E4%BB%8A%E5%AF%8C%E8%80%85",
+          "label": "卷229 folio 16a",
+          "html_line": 16653
+        }
+      ],
+      "status": "links_unverified"
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E87C",
+      "source_id": "pua-page",
+      "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+      "links": [
+        {
+          "column": "source",
+          "url": "https://guji.nlc.cn/read/book?metadataId=1012948&imageId=10035849&searchKey=%E9%A3%BE%E4%BB%8A%E5%AF%8C%E8%80%85",
+          "label": "卷229 folio 16a",
+          "html_line": 16661
+        }
+      ],
+      "status": "links_unverified"
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E87D",
+      "source_id": "pua-page",
+      "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+      "links": [
+        {
+          "column": "source",
+          "url": "https://iiif.lib.harvard.edu/manifests/view/drs:428496451$35i",
+          "label": "卷96 folio 25b",
+          "html_line": 16669
+        }
+      ],
+      "status": "links_unverified"
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E87F",
+      "source_id": "pua-page",
+      "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+      "links": [
+        {
+          "column": "source",
+          "url": "https://commons.wikimedia.org/w/index.php?title=File%3ASBL064_%E5%A4%96%E8%87%BA%E7%A7%98%E8%A6%81%E6%96%B9.pdf&page=1398",
+          "label": "卷32 folio 13a",
+          "html_line": 16685
+        }
+      ],
+      "status": "links_unverified"
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F55A",
+      "source_id": "pua-page",
+      "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+      "links": [],
+      "status": "no_source_hyperlink"
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F55B",
+      "source_id": "pua-page",
+      "source_sha256": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+      "links": [],
+      "status": "no_source_hyperlink"
+    }
+  ],
+  "limitation": "Hyperlinks are documentary leads. Target retrieval, source edition and glyph identity are not verified by extraction."
+}
