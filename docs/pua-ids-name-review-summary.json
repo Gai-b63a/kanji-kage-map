@@ -1,0 +1,20 @@
+{
+  "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+  "leads_sha256": "440997974939ea7d0d4b4ab72a503819a94bde2eafec3790f9b31bfc81c5827a",
+  "counts": {
+    "new_research_links": 4927,
+    "previously_candidate_free_entities_with_leads": 3165,
+    "unique_roots": 4925,
+    "dependency_complete": 4925
+  },
+  "published_dataset_path": ".cache/corrected-published/offline/dataset.sqlite3",
+  "published_dataset_sha256": "4cb1ba08625e6a6771589304cfe214573c18165f32b59c68cdbc3054847cd0aa",
+  "limitation": "New research links are not equivalent glyphs; mappings are unchanged.",
+  "rendered_roots": 4925,
+  "render_status_counts": {
+    "finite_nonempty": 4925
+  },
+  "rendering_sha256": "f0e942db88d4f84f2a86e13d2193ac9ff66ff5a895459641fab8f4f0bac8c709",
+  "engine": "@kurgm/kage-engine@0.7.0",
+  "unit_tests_passed": 82
+}

@@ -1,0 +1,29 @@
+{
+  "format": "pua-existing-ids-name-leads-v1",
+  "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+  "source_sha256": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+  "inventory_sha256": "80cd7c099186c17fadbf1766e2a4b15fab6db66024483534f791a40c5c1bf3b0",
+  "counts": {
+    "searched_no_name_found": 854,
+    "entities": 6030,
+    "candidate_links": 4927,
+    "leads_found": 4925,
+    "not_searchable_by_this_rule": 251
+  },
+  "source_heading_count": 6030,
+  "output_sha256": "440997974939ea7d0d4b4ab72a503819a94bde2eafec3790f9b31bfc81c5827a",
+  "attempt_status_counts": {
+    "name_not_found": 855,
+    "existing_name_found": 4927,
+    "unsupported_field_notation": 163,
+    "unsupported_leaf_or_notation": 72,
+    "not_composite": 8,
+    "extra_operand": 6,
+    "incomplete_expression": 2
+  },
+  "limitations": [
+    "Exact existing name lookup only; no suffix or indirect-reference search.",
+    "PUA leaves and unsupported notation are explicitly excluded.",
+    "No generated KAGE, identity judgment, or published mapping change."
+  ]
+}
