@@ -1,0 +1,24 @@
+{
+  "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+  "inventory_sha256": "80cd7c099186c17fadbf1766e2a4b15fab6db66024483534f791a40c5c1bf3b0",
+  "counts": {
+    "requires_source_evidence": 6151,
+    "entities": 109556,
+    "candidate_links": 952775,
+    "candidates_found": 103405
+  },
+  "confirmed_matches": 0,
+  "rules": [
+    "unicode_name",
+    "name_suffix",
+    "related_field"
+  ],
+  "limitation": "Name and related-field hits are discovery evidence, not glyph equivalence.",
+  "audit": {
+    "rows": 109556,
+    "unicode_name_entities": 103405,
+    "name_suffix_entities": 87612,
+    "related_field_entities": 101997,
+    "unresolved_candidate_revisions": 0
+  }
+}

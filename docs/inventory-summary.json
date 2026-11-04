@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "unicode_version": "18.0.0",
+  "source_hashes": {
+    "blocks": "a58f8d322f3c5e254f9f97b1cbf76a454a7e02de6ac35619a5e4f27aaabfd553",
+    "ids": "cc2a0a97e6a51ed6ebe59870ef2af66e83f3c3c27387d79b4441bb2d791d78b1",
+    "ids-pua": "9b083f81125cdfa8384a8b8df4ff2a706c018fc6c91185792060d3e873a9df72",
+    "prop-list": "f438f532e8737bb8a2702126cdf9c4af5e357c58c7acf9d9eb2fc7c1a1d955d6",
+    "pua-page": "a31b6fa8b39f2258dcb64008971936a524bdc462f3b753b3e73d24fbbcec2417",
+    "ucd-readme": "b0ea442f29dee90584aacd3665a6e1ce87ffc917a4d31f34e1916d2d6f7f9205",
+    "unicode-data": "0736451de439ae7baf1425136617da495e09ee5afbe6e394374db7009ea08950",
+    "unicode-license": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96"
+  },
+  "entities": 109556,
+  "kinds": {
+    "pua": 6030,
+    "numbered_component": 121,
+    "other_unicode": 38,
+    "han": 102999,
+    "component": 368
+  },
+  "memberships": {
+    "ids-pua_heading": 6030,
+    "pua-page_heading": 6030,
+    "ids_component": 11318,
+    "numbered_definition": 121,
+    "ids_heading": 97680,
+    "unicode_han": 102999,
+    "unicode_component": 368
+  },
+  "occurrences": 380334,
+  "source_rows": 109740,
+  "numbered_definitions": 121,
+  "line_accounting": {
+    "ids": {
+      "comment": 238,
+      "definition": 121,
+      "entry": 97680,
+      "total_lines": 98039
+    },
+    "ids-pua": {
+      "comment": 6,
+      "entry": 6030,
+      "empty_ids": 163,
+      "total_lines": 6036
+    },
+    "pua-page": {
+      "table_rows": 6031,
+      "unique_headings": 6030,
+      "total_lines": 49796,
+      "scope": "first character table; other HTML retained in source snapshot"
+    }
+  },
+  "differences": {
+    "unicode_and_babelstone": 97680,
+    "unicode_only": 5319,
+    "babelstone_only": 0,
+    "pua_txt_only": 0,
+    "pua_html_only": 0,
+    "pua_ids_text_mismatches": 0
+  },
+  "parse_issues": {
+    "whitespace_in_ids": 2,
+    "unclassified_leaf": 118,
+    "extra_ids_operand": 18,
+    "ids_arity_mismatch": 22
+  },
+  "mapping_status": {
+    "unreviewed": 109556
+  },
+  "coverage_claim": "inventory only; no glyph matching performed"
+}

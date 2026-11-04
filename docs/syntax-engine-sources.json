@@ -1,0 +1,10 @@
+{
+  "package": "@kurgm/kage-engine",
+  "version": "0.7.0",
+  "files": {
+    "README.md": "d2a1f1be3e02d147222f50b7ed00226af1f76cfc5cb13b49b3d33baba537da82",
+    "lib/esm/kage.js": "af910dd2e1e9c4a1363c2d0b4ee199703cde4c8b4342b4a2f150bf878f140e2f",
+    "lib/esm/stroke.js": "e0bac2af2a442b8e000ca2d23824d1a908ef56dce08bb7e9bd1b74823e22f481",
+    "lib/esm/font/mincho/index.js": "b7f7f73fc83d5043b06795fb016def44868c877d7116cee510dce2c5d2eabcab"
+  }
+}

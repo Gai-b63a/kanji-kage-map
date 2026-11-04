@@ -1,0 +1,1645 @@
+[
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+E4FA",
+    "classification": "source_whitespace",
+    "reasons": [
+      "whitespace_in_ids"
+    ],
+    "evidence": [
+      {
+        "line": 1144,
+        "raw": "⿱口⿰⿰丶丶 口",
+        "reason": "whitespace_in_ids",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 9460,
+        "raw": "⿱口⿰⿰丶丶 口",
+        "reason": "whitespace_in_ids",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+E798",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 1806,
+        "raw": "☰",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 14821,
+        "raw": "☰",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+E799",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 1807,
+        "raw": "☱",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 14829,
+        "raw": "☱",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+E79A",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 1808,
+        "raw": "☲",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 14837,
+        "raw": "☲",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+E79B",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 1809,
+        "raw": "☳",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 14845,
+        "raw": "☳",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+E79C",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 1810,
+        "raw": "☴",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 14853,
+        "raw": "☴",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+E79D",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 1811,
+        "raw": "☵",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 14861,
+        "raw": "☵",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+E79E",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 1812,
+        "raw": "☶",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 14869,
+        "raw": "☶",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+E79F",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 1813,
+        "raw": "☷",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 14877,
+        "raw": "☷",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+E860",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 2006,
+        "raw": "〇",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 16447,
+        "raw": "〇",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+E861",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 2007,
+        "raw": "〇",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 16456,
+        "raw": "〇",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+E862",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 2008,
+        "raw": "〇",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 16464,
+        "raw": "〇",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+E863",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 2009,
+        "raw": "〇",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 16472,
+        "raw": "〇",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+E945",
+    "classification": "source_structure_review",
+    "reasons": [
+      "extra_ids_operand",
+      "ids_arity_mismatch"
+    ],
+    "evidence": [
+      {
+        "line": 2201,
+        "raw": "⿳一八⿰丿⿰丨丨㇂",
+        "reason": "extra_ids_operand",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 2201,
+        "raw": "⿳一八⿰丿⿰丨丨㇂",
+        "reason": "ids_arity_mismatch",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 18020,
+        "raw": "⿳一八⿰丿⿰丨丨㇂",
+        "reason": "extra_ids_operand",
+        "source_id": "pua-page"
+      },
+      {
+        "line": 18020,
+        "raw": "⿳一八⿰丿⿰丨丨㇂",
+        "reason": "ids_arity_mismatch",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+EA13",
+    "classification": "source_structure_review",
+    "reasons": [
+      "extra_ids_operand",
+      "ids_arity_mismatch"
+    ],
+    "evidence": [
+      {
+        "line": 2395,
+        "raw": "⿳艹⿴北白八夊",
+        "reason": "extra_ids_operand",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 2395,
+        "raw": "⿳艹⿴北白八夊",
+        "reason": "ids_arity_mismatch",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 19603,
+        "raw": "⿳艹⿴北白八夊",
+        "reason": "extra_ids_operand",
+        "source_id": "pua-page"
+      },
+      {
+        "line": 19603,
+        "raw": "⿳艹⿴北白八夊",
+        "reason": "ids_arity_mismatch",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+EB12",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 2643,
+        "raw": "〥",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 21640,
+        "raw": "〥",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+EB13",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 2644,
+        "raw": "〦",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 21648,
+        "raw": "〦",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+EDE1",
+    "classification": "source_structure_review",
+    "reasons": [
+      "extra_ids_operand",
+      "ids_arity_mismatch"
+    ],
+    "evidence": [
+      {
+        "line": 3346,
+        "raw": "⿱山⿶凵氺八承",
+        "reason": "extra_ids_operand",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 3346,
+        "raw": "⿱山⿶凵氺八承",
+        "reason": "ids_arity_mismatch",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 27467,
+        "raw": "⿱山⿶凵氺八承",
+        "reason": "extra_ids_operand",
+        "source_id": "pua-page"
+      },
+      {
+        "line": 27467,
+        "raw": "⿱山⿶凵氺八承",
+        "reason": "ids_arity_mismatch",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F0E8",
+    "classification": "source_structure_review",
+    "reasons": [
+      "ids_arity_mismatch"
+    ],
+    "evidence": [
+      {
+        "line": 4100,
+        "raw": "⿱⿺二女",
+        "reason": "ids_arity_mismatch",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 33659,
+        "raw": "⿱⿺二女",
+        "reason": "ids_arity_mismatch",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F11E",
+    "classification": "source_structure_review",
+    "reasons": [
+      "ids_arity_mismatch"
+    ],
+    "evidence": [
+      {
+        "line": 4147,
+        "raw": "⿰⿰⿳士冖麥殳",
+        "reason": "ids_arity_mismatch",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 34045,
+        "raw": "⿰⿰⿳士冖麥殳",
+        "reason": "ids_arity_mismatch",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F164",
+    "classification": "source_structure_review",
+    "reasons": [
+      "extra_ids_operand",
+      "ids_arity_mismatch"
+    ],
+    "evidence": [
+      {
+        "line": 4214,
+        "raw": "⿰氵丰月",
+        "reason": "extra_ids_operand",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 4214,
+        "raw": "⿰氵丰月",
+        "reason": "ids_arity_mismatch",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 34588,
+        "raw": "⿰氵丰月",
+        "reason": "extra_ids_operand",
+        "source_id": "pua-page"
+      },
+      {
+        "line": 34588,
+        "raw": "⿰氵丰月",
+        "reason": "ids_arity_mismatch",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F3E2",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 4806,
+        "raw": "タ",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 4806,
+        "raw": "カ",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 39468,
+        "raw": "タ",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      },
+      {
+        "line": 39468,
+        "raw": "カ",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F4FC",
+    "classification": "source_structure_review",
+    "reasons": [
+      "extra_ids_operand",
+      "ids_arity_mismatch"
+    ],
+    "evidence": [
+      {
+        "line": 5075,
+        "raw": "⿰疒龙鳥",
+        "reason": "extra_ids_operand",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 5075,
+        "raw": "⿰疒龙鳥",
+        "reason": "ids_arity_mismatch",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 41676,
+        "raw": "⿰疒龙鳥",
+        "reason": "extra_ids_operand",
+        "source_id": "pua-page"
+      },
+      {
+        "line": 41676,
+        "raw": "⿰疒龙鳥",
+        "reason": "ids_arity_mismatch",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F579",
+    "classification": "source_structure_review",
+    "reasons": [
+      "extra_ids_operand",
+      "ids_arity_mismatch",
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 5191,
+        "raw": "尸ソ",
+        "reason": "extra_ids_operand",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 5191,
+        "raw": "ソ",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 5191,
+        "raw": "尸ソ",
+        "reason": "ids_arity_mismatch",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 42622,
+        "raw": "尸ソ",
+        "reason": "extra_ids_operand",
+        "source_id": "pua-page"
+      },
+      {
+        "line": 42622,
+        "raw": "ソ",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      },
+      {
+        "line": 42622,
+        "raw": "尸ソ",
+        "reason": "ids_arity_mismatch",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F825",
+    "classification": "source_structure_review",
+    "reasons": [
+      "extra_ids_operand",
+      "ids_arity_mismatch"
+    ],
+    "evidence": [
+      {
+        "line": 5858,
+        "raw": "⿱⿰⿳土宀冖去大土",
+        "reason": "extra_ids_operand",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 5858,
+        "raw": "⿱⿰⿳土宀冖去大土",
+        "reason": "ids_arity_mismatch",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 48138,
+        "raw": "⿱⿰⿳土宀冖去大土",
+        "reason": "extra_ids_operand",
+        "source_id": "pua-page"
+      },
+      {
+        "line": 48138,
+        "raw": "⿱⿰⿳土宀冖去大土",
+        "reason": "ids_arity_mismatch",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8BA",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 5999,
+        "raw": "ヱ",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49284,
+        "raw": "ヱ",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8BB",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6000,
+        "raw": "ヰ",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49292,
+        "raw": "ヰ",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8BC",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6001,
+        "raw": "ソ",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49300,
+        "raw": "ソ",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8BD",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6002,
+        "raw": "サ",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 6002,
+        "raw": "バ",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49308,
+        "raw": "サ",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      },
+      {
+        "line": 49308,
+        "raw": "バ",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8BF",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6004,
+        "raw": "マ",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49324,
+        "raw": "マ",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8C0",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6005,
+        "raw": "K",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49332,
+        "raw": "K",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8C1",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6006,
+        "raw": "K",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49340,
+        "raw": "K",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8C2",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6007,
+        "raw": "K",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49348,
+        "raw": "K",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8C3",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6008,
+        "raw": "A",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49356,
+        "raw": "A",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8C4",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6009,
+        "raw": "E",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49364,
+        "raw": "E",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8C5",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6010,
+        "raw": "N",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49372,
+        "raw": "N",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8C6",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6011,
+        "raw": "M",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49380,
+        "raw": "M",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8C7",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6012,
+        "raw": "도",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49388,
+        "raw": "도",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8C8",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6013,
+        "raw": "ふ",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49396,
+        "raw": "ふ",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8C9",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6014,
+        "raw": "K",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49404,
+        "raw": "K",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8CA",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6015,
+        "raw": "O",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49412,
+        "raw": "O",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8CB",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6016,
+        "raw": "K",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 6016,
+        "raw": "O",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49420,
+        "raw": "K",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      },
+      {
+        "line": 49420,
+        "raw": "O",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8CC",
+    "classification": "source_structure_review",
+    "reasons": [
+      "extra_ids_operand",
+      "ids_arity_mismatch",
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6017,
+        "raw": "辶チ",
+        "reason": "extra_ids_operand",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 6017,
+        "raw": "チ",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 6017,
+        "raw": "辶チ",
+        "reason": "ids_arity_mismatch",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49428,
+        "raw": "辶チ",
+        "reason": "extra_ids_operand",
+        "source_id": "pua-page"
+      },
+      {
+        "line": 49428,
+        "raw": "チ",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      },
+      {
+        "line": 49428,
+        "raw": "辶チ",
+        "reason": "ids_arity_mismatch",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8CD",
+    "classification": "source_structure_review",
+    "reasons": [
+      "extra_ids_operand",
+      "ids_arity_mismatch",
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6018,
+        "raw": "辶ト",
+        "reason": "extra_ids_operand",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 6018,
+        "raw": "ト",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 6018,
+        "raw": "辶ト",
+        "reason": "ids_arity_mismatch",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49436,
+        "raw": "辶ト",
+        "reason": "extra_ids_operand",
+        "source_id": "pua-page"
+      },
+      {
+        "line": 49436,
+        "raw": "ト",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      },
+      {
+        "line": 49436,
+        "raw": "辶ト",
+        "reason": "ids_arity_mismatch",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8CE",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6019,
+        "raw": "キ",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49444,
+        "raw": "キ",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8CF",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6020,
+        "raw": "ギ",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49452,
+        "raw": "ギ",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8D0",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6021,
+        "raw": "コ",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49460,
+        "raw": "コ",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8D1",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6022,
+        "raw": "R",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49468,
+        "raw": "R",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8D2",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6023,
+        "raw": "K",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49476,
+        "raw": "K",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8D3",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6024,
+        "raw": "K",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49484,
+        "raw": "K",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8D4",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6025,
+        "raw": "R",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49492,
+        "raw": "R",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8D5",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6026,
+        "raw": "K",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49500,
+        "raw": "K",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8D6",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6027,
+        "raw": "K",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49508,
+        "raw": "K",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8D7",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6028,
+        "raw": "S",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49516,
+        "raw": "S",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8D8",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6029,
+        "raw": "K",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49524,
+        "raw": "K",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8D9",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6030,
+        "raw": "K",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49532,
+        "raw": "K",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8DA",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6031,
+        "raw": "S",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49540,
+        "raw": "S",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8DB",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6032,
+        "raw": "N",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49548,
+        "raw": "N",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8DC",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6033,
+        "raw": "K",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49556,
+        "raw": "K",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8DD",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6034,
+        "raw": "コ",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 6034,
+        "raw": "ン",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 6034,
+        "raw": "ク",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 6034,
+        "raw": "リ",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49564,
+        "raw": "コ",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      },
+      {
+        "line": 49564,
+        "raw": "ン",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      },
+      {
+        "line": 49564,
+        "raw": "ク",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      },
+      {
+        "line": 49564,
+        "raw": "リ",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  },
+  {
+    "entity_id": "babelstone:han-pua:1.473:U+F8DE",
+    "classification": "non_han_component",
+    "reasons": [
+      "unclassified_leaf"
+    ],
+    "evidence": [
+      {
+        "line": 6035,
+        "raw": "エ",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 6035,
+        "raw": "ン",
+        "reason": "unclassified_leaf",
+        "source_id": "ids-pua"
+      },
+      {
+        "line": 49572,
+        "raw": "エ",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      },
+      {
+        "line": 49572,
+        "raw": "ン",
+        "reason": "unclassified_leaf",
+        "source_id": "pua-page"
+      }
+    ],
+    "status": "unreviewed",
+    "action": "preserve identifiers and raw source; do not infer glyph equivalence"
+  }
+]

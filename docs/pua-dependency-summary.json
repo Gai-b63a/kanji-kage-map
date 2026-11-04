@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+  "candidates_sha256": "5ba83355b82c55523ff4cc91e94b7ee9a9b0b9696fc4abeec8ea474c4d7802a4",
+  "candidate_links": 2410,
+  "unique_candidate_roots": 2406,
+  "dependency_nodes": 8278,
+  "dependency_edges": 10149,
+  "local_issue_events": {},
+  "candidate_root_status": {
+    "complete": 2406
+  },
+  "cycle_reachable_nodes": 0,
+  "limitation": "Reference and command-tag audit only; no coordinate, rendering, or glyph-identity certification."
+}

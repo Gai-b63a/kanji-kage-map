@@ -1,0 +1,8 @@
+{
+  "schema": "candidates.schema.json",
+  "schema_sha256": "d0b746252030b0b894595ba09c7a3d3167e5c731db0fe83b517dea3121c55f8e",
+  "data": "pua-candidates.jsonl",
+  "data_sha256": "5ba83355b82c55523ff4cc91e94b7ee9a9b0b9696fc4abeec8ea474c4d7802a4",
+  "rows": 6151,
+  "status": "passed"
+}

@@ -1,0 +1,8 @@
+{
+  "schema": "mappings.schema.json",
+  "schema_sha256": "5f0f8d0f3ac7d1819bed9bbbc9e3716a5a19962a95a93b5085db34ea68796831",
+  "data": "mappings.jsonl",
+  "data_sha256": "aa06be9392495dd1b23c7682ca3ff28697cd272a31122f6caa9b560fa5a86b3c",
+  "rows": 109556,
+  "status": "passed"
+}

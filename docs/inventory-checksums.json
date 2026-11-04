@@ -1,0 +1,9 @@
+{
+  "component-definitions.jsonl": "ec5b6f4b995bce34ac5fb4499b80ac9e2b8456bdd3f19b09617674f0b9e8e1a1",
+  "inventory.jsonl": "80cd7c099186c17fadbf1766e2a4b15fab6db66024483534f791a40c5c1bf3b0",
+  "occurrences.jsonl": "d86bb7671adcabe4645c7b91f4da54c61b44077559b0060622c4e386bbaef4ff",
+  "parse-issues.jsonl": "e92659863d0b86099fb517e070d69969a435e5dbbdecf36addb9a44a0d43cf44",
+  "source-differences.json": "fa0a7f0d2881d31c481fffd32af08a87b880fe251bff711dd3f5aaeddbf1d3c3",
+  "source-rows.jsonl": "cf19856e5214b302cf203071a538eee91dbb3f01314694f7515460a34108d379",
+  "summary.json": "24ad8c36dcfa7706f520fa0f66828aac6e16cf58d29df3dd144cfb2e1ee7386c"
+}

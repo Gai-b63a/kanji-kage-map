@@ -1,0 +1,65 @@
+[
+  {
+    "dependency_status": "issues",
+    "reachable_issues": [
+      "invalid_kage_command"
+    ],
+    "reference": "hkcs_m28eb6@1",
+    "render_status": "not_run",
+    "review_status": "unreviewed"
+  },
+  {
+    "dependency_status": "issues",
+    "reachable_issues": [
+      "invalid_kage_command"
+    ],
+    "reference": "hkcs_m29006@1",
+    "render_status": "not_run",
+    "review_status": "unreviewed"
+  },
+  {
+    "dependency_status": "issues",
+    "reachable_issues": [
+      "invalid_kage_command"
+    ],
+    "reference": "hkcs_m31296@1",
+    "render_status": "not_run",
+    "review_status": "unreviewed"
+  },
+  {
+    "dependency_status": "issues",
+    "reachable_issues": [
+      "invalid_kage_command"
+    ],
+    "reference": "hkcs_m7a81-p01-s00@1",
+    "render_status": "not_run",
+    "review_status": "unreviewed"
+  },
+  {
+    "dependency_status": "issues",
+    "reachable_issues": [
+      "invalid_kage_command"
+    ],
+    "reference": "hkcs_m9d9f@1",
+    "render_status": "not_run",
+    "review_status": "unreviewed"
+  },
+  {
+    "dependency_status": "issues",
+    "reachable_issues": [
+      "missing_reference"
+    ],
+    "reference": "lp_lps-00001460@1",
+    "render_status": "not_run",
+    "review_status": "unreviewed"
+  },
+  {
+    "dependency_status": "issues",
+    "reachable_issues": [
+      "invalid_kage_command"
+    ],
+    "reference": "twedu-c15255-001@6",
+    "render_status": "not_run",
+    "review_status": "unreviewed"
+  }
+]

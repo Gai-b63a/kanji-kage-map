@@ -1,0 +1,35 @@
+{
+  "source_sha256": "92e7155bd28f5570449f4dc71e9bb6fa919f67ef0120d4f83b58c61bed3ed4dc",
+  "advertised_version": "1.473",
+  "names": {
+    "0": [
+      "(c) Copyright 1994-1999, Arphic Technology Co., Ltd.; (c) Copyright 2009-2025, Andrew West."
+    ],
+    "1": [
+      "BabelStone Han PUA"
+    ],
+    "2": [
+      "Regular"
+    ],
+    "3": [
+      "BabelStone Han PUA:Version 1.472;July 7, 2025"
+    ],
+    "5": [
+      "Version 1.472"
+    ],
+    "8": [
+      "BabelStone"
+    ],
+    "9": [
+      "Andrew West"
+    ],
+    "14": [
+      "http://ftp.gnu.org/non-gnu/chinese-fonts-truetype/LICENSE"
+    ]
+  },
+  "version_matches": false,
+  "cmap_count": 6122,
+  "pua_count": 6024,
+  "missing_inventory_count": 6,
+  "license_path": "licenses/ARPHICPL.txt"
+}

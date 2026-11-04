@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "id": "babelstone-han-pua-font",
+      "url": "https://www.babelstone.co.uk/Fonts/Download/BabelStoneHanPUA.ttf",
+      "filename": "BabelStoneHanPUA.ttf",
+      "version": "1.473",
+      "provider": "BabelStone",
+      "encoding": "binary",
+      "license_status": "pending-font-metadata-inspection",
+      "license_url": "https://www.babelstone.co.uk/Fonts/PUA.html"
+    }
+  ]
+}

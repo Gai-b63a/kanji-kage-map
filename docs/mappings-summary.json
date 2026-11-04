@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+  "inputs": {
+    "unicode_candidates": "563010ce0dd4c57d4b8d33f77e71bdf2b2cc352f81ac91df5e1b7309242961ec",
+    "pua_candidates": "5ba83355b82c55523ff4cc91e94b7ee9a9b0b9696fc4abeec8ea474c4d7802a4"
+  },
+  "output_sha256": "aa06be9392495dd1b23c7682ca3ff28697cd272a31122f6caa9b560fa5a86b3c",
+  "counts": {
+    "candidates_found": 105657,
+    "entities": 109556,
+    "candidate_links": 955185,
+    "candidate_links_with_dependency_issues": 7,
+    "requires_source_evidence": 2966,
+    "no_candidate_in_searched_rules": 933
+  },
+  "confirmed_matches": 0,
+  "release_status": "provisional-unreviewed"
+}

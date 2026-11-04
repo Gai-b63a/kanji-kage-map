@@ -1,0 +1,82 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-11-04",
+  "sample_rule": "12 evenly spaced entries among PUA identifiers with source-ID candidates; first candidate per entry",
+  "font_sha256": "92e7155bd28f5570449f4dc71e9bb6fa919f67ef0120d4f83b58c61bed3ed4dc",
+  "sheet_sha256": "59784b5830ee2e5f47d27afbe1e3df7b9ac1b80de2f1c974a3be1f099a14322c",
+  "status": "edition_mismatch_diagnostic_only",
+  "observations": [
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E080",
+      "glyph": "uk-20656@4",
+      "observation": "Broad component arrangement appears similar; stroke style and proportions differ. Not certified against font edition 1.473.",
+      "decision": "unreviewed_for_target_edition"
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E1E0",
+      "glyph": "uk-20606@9",
+      "observation": "Broad component arrangement appears similar; stroke style and proportions differ. Not certified against font edition 1.473.",
+      "decision": "unreviewed_for_target_edition"
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E3D1",
+      "glyph": "uk-30221@1",
+      "observation": "Broad component arrangement appears similar; stroke style and proportions differ. Not certified against font edition 1.473.",
+      "decision": "unreviewed_for_target_edition"
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E649",
+      "glyph": "utc-03452@1",
+      "observation": "Broad component arrangement appears similar; stroke style and proportions differ. Not certified against font edition 1.473.",
+      "decision": "unreviewed_for_target_edition"
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+E81B",
+      "glyph": "utc-03434@1",
+      "observation": "Broad component arrangement appears similar; stroke style and proportions differ. Not certified against font edition 1.473.",
+      "decision": "unreviewed_for_target_edition"
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+EB32",
+      "glyph": "gdm-00406@1",
+      "observation": "Broad component arrangement appears similar; stroke style and proportions differ. Not certified against font edition 1.473.",
+      "decision": "unreviewed_for_target_edition"
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+EC42",
+      "glyph": "uk-20179@3",
+      "observation": "Broad component arrangement appears similar; stroke style and proportions differ. Not certified against font edition 1.473.",
+      "decision": "unreviewed_for_target_edition"
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+EFBC",
+      "glyph": "uk-30094@3",
+      "observation": "Broad component arrangement appears similar; stroke style and proportions differ. Not certified against font edition 1.473.",
+      "decision": "unreviewed_for_target_edition"
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F1BE",
+      "glyph": "utc-03182@2",
+      "observation": "Broad component arrangement appears similar; stroke style and proportions differ. Not certified against font edition 1.473.",
+      "decision": "unreviewed_for_target_edition"
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F3EA",
+      "glyph": "utc-03563@1",
+      "observation": "Broad component arrangement appears similar; stroke style and proportions differ. Not certified against font edition 1.473.",
+      "decision": "unreviewed_for_target_edition"
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F67A",
+      "glyph": "uk-20461@1",
+      "observation": "Broad component arrangement appears similar; stroke style and proportions differ. Not certified against font edition 1.473.",
+      "decision": "unreviewed_for_target_edition"
+    },
+    {
+      "entity_id": "babelstone:han-pua:1.473:U+F8CA",
+      "glyph": "utc-03568@1",
+      "observation": "Broad component arrangement appears similar; stroke style and proportions differ. Not certified against font edition 1.473.",
+      "decision": "unreviewed_for_target_edition"
+    }
+  ]
+}

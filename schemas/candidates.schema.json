@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "candidates v0.1",
+  "type": "object",
+  "properties": {
+    "entity_id": {
+      "type": "string"
+    },
+    "snapshot_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "search_status": {
+      "enum": [
+        "candidates_found",
+        "no_candidate_in_searched_rules",
+        "requires_source_evidence"
+      ]
+    },
+    "mapping_status": {
+      "enum": [
+        "candidate",
+        "unreviewed"
+      ]
+    },
+    "review_status": {
+      "const": "unreviewed"
+    },
+    "selected_glyph": {
+      "type": "null"
+    },
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "pattern": "^[a-z0-9_.-]+$"
+          },
+          "revision": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          },
+          "related": {
+            "type": "string"
+          },
+          "source_line": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "rules": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "unicode_name",
+                "name_suffix",
+                "related_field",
+                "source_id_name"
+              ]
+            }
+          },
+          "revision_status": {
+            "enum": [
+              "resolved",
+              "unresolved"
+            ]
+          },
+          "evidence": {
+            "type": "object",
+            "properties": {
+              "source_id": {
+                "type": "string"
+              },
+              "line": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "source_ref": {
+                "type": "string"
+              },
+              "column": {
+                "type": "string"
+              },
+              "links": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "source_id",
+              "line",
+              "source_ref",
+              "column",
+              "links"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "name",
+          "revision",
+          "related",
+          "source_line",
+          "rules",
+          "revision_status"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "entity_id",
+    "snapshot_sha256",
+    "search_status",
+    "mapping_status",
+    "review_status",
+    "selected_glyph",
+    "candidates"
+  ],
+  "additionalProperties": false
+}

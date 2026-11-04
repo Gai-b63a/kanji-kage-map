@@ -1,0 +1,8 @@
+{
+  "schema": "candidates.schema.json",
+  "schema_sha256": "d0b746252030b0b894595ba09c7a3d3167e5c731db0fe83b517dea3121c55f8e",
+  "data": "candidates.jsonl",
+  "data_sha256": "563010ce0dd4c57d4b8d33f77e71bdf2b2cc352f81ac91df5e1b7309242961ec",
+  "rows": 109556,
+  "status": "passed"
+}

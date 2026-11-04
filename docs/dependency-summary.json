@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+  "candidates_sha256": "563010ce0dd4c57d4b8d33f77e71bdf2b2cc352f81ac91df5e1b7309242961ec",
+  "candidate_links": 952775,
+  "unique_candidate_roots": 951164,
+  "dependency_nodes": 1199016,
+  "dependency_edges": 1807364,
+  "local_issue_events": {
+    "invalid_kage_command": 3,
+    "missing_reference": 1
+  },
+  "candidate_root_status": {
+    "complete": 951157,
+    "issues": 7,
+    "invalid_kage_command": 6,
+    "missing_reference": 1
+  },
+  "cycle_reachable_nodes": 0,
+  "limitation": "Reference and command-tag audit only; no coordinate, rendering, or glyph-identity certification."
+}

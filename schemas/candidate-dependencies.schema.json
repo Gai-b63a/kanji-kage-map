@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "candidate-dependencies v0.1",
+  "type": "object",
+  "properties": {
+    "reference": {
+      "type": "string"
+    },
+    "dependency_status": {
+      "enum": [
+        "complete",
+        "issues"
+      ]
+    },
+    "reachable_issues": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "missing_reference",
+          "invalid_reference",
+          "revision_unresolved",
+          "invalid_kage_command",
+          "malformed_dependency",
+          "empty_kage",
+          "cycle_reachable"
+        ]
+      }
+    },
+    "review_status": {
+      "const": "unreviewed"
+    },
+    "render_status": {
+      "const": "not_run"
+    }
+  },
+  "required": [
+    "reference",
+    "dependency_status",
+    "reachable_issues",
+    "review_status",
+    "render_status"
+  ],
+  "additionalProperties": false
+}

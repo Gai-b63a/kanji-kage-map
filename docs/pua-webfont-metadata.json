@@ -1,0 +1,18 @@
+[
+  {
+    "id": "babelstone-han-pua-woff",
+    "sha256": "275aa35448ab1e214e9c9e9a5cd0622dc20db8c1c2e3a1d8302a9696b52b6f34",
+    "version": [
+      "Version 1.472"
+    ],
+    "pua_count": 6024
+  },
+  {
+    "id": "babelstone-han-pua-woff2",
+    "sha256": "d29fe9f8e776d814e8648583d87b3fc6f5ba4441eb0c662f3405b6b0b172e9c5",
+    "version": [
+      "Version 1.472"
+    ],
+    "pua_count": 6024
+  }
+]

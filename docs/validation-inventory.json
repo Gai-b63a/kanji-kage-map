@@ -1,0 +1,8 @@
+{
+  "schema": "inventory.schema.json",
+  "schema_sha256": "d623fb1527232e3d490a9939e896ca4d8b7a1f26d146ba4081e6298d24c18245",
+  "data": "inventory.jsonl",
+  "data_sha256": "80cd7c099186c17fadbf1766e2a4b15fab6db66024483534f791a40c5c1bf3b0",
+  "rows": 109556,
+  "status": "passed"
+}

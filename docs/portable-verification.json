@@ -1,0 +1,18 @@
+{
+  "database_sha256": "7b235cb838c4abc948086b30e3625092196ba51edef5b12fb1d9782d7eb4df0d",
+  "entities": 109556,
+  "glyphs": 1201970,
+  "candidate_links": 955185,
+  "missing_targets": [
+    {
+      "parent": "lp_lps-00001460@1",
+      "line": 1,
+      "raw_reference": "lp_lpy-00001460",
+      "target": "lp_lpy-00001460"
+    }
+  ],
+  "integrity_check": "ok",
+  "all_candidate_roots_present": true,
+  "inventory_and_mapping_ids_equal": true,
+  "scope": "Complete structural audit; no glyph equivalence assertion"
+}

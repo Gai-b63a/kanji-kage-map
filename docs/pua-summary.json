@@ -1,0 +1,14 @@
+{
+  "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+  "source_rows_sha256": "cf19856e5214b302cf203071a538eee91dbb3f01314694f7515460a34108d379",
+  "inventory_sha256": "80cd7c099186c17fadbf1766e2a4b15fab6db66024483534f791a40c5c1bf3b0",
+  "counts": {
+    "candidates_found": 2252,
+    "entities": 6151,
+    "candidate_links": 2410,
+    "requires_source_evidence": 2966,
+    "no_candidate_in_searched_rules": 933
+  },
+  "confirmed_matches": 0,
+  "limitation": "Exact source-ID/name discovery only; no PUA-codepoint equality or visual identity claim."
+}

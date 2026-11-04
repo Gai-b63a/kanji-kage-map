@@ -1,0 +1,84 @@
+{
+  "sources": [
+    {
+      "id": "ids",
+      "url": "https://www.babelstone.co.uk/CJK/IDS.TXT",
+      "filename": "IDS.TXT",
+      "version": "2025-06-27",
+      "provider": "BabelStone",
+      "encoding": "utf-8-sig",
+      "license_status": "declaration-in-header",
+      "license_url": "https://www.babelstone.co.uk/CJK/IDS.TXT"
+    },
+    {
+      "id": "ids-pua",
+      "url": "https://www.babelstone.co.uk/CJK/IDS_PUA.TXT",
+      "filename": "IDS_PUA.TXT",
+      "version": "1.473",
+      "provider": "BabelStone",
+      "encoding": "utf-8-sig",
+      "license_status": "pending",
+      "license_url": "https://www.babelstone.co.uk/Fonts/PUA.html"
+    },
+    {
+      "id": "pua-page",
+      "url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+      "filename": "PUA.html",
+      "version": "1.473",
+      "provider": "BabelStone",
+      "encoding": "utf-8-sig",
+      "license_status": "pending",
+      "license_url": "https://www.babelstone.co.uk/Fonts/PUA.html"
+    },
+    {
+      "id": "ucd-readme",
+      "url": "https://www.unicode.org/Public/18.0.0/ucd/ReadMe.txt",
+      "filename": "ReadMe.txt",
+      "version": "18.0.0",
+      "provider": "Unicode",
+      "encoding": "utf-8-sig",
+      "license_status": "pending",
+      "license_url": "https://www.unicode.org/license.txt"
+    },
+    {
+      "id": "unicode-data",
+      "url": "https://www.unicode.org/Public/18.0.0/ucd/UnicodeData.txt",
+      "filename": "UnicodeData.txt",
+      "version": "18.0.0",
+      "provider": "Unicode",
+      "encoding": "utf-8-sig",
+      "license_status": "pending",
+      "license_url": "https://www.unicode.org/license.txt"
+    },
+    {
+      "id": "prop-list",
+      "url": "https://www.unicode.org/Public/18.0.0/ucd/PropList.txt",
+      "filename": "PropList.txt",
+      "version": "18.0.0",
+      "provider": "Unicode",
+      "encoding": "utf-8-sig",
+      "license_status": "pending",
+      "license_url": "https://www.unicode.org/license.txt"
+    },
+    {
+      "id": "blocks",
+      "url": "https://www.unicode.org/Public/18.0.0/ucd/Blocks.txt",
+      "filename": "Blocks.txt",
+      "version": "18.0.0",
+      "provider": "Unicode",
+      "encoding": "utf-8-sig",
+      "license_status": "pending",
+      "license_url": "https://www.unicode.org/license.txt"
+    },
+    {
+      "id": "unicode-license",
+      "url": "https://www.unicode.org/license.txt",
+      "filename": "license.txt",
+      "version": "retrieval-snapshot",
+      "provider": "Unicode",
+      "encoding": "utf-8-sig",
+      "license_status": "license-text",
+      "license_url": "https://www.unicode.org/license.txt"
+    }
+  ]
+}

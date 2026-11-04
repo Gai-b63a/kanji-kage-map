@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "glyph v0.1",
+  "type": "object",
+  "properties": {
+    "reference": {
+      "type": "string"
+    },
+    "snapshot_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "revision": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1
+    },
+    "related": {
+      "type": "string"
+    },
+    "data": {
+      "type": "string"
+    },
+    "line": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "required": [
+    "reference",
+    "snapshot_sha256",
+    "name",
+    "revision",
+    "related",
+    "data",
+    "line"
+  ],
+  "additionalProperties": false
+}

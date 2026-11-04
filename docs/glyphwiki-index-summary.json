@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+  "counts": {
+    "dump_newest_only.txt": {
+      "total_lines": 2095948,
+      "non_data": 4,
+      "rows": 2095944
+    },
+    "dump_all_versions.txt": {
+      "total_lines": 6622503,
+      "non_data": 4,
+      "rows": 6622499
+    }
+  },
+  "unresolved_latest_revisions": 0,
+  "empty_latest_data": 0,
+  "build_status": "complete",
+  "license_sha256": "1435fc6023e5e48fbf3f98ceeb2b2401a11884bb2d9d9d964a13b539a2e249cc"
+}

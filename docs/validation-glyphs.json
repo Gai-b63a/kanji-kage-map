@@ -1,0 +1,8 @@
+{
+  "schema": "glyph.schema.json",
+  "schema_sha256": "0cd8b33cf91dae323dd5f264b6db0f3586c8ca50a6bbaba0fa8dbe872dc6ed1d",
+  "data": "glyphs.jsonl",
+  "data_sha256": "af36d6ba7ba7f40134b9aeea20e2ef7a4d7a387ef422c32593d589e9567a2a8f",
+  "rows": 1199015,
+  "status": "passed"
+}

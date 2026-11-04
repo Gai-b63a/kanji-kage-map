@@ -1,0 +1,7 @@
+{
+  "name": "kanji-kage-map-review-tools",
+  "private": true,
+  "type": "module",
+  "description": "Optional KAGE rendering for dataset review",
+  "devDependencies": {"@kurgm/kage-engine": "0.7.0"}
+}

@@ -1,0 +1,8 @@
+{
+  "schema": "dependency.schema.json",
+  "schema_sha256": "9e3947ae3ed6b412383114e9a96bb5f4fd27a9f4f7e54627464633174a4b98ec",
+  "data": "dependencies.jsonl",
+  "data_sha256": "9b3308359236a154ec800fc4b67b778d23490b406a8f48ea757242227ca56119",
+  "rows": 1807364,
+  "status": "passed"
+}

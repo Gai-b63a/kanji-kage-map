@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "inventory v0.1",
+  "type": "object",
+  "properties": {
+    "entity_id": {
+      "type": "string"
+    },
+    "provider": {
+      "enum": [
+        "Unicode",
+        "BabelStone"
+      ]
+    },
+    "version": {
+      "type": "string"
+    },
+    "local_id": {
+      "type": "string"
+    },
+    "kind": {
+      "enum": [
+        "han",
+        "component",
+        "other_unicode",
+        "pua",
+        "numbered_component"
+      ]
+    },
+    "character": {
+      "type": "string"
+    },
+    "unicode_assigned": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "memberships": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "mapping_status": {
+      "const": "unreviewed"
+    }
+  },
+  "required": [
+    "entity_id",
+    "provider",
+    "version",
+    "local_id",
+    "kind",
+    "character",
+    "unicode_assigned",
+    "memberships",
+    "source_ids",
+    "mapping_status"
+  ],
+  "additionalProperties": false
+}

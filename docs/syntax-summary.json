@@ -1,0 +1,27 @@
+{
+  "format": "kage-static-audit-v1",
+  "engine": "@kurgm/kage-engine@0.7.0",
+  "database_sha256": "7b235cb838c4abc948086b30e3625092196ba51edef5b12fb1d9782d7eb4df0d",
+  "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+  "glyphs_checked": 1201970,
+  "lines_checked": 2759959,
+  "glyphs_with_findings": 418,
+  "finding_counts": {
+    "blank_numeric_zero_coercion": 21,
+    "engine_unsupported_command": 5,
+    "invalid_command_tag": 3,
+    "missing_numeric_field": 2,
+    "noncanonical_nonnegative_integer": 3406,
+    "nonnumeric_field": 1
+  },
+  "issues_sha256": "166e6ab844810df0d54e6f7fd9c030f30f1b37e31535e29b64c5b4afc68ebc37",
+  "checker_sha256": "f5ec5e10565f1093021d09054643d4436ee34a6252dd339ef7ef4811a193329c",
+  "scope": "direct stored lines; required numeric inputs and engine dispatch only",
+  "exclusions": [
+    "dependency propagation",
+    "head/tail combination semantics",
+    "geometry after component transforms",
+    "glyph equivalence",
+    "unused trailing fields and comment payloads"
+  ]
+}

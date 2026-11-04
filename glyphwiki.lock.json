@@ -1,0 +1,15 @@
+{
+  "url": "https://glyphwiki.org/dump.tar.gz",
+  "final_url": "https://glyphwiki.org/dump.tar.gz",
+  "http_last_modified": "Tue, 03 Nov 2026 17:01:36 GMT",
+  "etag": "\"6d0cfa8-65f623723c6bb\"",
+  "schema_version": 1,
+  "provider": "GlyphWiki",
+  "sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+  "bytes": 114347944,
+  "path": "data/raw/fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72/dump.tar.gz",
+  "retrieved_at": "2026-11-04T06:42:42.363855+00:00",
+  "license_status": "verified-archive-license",
+  "license_path": "licenses/GLYPHWIKI.txt",
+  "license_sha256": "1435fc6023e5e48fbf3f98ceeb2b2401a11884bb2d9d9d964a13b539a2e249cc"
+}

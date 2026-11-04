@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "babelstone-han-pua-woff",
+      "url": "https://www.babelstone.co.uk/Fonts/WOFF/BabelStoneHanPUA.woff",
+      "filename": "BabelStoneHanPUA.woff",
+      "version": "1.473",
+      "provider": "BabelStone",
+      "encoding": "binary",
+      "license_status": "pending-font-metadata-inspection",
+      "license_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+      "final_url": "https://www.babelstone.co.uk/Fonts/WOFF/BabelStoneHanPUA.woff",
+      "http_last_modified": "Mon, 07 Jul 2025 22:48:43 GMT",
+      "status": "acquired",
+      "path": "data/raw/275aa35448ab1e214e9c9e9a5cd0622dc20db8c1c2e3a1d8302a9696b52b6f34/BabelStoneHanPUA.woff",
+      "sha256": "275aa35448ab1e214e9c9e9a5cd0622dc20db8c1c2e3a1d8302a9696b52b6f34",
+      "bytes": 2257136,
+      "retrieved_at": "2026-11-04T07:11:05.161829+00:00"
+    },
+    {
+      "id": "babelstone-han-pua-woff2",
+      "url": "https://www.babelstone.co.uk/Fonts/WOFF/BabelStoneHanPUA.woff2",
+      "filename": "BabelStoneHanPUA.woff2",
+      "version": "1.473",
+      "provider": "BabelStone",
+      "encoding": "binary",
+      "license_status": "pending-font-metadata-inspection",
+      "license_url": "https://www.babelstone.co.uk/Fonts/PUA.html",
+      "final_url": "https://www.babelstone.co.uk/Fonts/WOFF/BabelStoneHanPUA.woff2",
+      "http_last_modified": "Mon, 07 Jul 2025 22:48:32 GMT",
+      "status": "acquired",
+      "path": "data/raw/d29fe9f8e776d814e8648583d87b3fc6f5ba4441eb0c662f3405b6b0b172e9c5/BabelStoneHanPUA.woff2",
+      "sha256": "d29fe9f8e776d814e8648583d87b3fc6f5ba4441eb0c662f3405b6b0b172e9c5",
+      "bytes": 1293912,
+      "retrieved_at": "2026-11-04T07:11:07.888058+00:00"
+    }
+  ]
+}

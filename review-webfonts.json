@@ -1,0 +1,24 @@
+{
+  "sources": [
+    {
+      "id": "babelstone-han-pua-woff",
+      "url": "https://www.babelstone.co.uk/Fonts/WOFF/BabelStoneHanPUA.woff",
+      "filename": "BabelStoneHanPUA.woff",
+      "version": "1.473",
+      "provider": "BabelStone",
+      "encoding": "binary",
+      "license_status": "pending-font-metadata-inspection",
+      "license_url": "https://www.babelstone.co.uk/Fonts/PUA.html"
+    },
+    {
+      "id": "babelstone-han-pua-woff2",
+      "url": "https://www.babelstone.co.uk/Fonts/WOFF/BabelStoneHanPUA.woff2",
+      "filename": "BabelStoneHanPUA.woff2",
+      "version": "1.473",
+      "provider": "BabelStone",
+      "encoding": "binary",
+      "license_status": "pending-font-metadata-inspection",
+      "license_url": "https://www.babelstone.co.uk/Fonts/PUA.html"
+    }
+  ]
+}

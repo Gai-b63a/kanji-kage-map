@@ -1,0 +1,8 @@
+{
+  "schema": "candidate-dependencies.schema.json",
+  "schema_sha256": "225074c0d1f58fc24fddeb453a1ba2809f33fe5b608e3536fe569476cdbf34ca",
+  "data": "candidate-dependencies.jsonl",
+  "data_sha256": "f4e36fe519a6b86e5943ac6c241ae68150bd45dd402dd81b6049e985411d7d71",
+  "rows": 951164,
+  "status": "passed"
+}
