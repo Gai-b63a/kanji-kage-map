@@ -1,0 +1,68 @@
+{
+  "schema_sha256": "424791b1e5cf743aa3ed80a4ece26e35ab005cadc77cab49ef9fcbba215d4a53",
+  "validator": "jsonschema 4.26.0",
+  "date_time_format_asserted": true,
+  "cases": [
+    {
+      "case": "original-0",
+      "accepted": true,
+      "semantic_validation": true
+    },
+    {
+      "case": "original-1",
+      "accepted": true,
+      "semantic_validation": true
+    },
+    {
+      "case": "original-2",
+      "accepted": true,
+      "semantic_validation": true
+    },
+    {
+      "case": "unverified-edition",
+      "accepted": false,
+      "semantic_validation": false
+    },
+    {
+      "case": "missing-aspect",
+      "accepted": false,
+      "semantic_validation": false
+    },
+    {
+      "case": "not-checked",
+      "accepted": false,
+      "semantic_validation": false
+    },
+    {
+      "case": "feature-cannot-certify-whole",
+      "accepted": false,
+      "semantic_validation": false
+    },
+    {
+      "case": "no-timezone",
+      "accepted": false,
+      "semantic_validation": false
+    },
+    {
+      "case": "missing-evidence",
+      "accepted": false,
+      "semantic_validation": false
+    },
+    {
+      "case": "unknown-property",
+      "accepted": false,
+      "semantic_validation": false
+    },
+    {
+      "case": "unversioned-glyph",
+      "accepted": false,
+      "semantic_validation": false
+    },
+    {
+      "case": "withdrawal-without-predecessor",
+      "accepted": false,
+      "semantic_validation": false
+    }
+  ],
+  "limitation": "Single-record interoperability checks; history ordering, canonical scalar IDs, unique observation aspects and candidate membership remain semantic validation duties."
+}

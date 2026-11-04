@@ -1,6 +1,14 @@
 # 根拠と訂正履歴を持つレビュー判断
 
-`glyph-review-decision-v1` は既存の候補対応表とは別に保存するJSONL判断記録です。検証コードは `kanji_kage_map/review_decisions.py`。既存の共有mappingスキーマやサイトの入力形式は変更していません。判断の取り込み・選択・集計を既存の配布DBへ統合する工程は今後必要です。
+`glyph-review-decision-v1` は既存の候補対応表とは別に保存するJSONL判断記録です。検証コードは `kanji_kage_map/review_decisions.py`。既存の共有mappingスキーマやサイトの入力形式は変更していません。[独立DBへの履歴同梱](REVIEWED-PORTABLE.md)と[典拠別集計](SCOPED-REVIEW-SUMMARY.md)は実装済みです。候補の自動選択は行いません。
+
+## 他ツール向けのレコード契約
+
+独立した [review-decisions.schema.json](../schemas/review-decisions.schema.json) を追加しました。[JSON Schema Draft 2020-12](https://json-schema.org/draft/2020-12) の単一レコードスキーマです。既存の対応表スキーマを変更せず、必須項目、未知項目の拒否、版付き参照、判断と観察の関係、構造一致に必要な4観点、版確認条件を表します。
+
+日時の `format: date-time` は検証器で明示的に有効にしてください。開発用検証は `jsonschema==4.26.0` と `rfc3339-validator==0.1.4` を導入して `python tools/verify_review_schema.py` で実行します。検索・配布DB利用のための必須依存は増えません。[検証記録](review-schema-verification.json)は実記録3件と不正例9件について専用検証との一致を確認したものです。
+
+このスキーマだけで受理を確定してはいけません。Unicode scalarと正規IDの検査、任意の観察名の重複、履歴順序・訂正対象の一致、候補DBへの所属は `parse_history` と `attach_history` も通してください。日時は交換用スキーマではRFC 3339形式に制約され、Pythonが受理する他のISO表記まで網羅するものではありません。判断の正しさや本人確認もスキーマでは証明しません。
 
 ## 判断の範囲
 
