@@ -19,7 +19,7 @@ from contextlib import closing
 import sqlite3
 
 
-def verify(directory, base, tag='v0.1.0-review.1', original=None):
+def verify(directory, base, tag='v0.1.0-review.1', original=None, allow_draft=False):
     directory=Path(directory)
     if tag not in {'v0.1.0-review.1','v0.1.0-preview.2'}:
         raise ValueError('Unsupported release tag')
@@ -27,7 +27,7 @@ def verify(directory, base, tag='v0.1.0-review.1', original=None):
         if original is None: raise ValueError('Corrected verification requires the original public baseline')
         verify_correction(original,base)
     release=json.loads((directory/'release.json').read_text(encoding='utf-8-sig'))
-    if release['tag_name']!=tag or release['draft']:
+    if release['tag_name']!=tag or (release['draft'] and not allow_draft):
         raise ValueError('Expected public release')
     expected={name:digest for digest,name in (line.split('  ',1) for line in (directory/'SHA256SUMS').read_text().splitlines())}
     asset_names={a['name'] for a in release['assets']}
@@ -74,7 +74,7 @@ def verify(directory, base, tag='v0.1.0-review.1', original=None):
     for entity in {r['entity_id'] for r in ledger['history']}:
         lookup_release(db,entity)
     return dict(format='review-release-download-verification-v1',release=release['html_url'],
-                tag=release['tag_name'],code_commit=manifest['code_commit'],assets=assets,
+                tag=release['tag_name'],draft=release['draft'],code_commit=manifest['code_commit'],assets=assets,
                 zip_payload_files_verified=len(checks),derived_database_sha256=digest_file(db),
                 all_original_table_rows_equal=rows,ledger_sha256=manifest['build']['ledger_sha256'])
 
