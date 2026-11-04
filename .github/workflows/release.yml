@@ -1,9 +1,6 @@
 name: Reproduce and publish provisional dataset
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: [.github/workflows/release.yml]
 permissions:
   contents: write
 concurrency:
@@ -56,4 +53,4 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create v0.1.0-preview.1 --target "$GITHUB_SHA" --title 'v0.1.0-preview.1 — provisional candidates, not confirmed glyph matches' --prerelease --notes-file docs/RELEASE-NOTES.md dist/kanji-kage-map-v0.1-offline.zip dist/kanji-kage-map-v0.1-jsonl.tar.gz dist/kanji-kage-map-v0.1.sqlite3.gz dist/kanji-kage-map-v0.1.manifest.json dist/portable-verification.json dist/syntax-summary.json dist/SHA256SUMS
+          gh release create v0.1.0-preview.1 --target "$GITHUB_SHA" --title 'v0.1.0-preview.1 — provisional candidates, not confirmed glyph matches' --prerelease --notes-file docs/RELEASE-NOTES.md dist/kanji-kage-map-v0.1-offline.zip dist/kanji-kage-map-v0.1-jsonl.tar.gz dist/kanji-kage-map-v0.1.sqlite3.gz dist/kanji-kage-map-v0.1.manifest.json dist/portable-verification.json dist/syntax-summary.json dist/sea-example.json dist/pua-example.json dist/SHA256SUMS

@@ -1,0 +1,48 @@
+name: Attach checksummed release examples
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/release-examples.yml]
+permissions:
+  contents: write
+jobs:
+  examples:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: v0.1.0-preview.1
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Download published database and manifest
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release download v0.1.0-preview.1 --pattern '*.sqlite3.gz' --pattern SHA256SUMS
+      - name: Verify database bytes before use
+        run: |
+          python - <<'PY'
+          import hashlib,pathlib,gzip,shutil
+          expected=dict((name,digest) for digest,name in (line.split('  ',1) for line in pathlib.Path('SHA256SUMS').read_text().splitlines()))
+          p=pathlib.Path('kanji-kage-map-v0.1.sqlite3.gz')
+          with p.open('rb') as f:
+              assert hashlib.file_digest(f,'sha256').hexdigest()==expected[p.name]
+          with gzip.open(p,'rb') as src,open('dataset.sqlite3','xb') as dst:
+              shutil.copyfileobj(src,dst)
+          PY
+      - name: Recreate examples using the tagged code
+        run: |
+          python -m kanji_kage_map lookup U+6D77 --dataset dataset.sqlite3 --glyph u6d77 --output sea-example.json
+          python -m kanji_kage_map lookup babelstone:han-pua:1.473:U+E080 --dataset dataset.sqlite3 --glyph uk-20656 --output pua-example.json
+          python - <<'PY'
+          import hashlib,pathlib
+          expected=dict((name,digest) for digest,name in (line.split('  ',1) for line in pathlib.Path('SHA256SUMS').read_text().splitlines()))
+          for name in ('sea-example.json','pua-example.json'):
+              with open(name,'rb') as f:
+                  assert hashlib.file_digest(f,'sha256').hexdigest()==expected[name], name
+          PY
+      - name: Attach missing examples without replacing existing assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload v0.1.0-preview.1 sea-example.json pua-example.json
