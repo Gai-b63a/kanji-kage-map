@@ -35,3 +35,17 @@ python -m kanji_kage_map build-release --directory data/generated/corrected-rele
 配布DBも生成済み。全5テーブルを公開版と比較し、対応表の上記1件2項目以外は一致した。metadataの変更は対応表入力ハッシュのみ。原KAGE 1,201,970件、依存辺1,810,938件、問題4件を保持する。[生成記録](corrected-portable-build.json)と[全テーブル検証](corrected-portable-verification.json)を保存した。
 
 次版の公開には、レビュー履歴同梱、梱包、公開後の実取得確認が引き続き必要。
+
+## 配布準備の進捗
+
+レビュー履歴同梱とローカルZIP生成は完了。全165収録ファイルのハッシュ、同梱前後の全5テーブル一致、展開したパッケージだけによるEADD・「一」・「海」の検索を確認した。全71テスト通過。
+
+GitHubの[再生成ジョブ](https://github.com/Gai-b63a/kanji-kage-map/actions/runs/41811694731)は、固定原本の再取得を完了し、台帳・索引の再構築へ進んだ。実行対象は `1d5f5cff3172eb0d7083155d9c0e8bfcc77084cf`。ジョブ開始を公開成功とは扱わない。
+
+公開後は全添付とRelease API応答を新しいディレクトリへ実取得し、以下を実行する。`--base` はローカルで全件比較済みの訂正後・レビュー同梱前DB、`--original` は実取得した初回公開DB。物理DBハッシュは環境差を許容するが、原レコード全件とmetadataを比較する。
+
+```text
+python tools/verify_review_release_download.py .cache/corrected-published --tag v0.1.0-preview.2 --base dist/kanji-kage-map-corrected.sqlite3 --original .cache/published-preview/offline/kanji-kage-map-v0.1.sqlite3 --output docs/corrected-release-download-verification.json
+```
+
+この検証はAPIの添付サイズ・ハッシュ、外部SHA256SUMS、ZIP内の全ハッシュ、ZIPと単独添付の同一性、解凍DBハッシュ、全レコード比較、埋込レビューのハッシュと候補への適用条件を検査する。強化後の検証処理を、既に実取得済みのreview.1全6添付・152収録ファイル・全DBレコードで再実行し、成功を確認した。訂正版の実取得検証は未実施。
