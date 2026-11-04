@@ -88,6 +88,8 @@ def run(database, inventory, source, output):
     output.mkdir(parents=True, exist_ok=True)
     payload = ''.join(json.dumps(r, ensure_ascii=False, sort_keys=True)+'\n' for r in rows).encode()
     compressed = gzip.compress(payload, mtime=0)
+    # Python 3.12 may expose zlib's host OS byte; keep the archive cross-platform.
+    compressed = compressed[:9] + b'\xff' + compressed[10:]
     (output/'pua-ids-name-leads.jsonl.gz').write_bytes(compressed)
     summary = dict(format='pua-existing-ids-name-leads-v1', snapshot_sha256=snapshot,
                    source_sha256=expected, inventory_sha256=hashlib.sha256(inventory_bytes).hexdigest(),

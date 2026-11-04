@@ -51,6 +51,12 @@ def main():
     leads.add_argument('--unicode-target')
     leads.add_argument('--glyph')
     leads.add_argument('--output', required=True)
+    ids_leads = commands.add_parser('lookup-ids-name-leads')
+    ids_leads.add_argument('identifier')
+    ids_leads.add_argument('--supplement', required=True)
+    ids_leads.add_argument('--manifest', required=True)
+    ids_leads.add_argument('--glyph', help='Exact name@revision from the research record')
+    ids_leads.add_argument('--output', required=True)
     release = commands.add_parser('build-release')
     release.add_argument('--directory', default='data/generated')
     release.add_argument('--project', default='.')
@@ -64,6 +70,12 @@ def main():
     assembled.add_argument('--directory', default='data/generated')
     assembled.add_argument('--output', default='data/generated/mappings.jsonl')
     args = parser.parse_args()
+    if args.command == 'lookup-ids-name-leads':
+        from .ids_name_leads import IdsNameLeads
+        from .sources import write_json
+        reader = IdsNameLeads(args.supplement, args.manifest)
+        write_json(args.output, reader.lookup(args.identifier, args.glyph))
+        return
     if args.command == 'lookup-source-leads':
         from .source_leads import SourceLeads
         from .sources import write_json

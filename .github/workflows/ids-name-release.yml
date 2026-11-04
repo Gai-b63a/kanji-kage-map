@@ -1,0 +1,60 @@
+name: Reproduce offline PUA name-lead supplement
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/ids-name-release.yml]
+permissions:
+  contents: write
+concurrency:
+  group: ids-name-supplement-release
+  cancel-in-progress: false
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Test
+        run: python -m unittest discover -s tests
+      - name: Restore sources and rebuild index
+        run: |
+          python -m kanji_kage_map restore --lock sources.lock.json
+          python -m kanji_kage_map restore --lock glyphwiki.lock.json
+          python -m kanji_kage_map inventory
+          python -m kanji_kage_map index-glyphwiki
+      - name: Reproduce and validate all supplement lookups
+        run: |
+          python tools/research_pua_ids_names.py --output data/generated/pua-ids-name-research
+          python tools/build_ids_name_supplement.py --output supplement-dist
+          python - <<'PY'
+          import json
+          m=json.load(open('supplement-dist/pua-ids-name-supplement.manifest.json'))
+          assert m['canonical_sha256']=='5a8db587b74f50388ec40eb45d8c63421cd98a7d93d5d3f7440796d79ed70dad'
+          PY
+          python tools/package_ids_name_supplement.py --directory supplement-dist
+      - name: Verify isolated offline package
+        run: |
+          python -m zipfile -e supplement-dist/pua-ids-name-offline.zip offline-check
+          cd offline-check
+          sha256sum --check SHA256SUMS
+          python -m kanji_kage_map lookup-ids-name-leads babelstone:han-pua:1.473:U+E87D --supplement pua-ids-name-supplement.json.gz --manifest pua-ids-name-supplement.manifest.json --glyph u2ff0-u98e0-u76e7@2 --output e87d.json
+          python - <<'PY'
+          import json
+          r=json.load(open('e87d.json'))
+          assert r['bundle']['root']=='u2ff0-u98e0-u76e7@2'
+          assert r['selected_glyph'] is None
+          PY
+      - name: Publish separate prerelease
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create v0.1.0-ids-leads.1 --draft --target "$GITHUB_SHA" --prerelease --title 'v0.1.0-ids-leads.1 — offline PUA research leads' --notes-file docs/IDS-NAME-SUPPLEMENT.md supplement-dist/pua-ids-name-offline.zip supplement-dist/pua-ids-name-supplement.json.gz supplement-dist/pua-ids-name-supplement.manifest.json supplement-dist/verification.json supplement-dist/SHA256SUMS
+          for attempt in 1 2 3; do
+            if gh release edit v0.1.0-ids-leads.1 --draft=false; then exit 0; fi
+            sleep 5
+          done
+          exit 1
