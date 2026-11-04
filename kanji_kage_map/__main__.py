@@ -42,6 +42,14 @@ def main():
     lookup.add_argument('--output', required=True)
     lookup.add_argument('--dataset', help='Portable SQLite dataset; does not need the upstream index')
     lookup.add_argument('--feature-reviews', help='Pinned, scoped visual observations; does not change mapping decisions')
+    leads = commands.add_parser('lookup-source-leads')
+    leads.add_argument('identifier')
+    leads.add_argument('--dataset', required=True)
+    leads.add_argument('--matches', default='docs/pua-unihan-source-matches.jsonl.gz')
+    leads.add_argument('--summary', default='docs/pua-unihan-summary.json')
+    leads.add_argument('--unicode-target')
+    leads.add_argument('--glyph')
+    leads.add_argument('--output', required=True)
     release = commands.add_parser('build-release')
     release.add_argument('--directory', default='data/generated')
     release.add_argument('--project', default='.')
@@ -55,6 +63,12 @@ def main():
     assembled.add_argument('--directory', default='data/generated')
     assembled.add_argument('--output', default='data/generated/mappings.jsonl')
     args = parser.parse_args()
+    if args.command == 'lookup-source-leads':
+        from .source_leads import SourceLeads
+        from .sources import write_json
+        reader = SourceLeads(args.dataset, args.matches, args.summary)
+        write_json(args.output, reader.lookup(args.identifier, args.unicode_target, args.glyph))
+        return
     if args.command == 'build-release':
         from .release import build_release
         build_release(args.directory, args.output, args.project)

@@ -1,0 +1,20 @@
+{
+  "format": "source-lead-lookup-audit-v1",
+  "dataset_sha256": "99d876fce6118a3b80924fd05b3b9c8580ac0496a5db403daba0ac6ff64b3ab6",
+  "relations_sha256": "a39804ff794d3079c4d57d7df2a38806f4ed1950a0a1623f0016f94d1e60c66a",
+  "summary_sha256": "18d9dbea9525e5b946d00c00befb824ea7d2216c37e4e85e60c8188aee5a24ae",
+  "snapshot_sha256": "fd3aebc0a3d3d6bdb7c6498e9f2a65f3abe316c23e59ed4a1dd73abd30fa2b72",
+  "counts": {
+    "pua_lookups": 6030,
+    "unicode_lead_links": 1297,
+    "unicode_candidate_links": 3129,
+    "previously_without_candidate_with_leads": 103,
+    "new_lead_bundles_checked": 107
+  },
+  "unique_new_lead_bundle_roots": 107,
+  "new_lead_dependency_status": {
+    "complete": 107
+  },
+  "dependency_issues": [],
+  "limitation": "All PUA lookup routes exercised; bundles checked for previously candidate-free PUA only. No rendering or glyph-equivalence confirmation."
+}
