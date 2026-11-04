@@ -77,4 +77,11 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create v0.1.0-preview.2 --target "$GITHUB_SHA" --prerelease --title 'v0.1.0-preview.2 — corrected candidates and scoped reviews' --notes-file docs/CORRECTED-RELEASE-NOTES.md corrected-dist/kanji-kage-map-v0.1.0-preview.2-offline.zip corrected-dist/kanji-kage-map-v0.1.0-preview.2.sqlite3.gz corrected-dist/kanji-kage-map-v0.1.0-preview.2.manifest.json corrected-dist/one-reviewed.json corrected-dist/sea-reviewed.json corrected-dist/SHA256SUMS
+          gh release create v0.1.0-preview.2 --draft --target "$GITHUB_SHA" --prerelease --title 'v0.1.0-preview.2 — corrected candidates and scoped reviews' --notes-file docs/CORRECTED-RELEASE-NOTES.md corrected-dist/kanji-kage-map-v0.1.0-preview.2-offline.zip corrected-dist/kanji-kage-map-v0.1.0-preview.2.sqlite3.gz corrected-dist/kanji-kage-map-v0.1.0-preview.2.manifest.json corrected-dist/one-reviewed.json corrected-dist/sea-reviewed.json corrected-dist/SHA256SUMS
+          for attempt in 1 2 3; do
+            if gh release edit v0.1.0-preview.2 --draft=false; then
+              exit 0
+            fi
+            sleep 5
+          done
+          exit 1
