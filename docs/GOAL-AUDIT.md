@@ -13,7 +13,7 @@
 | 全KAGEの静的検査と候補への影響把握 | syntax-summary.json、audit_syntax_impact.py、syntax-impact-summary.json | 全1,201,970字形を直接検査し、さらに955,185候補リンクへ伝播。幾何学・命令全組合せ・字形一致までは検証しない |
 | PUAの提供元・版分離、例外の根拠と次の調査事項 | pua.py、PUA-REVIEW-QUEUE.md、NUMBERED-COMPONENTS.md | 全6,151件に調査事項あり。番号部品の参照先PUA版、孤立／変形部品の対応は未確定 |
 | 符号化移行先と典拠の調査 | PUA-UNIHAN-SOURCES.md、SOURCE-LEAD-LOOKUP.md | 1,297件にUnicode典拠ID一致。103件から107の新しい候補bundleを取得検証。これをPUA字形一致には昇格しない |
-| 目視比較、地域差・複数候補・近似のレビュー | UNICODE-SEA-REVIEW.md、FONT-REVIEW.md、diagnostic-review.json | 限定的な特徴比較と診断のみ。全件の意味的・字形レビューは未完了。字形一致確認済み0件 |
+| 目視比較、地域差・複数候補・近似のレビュー | UNICODE-SEA-REVIEW.md、FONT-REVIEW.md、diagnostic-review.json | [「一」](UNICODE-ONE-REVIEW.md)の一候補版・日本典拠について構造一致判断1件を独立記録。その他は限定的な特徴比較と診断。全件レビューは未完了で、初回配布DBの確認済み件数は0件のまま |
 | 根拠・差・判断者・日時を持つ確定判断の契約 | feature_reviews.py、unicode-sea-review.json、schemas/mappings.schema.json | 独立した[判断記録](REVIEW-DECISIONS.md)の契約・検証・訂正／撤回履歴・検索添付を実装。既存mappingスキーマはunreviewedのみで、判断の配布DB・集計への統合と共通スキーマ化は未完了 |
 | 手動対応を根拠付きで保存 | PLAN.mdのoverrides.jsonl要件 | 手動確定対応はまだない。overrides.jsonlの生成・検証・適用経路は未実装。空ファイルを置くだけで達成とはしない |
 | 分母別候補率・確認済み率・依存率 | coverage.json、coverage.py、test_coverage.py | 初回公開版の母集団ごとに算出済み。後続の出典照合を既存候補率に無条件加算しない |

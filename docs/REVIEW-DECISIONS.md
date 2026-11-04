@@ -49,4 +49,4 @@ python tools/validate_reviews.py docs/sea-review-decisions.jsonl --dataset path/
 
 結果の `review_decisions` に該当する履歴と有効IDを添付します。既存mappingの `review_status` や `selected_glyph` を上書きしません。検証器は記録全体の履歴を検査した後、対象識別子のsnapshot・候補版を照合します。`--glyph` 指定時はその候補の記録に絞ります。
 
-[全記録検証結果](sea-review-decisions-validation.json)は2件・1識別子について配布DBとの結び付きを確認したものです。一般的な受理・棄却・撤回はfixtureテストで検証していますが、実データの `equivalent` 判定はまだありません。このコマンドには最新コードが必要で、初回配布ZIPには含まれません。
+[全記録検証結果](sea-review-decisions-validation.json)は2件・1識別子について配布DBとの結び付きを確認したものです。一般的な受理・棄却・撤回はfixtureテストで検証していますが、別途[「一」の日本典拠に対する構造比較](UNICODE-ONE-REVIEW.md)で、実データの `equivalent` 判断を1件記録しました。このコマンドには最新コードが必要で、初回配布ZIPには含まれません。

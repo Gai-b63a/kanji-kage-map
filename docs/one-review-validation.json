@@ -1,0 +1,12 @@
+{
+  "format": "review-ledger-validation-v1",
+  "ledger_sha256": "01718f2152373d9ff1b7afe2e005cd0c89886f11882f1f973293a85368ba58b8",
+  "dataset_sha256": "99d876fce6118a3b80924fd05b3b9c8580ac0496a5db403daba0ac6ff64b3ab6",
+  "history_records": 1,
+  "active_records": 1,
+  "entities": 1,
+  "active_decisions": {
+    "equivalent": 1
+  },
+  "scope": "Record contract, history, candidate membership, and snapshot only; not evidence authenticity or re-performance of visual judgments."
+}
